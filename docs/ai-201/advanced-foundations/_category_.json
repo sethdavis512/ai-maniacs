@@ -1,0 +1,8 @@
+{
+    "label": "Advanced AI Foundations",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Deep dive into AI model architecture, training methods, fine-tuning, and understanding how AI systems work under the hood."
+    }
+}

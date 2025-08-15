@@ -51,9 +51,9 @@ export default function Home(): ReactNode {
             description="Your comprehensive guide to mastering AI - from beginner to power user. Learn about LLMs, AI tools, safety, and best practices."
         >
             <HomepageHeader />
-            <main>
+            {/* <main>
                 <HomepageFeatures />
-            </main>
+            </main> */}
         </Layout>
     );
 }

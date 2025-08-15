@@ -55,6 +55,7 @@ Quality control is essential when working with AI-generated content. This lesson
 **For Statistical Claims**
 
 1. Ask for specific sources
+
    ```
    Can you provide the specific source for this statistic about renewable energy adoption?
    ```
