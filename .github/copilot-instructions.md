@@ -1,4 +1,4 @@
-# AI Maniacs Hub - AI Learning Platform Guide
+# AI Maniacs - AI Learning Platform Guide
 
 This is an **AI education platform** built with Docusaurus v3, TypeScript and React 19. The project is focused on teaching AI fundamentals, tools, and best practices to complete beginners.
 

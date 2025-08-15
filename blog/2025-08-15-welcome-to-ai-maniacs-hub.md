@@ -1,20 +1,20 @@
 ---
-slug: welcome-to-ai-maniacs-hub
-title: Welcome to AI Maniacs Hub - Your Journey into AI Starts Here! 🚀
+slug: welcome-to-ai-maniacs
+title: Welcome to AI Maniacs - Your Journey into AI Starts Here! 🚀
 authors: [ai_maniacs_team]
 tags: [welcome, ai-basics, community]
 date: 2025-08-15
 ---
 
-Hey there, future AI enthusiast! Welcome to **AI Maniacs Hub** - your new home for learning everything about artificial intelligence, from the absolute basics to practical applications that can transform your work and life.
+Hey there, future AI enthusiast! Welcome to **AI Maniacs** - your new home for learning everything about artificial intelligence, from the absolute basics to practical applications that can transform your work and life.
 
 Whether you're completely new to AI or looking to level up your skills, you've come to the right place. We're here to make AI accessible, understandable, and most importantly, **useful** for everyone.
 
 <!-- truncate -->
 
-## What Is AI Maniacs Hub?
+## What Is AI Maniacs?
 
-AI Maniacs Hub is your comprehensive learning platform for artificial intelligence. We believe that AI shouldn't be intimidating or exclusive to tech experts. Everyone deserves to understand and benefit from these powerful tools that are reshaping our world.
+AI Maniacs is your comprehensive learning platform for artificial intelligence. We believe that AI shouldn't be intimidating or exclusive to tech experts. Everyone deserves to understand and benefit from these powerful tools that are reshaping our world.
 
 ### Our Mission
 
@@ -163,6 +163,6 @@ Let's make AI accessible, useful, and fun for everyone! 🎉
 
 **Questions or feedback?** Drop us a line - we'd love to hear from you!
 
-Welcome to the AI Maniacs Hub family! 🚀
+Welcome to the AI Maniacs family! 🚀
 
-*The AI Maniacs Hub Team*
+*The AI Maniacs Team*

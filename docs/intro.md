@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # AI 101: Using AI for Beginners
 
-Welcome to **AI Maniacs Hub** - your comprehensive guide to understanding and using artificial intelligence tools effectively and responsibly.
+Welcome to **AI Maniacs** - your comprehensive guide to understanding and using artificial intelligence tools effectively and responsibly.
 
 ## What You'll Learn
 

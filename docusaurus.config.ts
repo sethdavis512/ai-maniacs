@@ -14,18 +14,16 @@ const config: Config = {
         v4: true // Improve compatibility with the upcoming Docusaurus v4
     },
 
-    // Set the production url of your site here
-    url: 'https://ai-maniacs-hub.example.com',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+  // Set the production url of your site here
+  url: 'https://ai-maniacs.example.com',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'ai-maniacs', // Usually your GitHub org/user name.
-    projectName: 'ai-maniacs-hub', // Usually your repo name.
-
-    onBrokenLinks: 'throw',
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'ai-maniacs', // Usually your GitHub org/user name.
+  projectName: 'ai-maniacs', // Usually your repo name.    onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
     // Even if you don't use internationalization, you can use this field to set
@@ -45,7 +43,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/ai-maniacs/ai-maniacs-hub/tree/main/'
+                        'https://github.com/ai-maniacs/ai-maniacs/tree/main/'
                 },
                 blog: {
                     showReadingTime: true,
@@ -56,7 +54,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/ai-maniacs/ai-maniacs-hub/tree/main/',
+                        'https://github.com/ai-maniacs/ai-maniacs/tree/main/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -87,7 +85,7 @@ const config: Config = {
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/ai-maniacs/ai-maniacs-hub',
+                    href: 'https://github.com/ai-maniacs/ai-maniacs',
                     label: 'GitHub',
                     position: 'right'
                 }
@@ -131,7 +129,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/ai-maniacs/ai-maniacs-hub'
+                            href: 'https://github.com/ai-maniacs/ai-maniacs'
                         },
                         {
                             label: 'Newsletter',

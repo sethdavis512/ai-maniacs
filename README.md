@@ -1,4 +1,4 @@
-# AI Maniacs Hub - AI 101 Learning Platform
+# AI Maniacs - AI 101 Learning Platform
 
 **Your comprehensive guide to mastering AI - from beginner to power user**
 

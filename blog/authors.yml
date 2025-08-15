@@ -1,12 +1,12 @@
 ai_maniacs_team:
-  name: AI Maniacs Hub Team
+  name: AI Maniacs Team
   title: AI Education & Community Leaders
-  url: https://github.com/ai-maniacs-hub
-  image_url: https://github.com/ai-maniacs-hub.png
+  url: https://github.com/ai-maniacs
+  image_url: https://github.com/ai-maniacs.png
   page: true
   socials:
-    github: ai-maniacs-hub
-    linkedin: ai-maniacs-hub
+    github: ai-maniacs
+    linkedin: ai-maniacs
 
 seth:
   name: Seth

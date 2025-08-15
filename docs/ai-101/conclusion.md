@@ -4,7 +4,7 @@ sidebar_position: 999
 
 # Congratulations! You've Completed AI 101
 
-You've successfully completed the **AI Maniacs Hub - AI 101** course! You now have a solid foundation in understanding and using artificial intelligence tools effectively and responsibly.
+You've successfully completed the **AI Maniacs - AI 101** course! You now have a solid foundation in understanding and using artificial intelligence tools effectively and responsibly.
 
 ## What You've Learned
 
@@ -180,7 +180,7 @@ You've successfully completed the **AI Maniacs Hub - AI 101** course! You now ha
 
 ## Staying Connected
 
-### Follow AI Maniacs Hub
+### Follow AI Maniacs
 
 - Check back for new lessons and updates
 - Share your success stories and challenges
@@ -214,7 +214,7 @@ Remember these key principles as you continue:
 
 ## Thank You
 
-Thank you for completing the AI 101 course at AI Maniacs Hub. You're now equipped with the knowledge and skills to use AI effectively and responsibly in your personal and professional life.
+Thank you for completing the AI 101 course at AI Maniacs. You're now equipped with the knowledge and skills to use AI effectively and responsibly in your personal and professional life.
 
 The future belongs to those who can work alongside AI to achieve amazing things. You're now ready to be part of that future.
 
@@ -229,7 +229,7 @@ The future belongs to those who can work alongside AI to achieve amazing things.
 **AI 101: Using AI for Beginners**  
 **Completed**: [Date]  
 **Graduate**: [Name]  
-**Issued by**: AI Maniacs Hub
+**Issued by**: AI Maniacs
 
 ---
 
