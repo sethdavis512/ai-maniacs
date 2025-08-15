@@ -24,7 +24,7 @@ const config: Config = {
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'sethdavis512', // Usually your GitHub org/user name.
     projectName: 'ai-maniacs', // Usually your repo name.
-    
+
     trailingSlash: false,
 
     onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow deployment
@@ -47,7 +47,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/ai-maniacs/ai-maniacs/tree/main/'
+                        'https://github.com/sethdavis512/ai-maniacs/tree/main/'
                 },
                 blog: {
                     showReadingTime: true,
@@ -58,7 +58,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/ai-maniacs/ai-maniacs/tree/main/',
+                        'https://github.com/sethdavis512/ai-maniacs/tree/main/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -89,7 +89,7 @@ const config: Config = {
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/ai-maniacs/ai-maniacs',
+                    href: 'https://github.com/sethdavis512/ai-maniacs',
                     label: 'GitHub',
                     position: 'right'
                 }
@@ -111,34 +111,34 @@ const config: Config = {
                         }
                     ]
                 },
-                {
-                    title: 'Community',
-                    items: [
-                        {
-                            label: 'Discord',
-                            href: 'https://discord.gg/ai-maniacs'
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/ai_maniacs'
-                        },
-                        {
-                            label: 'LinkedIn',
-                            href: 'https://linkedin.com/company/ai-maniacs'
-                        }
-                    ]
-                },
+                // {
+                //     title: 'Community',
+                //     items: [
+                //         {
+                //             label: 'Discord',
+                //             href: 'https://discord.gg/ai-maniacs'
+                //         },
+                //         {
+                //             label: 'Twitter',
+                //             href: 'https://twitter.com/ai_maniacs'
+                //         },
+                //         {
+                //             label: 'LinkedIn',
+                //             href: 'https://linkedin.com/company/ai-maniacs'
+                //         }
+                //     ]
+                // },
                 {
                     title: 'More',
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/ai-maniacs/ai-maniacs'
-                        },
-                        {
-                            label: 'Newsletter',
-                            href: '#newsletter'
+                            href: 'https://github.com/sethdavis512/ai-maniacs'
                         }
+                        // {
+                        //     label: 'Newsletter',
+                        //     href: '#newsletter'
+                        // }
                     ]
                 }
             ],
