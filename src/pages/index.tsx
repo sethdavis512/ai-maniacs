@@ -15,7 +15,7 @@ function HomepageHeader() {
             <div className="container">
                 <div className={styles.logoContainer}>
                     <img
-                        src="/img/ai-maniacs-logo-full.svg"
+                        src="img/ai-maniacs-logo-full.svg"
                         alt="A.I. Maniacs Logo"
                         className={styles.heroLogo}
                     />

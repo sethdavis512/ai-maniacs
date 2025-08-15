@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# AI 101: Using AI for Beginners
+# Welcome
 
 Welcome to **AI Maniacs** - your comprehensive guide to understanding and using artificial intelligence tools effectively and responsibly.
 
