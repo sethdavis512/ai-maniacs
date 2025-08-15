@@ -1,19 +1,19 @@
 ai_maniacs_team:
   name: AI Maniacs Team
   title: AI Education & Community Leaders
-  url: https://github.com/ai-maniacs
-  image_url: https://github.com/ai-maniacs.png
+  url: https://github.com/sethdavis512/ai-maniacs
+  image_url: https://github.com/sethdavis512/ai-maniacs.png
   page: true
   socials:
-    github: ai-maniacs
-    linkedin: ai-maniacs
+    github: sethdavis512
+    linkedin: sethdavis512
 
 seth:
   name: Seth
   title: AI Enthusiast & Educator
-  url: https://github.com/seth
-  image_url: https://github.com/seth.png
+  url: https://github.com/sethdavis512
+  image_url: https://github.com/sethdavis512.png
   page: true
   socials:
-    github: seth
-    linkedin: seth
+    github: sethdavis512
+    linkedin: sethdavis512
