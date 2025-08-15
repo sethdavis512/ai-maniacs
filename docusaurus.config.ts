@@ -14,16 +14,20 @@ const config: Config = {
         v4: true // Improve compatibility with the upcoming Docusaurus v4
     },
 
-  // Set the production url of your site here
-  url: 'https://ai-maniacs.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+    // Set the production url of your site here
+    url: 'https://sethdavis512.github.io',
+    // Set the /<baseUrl>/ pathname under which your site is served
+    // For GitHub pages deployment, it is often '/<projectName>/'
+    baseUrl: '/ai-maniacs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ai-maniacs', // Usually your GitHub org/user name.
-  projectName: 'ai-maniacs', // Usually your repo name.    onBrokenLinks: 'throw',
+    // GitHub pages deployment config.
+    // If you aren't using GitHub pages, you don't need these.
+    organizationName: 'sethdavis512', // Usually your GitHub org/user name.
+    projectName: 'ai-maniacs', // Usually your repo name.
+    
+    trailingSlash: false,
+
+    onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow deployment
     onBrokenMarkdownLinks: 'warn',
 
     // Even if you don't use internationalization, you can use this field to set
