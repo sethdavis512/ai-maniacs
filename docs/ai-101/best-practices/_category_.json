@@ -1,8 +1,0 @@
-{
-    "label": "Best Practices & Optimization",
-    "position": 5,
-    "link": {
-        "type": "generated-index",
-        "description": "Tips for prompt engineering, model optimization, and workflows."
-    }
-}

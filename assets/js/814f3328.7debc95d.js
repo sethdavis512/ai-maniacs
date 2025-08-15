@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_maniacs=self.webpackChunkai_maniacs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to AI Maniacs - Your Journey into AI Starts Here! \ud83d\ude80","permalink":"/ai-maniacs/blog/welcome-to-ai-maniacs","unlisted":false,"date":"2025-08-15T00:00:00.000Z"}]}')}}]);
