@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'A.I. Maniacs',
-    tagline: 'Your guide to mastering AI - from beginner to power user',
+    tagline: 'Your guide to learning AI - from beginner to power user',
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -85,7 +85,7 @@ const config: Config = {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'AI 101 Course'
+                    label: 'AI 101'
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
@@ -102,8 +102,12 @@ const config: Config = {
                     title: 'Learn',
                     items: [
                         {
-                            label: 'AI 101 Course',
+                            label: 'AI 101',
                             to: '/docs/intro'
+                        },
+                        {
+                            label: 'AI 201',
+                            to: '/docs/category/ai-201-intermediate-ai-skills--applications'
                         },
                         {
                             label: 'Blog',
