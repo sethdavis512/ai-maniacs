@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-ai-101/hands-on-exercises" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Hands-On AI Exercises &amp; Projects | A.I. Maniacs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sethdavis512.github.io/ai-maniacs/img/ai-maniacs-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://sethdavis512.github.io/ai-maniacs/img/ai-maniacs-social-card.jpg"><meta data-rh="true" property="og:url" content="https://sethdavis512.github.io/ai-maniacs/docs/ai-101/hands-on-exercises"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Hands-On AI Exercises &amp; Projects | A.I. Maniacs"><meta data-rh="true" name="description" content="Practice makes perfect! This section provides structured exercises to reinforce your AI 101 learning with real-world applications. Complete these projects to build confidence and practical skills."><meta data-rh="true" property="og:description" content="Practice makes perfect! This section provides structured exercises to reinforce your AI 101 learning with real-world applications. Complete these projects to build confidence and practical skills."><link data-rh="true" rel="icon" href="/ai-maniacs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sethdavis512.github.io/ai-maniacs/docs/ai-101/hands-on-exercises"><link data-rh="true" rel="alternate" href="https://sethdavis512.github.io/ai-maniacs/docs/ai-101/hands-on-exercises" hreflang="en"><link data-rh="true" rel="alternate" href="https://sethdavis512.github.io/ai-maniacs/docs/ai-101/hands-on-exercises" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI 101: Using AI for Beginners","item":"https://sethdavis512.github.io/ai-maniacs/docs/category/ai-101-using-ai-for-beginners"},{"@type":"ListItem","position":2,"name":"Hands-On AI Exercises & Projects","item":"https://sethdavis512.github.io/ai-maniacs/docs/ai-101/hands-on-exercises"}]}</script><link rel="alternate" type="application/rss+xml" href="/ai-maniacs/blog/rss.xml" title="A.I. Maniacs RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ai-maniacs/blog/atom.xml" title="A.I. Maniacs Atom Feed"><link rel="stylesheet" href="/ai-maniacs/assets/css/styles.04188ed4.css">
+<script src="/ai-maniacs/assets/js/runtime~main.2966c031.js" defer="defer"></script>
+<script src="/ai-maniacs/assets/js/main.55c4a437.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ai-maniacs/"><b class="navbar__title text--truncate">A.I. Maniacs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ai-maniacs/docs/ai-201-intro">AI 101</a><a class="navbar__item navbar__link" href="/ai-maniacs/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-maniacs/docs/ai-201-intro">AI 201: Ready for the Next Level?</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-maniacs/docs/intro">Welcome</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/ai-maniacs/docs/category/ai-101-using-ai-for-beginners">AI 101: Using AI for Beginners</a><button aria-label="Collapse sidebar category &#x27;AI 101: Using AI for Beginners&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/foundations-of-ai">Foundations of AI</a><button aria-label="Expand sidebar category &#x27;Foundations of AI&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/major-ai-companies--platforms">Major AI Companies &amp; Platforms</a><button aria-label="Expand sidebar category &#x27;Major AI Companies &amp; Platforms&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/practical-ai-applications">Practical AI Applications</a><button aria-label="Expand sidebar category &#x27;Practical AI Applications&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ai-maniacs/docs/ai-101/hands-on-exercises">Hands-On AI Exercises &amp; Projects</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/ai-safety--responsible-use">AI Safety &amp; Responsible Use</a><button aria-label="Expand sidebar category &#x27;AI Safety &amp; Responsible Use&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/best-practices--optimization">Best Practices &amp; Optimization</a><button aria-label="Expand sidebar category &#x27;Best Practices &amp; Optimization&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-maniacs/docs/ai-101/knowledge-check">AI 101 Knowledge Check &amp; Self-Assessment</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ai-maniacs/docs/category/community--continued-learning">Community &amp; Continued Learning</a><button aria-label="Expand sidebar category &#x27;Community &amp; Continued Learning&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-maniacs/docs/ai-101/conclusion">Congratulations! You&#x27;ve Completed AI 101</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/ai-maniacs/docs/category/ai-201-intermediate-ai-skills--applications">AI 201: Intermediate AI Skills &amp; Applications</a><button aria-label="Expand sidebar category &#x27;AI 201: Intermediate AI Skills &amp; Applications&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/ai-maniacs/docs/category/model-context-protocol">Model Context Protocol</a><button aria-label="Expand sidebar category &#x27;Model Context Protocol&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ai-maniacs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/ai-maniacs/docs/category/ai-101-using-ai-for-beginners"><span>AI 101: Using AI for Beginners</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Hands-On AI Exercises &amp; Projects</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Hands-On AI Exercises &amp; Projects</h1></header>
+<p>Practice makes perfect! This section provides structured exercises to reinforce your AI 101 learning with real-world applications. Complete these projects to build confidence and practical skills.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-quick-practice-exercises-15-30-minutes-each">🎯 Quick Practice Exercises (15-30 minutes each)<a href="#-quick-practice-exercises-15-30-minutes-each" class="hash-link" aria-label="Direct link to 🎯 Quick Practice Exercises (15-30 minutes each)" title="Direct link to 🎯 Quick Practice Exercises (15-30 minutes each)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-1-prompt-engineering-fundamentals">Exercise 1: Prompt Engineering Fundamentals<a href="#exercise-1-prompt-engineering-fundamentals" class="hash-link" aria-label="Direct link to Exercise 1: Prompt Engineering Fundamentals" title="Direct link to Exercise 1: Prompt Engineering Fundamentals">​</a></h3>
+<p><strong>Goal</strong>: Master the basics of effective prompting</p>
+<p><strong>Task</strong>: Write prompts for these scenarios and test them with your chosen AI tool:</p>
+<ol>
+<li>
+<p><strong>Content Creation</strong></p>
+<ul>
+<li>Write a professional email declining a meeting request</li>
+<li>Create a social media post for a local bakery&#x27;s new product</li>
+<li>Generate a product description for an eco-friendly water bottle</li>
+</ul>
+</li>
+<li>
+<p><strong>Analysis and Research</strong></p>
+<ul>
+<li>Summarize a news article in 3 bullet points</li>
+<li>Compare pros and cons of electric vs. gas cars</li>
+<li>Explain a complex topic (like cryptocurrency) to a 10-year-old</li>
+</ul>
+</li>
+<li>
+<p><strong>Creative Tasks</strong></p>
+<ul>
+<li>Write a haiku about your favorite season</li>
+<li>Create a short story opening with a specific character and setting</li>
+<li>Brainstorm 10 unique business names for a pet grooming service</li>
+</ul>
+</li>
+</ol>
+<p><strong>Success Criteria</strong>:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Each prompt produces relevant, useful output</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->You can refine prompts to improve results</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->You understand how specificity affects quality</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-2-ai-tool-comparison">Exercise 2: AI Tool Comparison<a href="#exercise-2-ai-tool-comparison" class="hash-link" aria-label="Direct link to Exercise 2: AI Tool Comparison" title="Direct link to Exercise 2: AI Tool Comparison">​</a></h3>
+<p><strong>Goal</strong>: Understand when to use different AI tools</p>
+<p><strong>Task</strong>: Complete the same task with 3 different AI tools and compare results:</p>
+<p><strong>The Task</strong>: &quot;Create a week-long meal plan for a vegetarian family of 4 with a $150 budget&quot;</p>
+<p><strong>Tools to Test</strong>:</p>
+<ul>
+<li>ChatGPT (free or paid)</li>
+<li>Claude (via Anthropic or Poe)</li>
+<li>Google Gemini (via Bard)</li>
+<li>Bonus: Any specialized food/nutrition AI tool</li>
+</ul>
+<p><strong>Compare</strong>:</p>
+<ol>
+<li>Quality and practicality of meal suggestions</li>
+<li>Budget accuracy and calculations</li>
+<li>Consideration of nutritional balance</li>
+<li>Presentation and organization of information</li>
+<li>Additional helpful details (shopping lists, prep tips, etc.)</li>
+</ol>
+<p><strong>Deliverable</strong>: Create a simple comparison chart noting strengths and weaknesses</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-3-quality-control-practice">Exercise 3: Quality Control Practice<a href="#exercise-3-quality-control-practice" class="hash-link" aria-label="Direct link to Exercise 3: Quality Control Practice" title="Direct link to Exercise 3: Quality Control Practice">​</a></h3>
+<p><strong>Goal</strong>: Develop skills for verifying and improving AI output</p>
+<p><strong>Task</strong>: Generate content with AI, then apply quality control</p>
+<ol>
+<li><strong>Generate</strong>: Ask AI to write a 300-word article about the benefits of remote work</li>
+<li><strong>Review</strong>: Check for:<!-- -->
+<ul>
+<li>Factual accuracy</li>
+<li>Logical flow and organization</li>
+<li>Tone consistency</li>
+<li>Grammar and spelling</li>
+<li>Completeness of information</li>
+</ul>
+</li>
+<li><strong>Improve</strong>: Rewrite or prompt AI to fix any issues found</li>
+<li><strong>Verify</strong>: Cross-check facts with reliable sources</li>
+</ol>
+<p><strong>Success Criteria</strong>:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->You can identify potential problems in AI output</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->You can improve content through editing or re-prompting</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Final content meets professional standards</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-mini-projects-1-3-hours-each">🏗️ Mini Projects (1-3 hours each)<a href="#️-mini-projects-1-3-hours-each" class="hash-link" aria-label="Direct link to 🏗️ Mini Projects (1-3 hours each)" title="Direct link to 🏗️ Mini Projects (1-3 hours each)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-1-personal-ai-assistant-setup">Project 1: Personal AI Assistant Setup<a href="#project-1-personal-ai-assistant-setup" class="hash-link" aria-label="Direct link to Project 1: Personal AI Assistant Setup" title="Direct link to Project 1: Personal AI Assistant Setup">​</a></h3>
+<p><strong>Goal</strong>: Create a customized AI workflow for your daily needs</p>
+<p><strong>Tasks</strong>:</p>
+<ol>
+<li><strong>Identify Use Cases</strong>: List 5 regular tasks where AI could help you</li>
+<li><strong>Tool Selection</strong>: Choose the best AI tool for each task</li>
+<li><strong>Prompt Library</strong>: Create saved prompts for each use case</li>
+<li><strong>Workflow Design</strong>: Plan how AI fits into your daily routine</li>
+<li><strong>Testing</strong>: Use your AI assistant for one week and document results</li>
+</ol>
+<p><strong>Example Use Cases</strong>:</p>
+<ul>
+<li>Morning news summary</li>
+<li>Email composition assistance</li>
+<li>Meeting agenda creation</li>
+<li>Learning new topics</li>
+<li>Meal planning</li>
+</ul>
+<p><strong>Deliverable</strong>: A personal AI toolkit with prompts and workflows you&#x27;ll actually use</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-2-content-creation-pipeline">Project 2: Content Creation Pipeline<a href="#project-2-content-creation-pipeline" class="hash-link" aria-label="Direct link to Project 2: Content Creation Pipeline" title="Direct link to Project 2: Content Creation Pipeline">​</a></h3>
+<p><strong>Goal</strong>: Build an end-to-end content creation process using AI</p>
+<p><strong>Scenario</strong>: You&#x27;re creating content for a small business blog</p>
+<p><strong>Tasks</strong>:</p>
+<ol>
+<li><strong>Topic Research</strong>: Use AI to generate 10 blog post ideas</li>
+<li><strong>Content Planning</strong>: Choose 3 topics and create detailed outlines</li>
+<li><strong>Writing</strong>: Use AI to draft one complete blog post</li>
+<li><strong>Editing</strong>: Apply quality control and human editing</li>
+<li><strong>Optimization</strong>: Create SEO-friendly titles and meta descriptions</li>
+<li><strong>Social Media</strong>: Generate social media posts to promote the content</li>
+</ol>
+<p><strong>Tools You&#x27;ll Use</strong>:</p>
+<ul>
+<li>AI for ideation and writing</li>
+<li>Manual research for fact-checking</li>
+<li>Your creativity for personalization</li>
+</ul>
+<p><strong>Deliverable</strong>: One polished blog post plus promotional materials</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-3-problem-solving-with-ai">Project 3: Problem-Solving with AI<a href="#project-3-problem-solving-with-ai" class="hash-link" aria-label="Direct link to Project 3: Problem-Solving with AI" title="Direct link to Project 3: Problem-Solving with AI">​</a></h3>
+<p><strong>Goal</strong>: Use AI to tackle a real challenge in your life or work</p>
+<p><strong>Choose Your Challenge</strong>:</p>
+<ul>
+<li>Organizing a complex project or event</li>
+<li>Learning a new skill efficiently</li>
+<li>Improving a process or workflow</li>
+<li>Making a difficult decision</li>
+<li>Solving a creative problem</li>
+</ul>
+<p><strong>Approach</strong>:</p>
+<ol>
+<li><strong>Define</strong>: Clearly describe your challenge and desired outcome</li>
+<li><strong>Research</strong>: Use AI to gather information and perspectives</li>
+<li><strong>Brainstorm</strong>: Generate multiple solution approaches</li>
+<li><strong>Analyze</strong>: Evaluate pros/cons and feasibility of options</li>
+<li><strong>Plan</strong>: Create a detailed action plan</li>
+<li><strong>Execute</strong>: Implement with AI assistance where helpful</li>
+</ol>
+<p><strong>Documentation</strong>: Keep notes on how AI helped and where human judgment was essential</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-major-projects-5-10-hours-each">🏆 Major Projects (5-10 hours each)<a href="#-major-projects-5-10-hours-each" class="hash-link" aria-label="Direct link to 🏆 Major Projects (5-10 hours each)" title="Direct link to 🏆 Major Projects (5-10 hours each)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-a-ai-powered-research-report">Project A: AI-Powered Research Report<a href="#project-a-ai-powered-research-report" class="hash-link" aria-label="Direct link to Project A: AI-Powered Research Report" title="Direct link to Project A: AI-Powered Research Report">​</a></h3>
+<p><strong>Goal</strong>: Conduct comprehensive research on a topic using AI assistance</p>
+<p><strong>Choose a Topic</strong> (examples):</p>
+<ul>
+<li>The impact of AI on your industry</li>
+<li>Sustainable living practices for urban dwellers</li>
+<li>Investment strategies for beginners</li>
+<li>Health and wellness trends for 2025</li>
+</ul>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>
+<p><strong>Research Planning</strong> (1 hour)</p>
+<ul>
+<li>Define research questions</li>
+<li>Identify information types needed</li>
+<li>Plan AI assistance strategy</li>
+</ul>
+</li>
+<li>
+<p><strong>Information Gathering</strong> (3-4 hours)</p>
+<ul>
+<li>Use AI to find key topics and subtopics</li>
+<li>Generate comprehensive outlines</li>
+<li>Identify reputable sources to verify</li>
+<li>Create detailed notes and summaries</li>
+</ul>
+</li>
+<li>
+<p><strong>Analysis and Synthesis</strong> (2-3 hours)</p>
+<ul>
+<li>Use AI to identify patterns and insights</li>
+<li>Compare different perspectives</li>
+<li>Draw evidence-based conclusions</li>
+</ul>
+</li>
+<li>
+<p><strong>Report Creation</strong> (2-3 hours)</p>
+<ul>
+<li>Structure findings clearly</li>
+<li>Write with AI assistance</li>
+<li>Include verified facts and sources</li>
+<li>Create executive summary</li>
+</ul>
+</li>
+</ol>
+<p><strong>Deliverable</strong>: 2,000-3,000 word research report that demonstrates thorough investigation</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-b-ai-workflow-automation">Project B: AI Workflow Automation<a href="#project-b-ai-workflow-automation" class="hash-link" aria-label="Direct link to Project B: AI Workflow Automation" title="Direct link to Project B: AI Workflow Automation">​</a></h3>
+<p><strong>Goal</strong>: Automate a repetitive process using AI tools</p>
+<p><strong>Example Scenarios</strong>:</p>
+<ul>
+<li>Social media content planning and creation</li>
+<li>Customer service response templates</li>
+<li>Data analysis and reporting</li>
+<li>Event planning and coordination</li>
+<li>Learning and skill development tracking</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li>
+<p><strong>Process Mapping</strong> (1 hour)</p>
+<ul>
+<li>Document current manual process</li>
+<li>Identify automation opportunities</li>
+<li>Define success metrics</li>
+</ul>
+</li>
+<li>
+<p><strong>Tool Selection and Setup</strong> (2-3 hours)</p>
+<ul>
+<li>Research available AI tools</li>
+<li>Test different options</li>
+<li>Create accounts and learn interfaces</li>
+</ul>
+</li>
+<li>
+<p><strong>Workflow Design</strong> (2-3 hours)</p>
+<ul>
+<li>Design new automated process</li>
+<li>Create templates and prompts</li>
+<li>Plan integration points</li>
+</ul>
+</li>
+<li>
+<p><strong>Implementation and Testing</strong> (2-3 hours)</p>
+<ul>
+<li>Build the automated workflow</li>
+<li>Test with real scenarios</li>
+<li>Refine and optimize</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentation</strong> (1 hour)</p>
+<ul>
+<li>Create process documentation</li>
+<li>Calculate time/cost savings</li>
+<li>Plan maintenance and updates</li>
+</ul>
+</li>
+</ol>
+<p><strong>Deliverable</strong>: Working automated workflow plus documentation</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-c-ai-educational-content-creation">Project C: AI Educational Content Creation<a href="#project-c-ai-educational-content-creation" class="hash-link" aria-label="Direct link to Project C: AI Educational Content Creation" title="Direct link to Project C: AI Educational Content Creation">​</a></h3>
+<p><strong>Goal</strong>: Create educational content that teaches others about AI</p>
+<p><strong>Content Options</strong>:</p>
+<ul>
+<li>Tutorial video or presentation</li>
+<li>Beginner&#x27;s guide article or blog series</li>
+<li>Workshop curriculum for your workplace</li>
+<li>Social media educational campaign</li>
+<li>Podcast episode or interview</li>
+</ul>
+<p><strong>Requirements</strong>:</p>
+<ol>
+<li>
+<p><strong>Audience Research</strong> (1 hour)</p>
+<ul>
+<li>Define your target audience</li>
+<li>Understand their current knowledge level</li>
+<li>Identify their needs and concerns</li>
+</ul>
+</li>
+<li>
+<p><strong>Content Planning</strong> (2 hours)</p>
+<ul>
+<li>Choose specific AI topics to cover</li>
+<li>Create detailed content outline</li>
+<li>Plan interactive elements or examples</li>
+</ul>
+</li>
+<li>
+<p><strong>Content Creation</strong> (4-5 hours)</p>
+<ul>
+<li>Use AI to help research and draft content</li>
+<li>Add personal insights and experiences</li>
+<li>Create engaging examples and exercises</li>
+<li>Design visuals or supporting materials</li>
+</ul>
+</li>
+<li>
+<p><strong>Review and Refinement</strong> (2 hours)</p>
+<ul>
+<li>Test content with target audience members</li>
+<li>Gather feedback and make improvements</li>
+<li>Ensure accuracy and clarity</li>
+</ul>
+</li>
+<li>
+<p><strong>Publication and Sharing</strong> (1 hour)</p>
+<ul>
+<li>Publish or present content</li>
+<li>Gather audience feedback</li>
+<li>Plan follow-up or additional content</li>
+</ul>
+</li>
+</ol>
+<p><strong>Deliverable</strong>: Published educational content that helps others learn about AI</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-assessment-and-reflection">🎓 Assessment and Reflection<a href="#-assessment-and-reflection" class="hash-link" aria-label="Direct link to 🎓 Assessment and Reflection" title="Direct link to 🎓 Assessment and Reflection">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="skills-self-assessment">Skills Self-Assessment<a href="#skills-self-assessment" class="hash-link" aria-label="Direct link to Skills Self-Assessment" title="Direct link to Skills Self-Assessment">​</a></h3>
+<p>After completing exercises and projects, rate your progress:</p>
+<p><strong>Basic AI Usage</strong> (1-5 scale):</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can write effective prompts for common tasks</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I understand when to use different AI tools</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can verify and improve AI-generated content</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I follow ethical guidelines for AI use</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can troubleshoot common AI problems</li>
+</ul>
+<p><strong>Advanced Skills</strong> (1-5 scale):</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can design multi-step AI workflows</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can combine AI tools effectively</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can train others to use AI tools</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can evaluate new AI tools quickly</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can integrate AI into complex projects</li>
+</ul>
+<p><strong>Professional Application</strong> (1-5 scale):</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I regularly use AI in my work/studies</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can recommend AI solutions to others</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I understand business implications of AI</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I can measure ROI of AI implementations</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->I stay current with AI developments</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-reflection">Learning Reflection<a href="#learning-reflection" class="hash-link" aria-label="Direct link to Learning Reflection" title="Direct link to Learning Reflection">​</a></h3>
+<p><strong>Document Your Journey</strong>:</p>
+<ol>
+<li><strong>Biggest Insights</strong>: What surprised you most about AI capabilities?</li>
+<li><strong>Practical Impact</strong>: How has AI changed your daily work or activities?</li>
+<li><strong>Challenges Overcome</strong>: What difficulties did you face and how did you solve them?</li>
+<li><strong>Future Applications</strong>: Where do you see the most potential for AI in your life?</li>
+<li><strong>Teaching Others</strong>: How would you explain AI benefits to someone new?</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps-planning">Next Steps Planning<a href="#next-steps-planning" class="hash-link" aria-label="Direct link to Next Steps Planning" title="Direct link to Next Steps Planning">​</a></h3>
+<p><strong>Based on your experience, choose your path forward</strong>:</p>
+<p><strong>Continue Learning</strong>:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Start AI 201 for advanced skills</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Focus on specific AI applications relevant to your field</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Join AI communities and discussions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Follow AI news and developments</li>
+</ul>
+<p><strong>Apply Your Skills</strong>:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement AI solutions in your workplace</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Share knowledge with colleagues or friends</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Start an AI-related side project</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Contribute to AI discussions online</li>
+</ul>
+<p><strong>Build Expertise</strong>:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Specialize in specific AI tools or domains</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Seek AI-related responsibilities at work</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Consider formal AI education or certification</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Build a portfolio of AI projects</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-additional-practice-resources">📚 Additional Practice Resources<a href="#-additional-practice-resources" class="hash-link" aria-label="Direct link to 📚 Additional Practice Resources" title="Direct link to 📚 Additional Practice Resources">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="daily-practice-ideas">Daily Practice Ideas<a href="#daily-practice-ideas" class="hash-link" aria-label="Direct link to Daily Practice Ideas" title="Direct link to Daily Practice Ideas">​</a></h3>
+<p><strong>Week 1: Foundation Building</strong></p>
+<ul>
+<li>Day 1-2: Try 3 different AI tools for the same task</li>
+<li>Day 3-4: Practice prompt engineering techniques</li>
+<li>Day 5-6: Focus on quality control and fact-checking</li>
+<li>Day 7: Reflect and plan week 2</li>
+</ul>
+<p><strong>Week 2: Application Building</strong></p>
+<ul>
+<li>Day 1-2: Create AI workflow for a work task</li>
+<li>Day 3-4: Use AI for a creative project</li>
+<li>Day 5-6: Help someone else learn to use AI</li>
+<li>Day 7: Document your progress and insights</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-engagement">Community Engagement<a href="#community-engagement" class="hash-link" aria-label="Direct link to Community Engagement" title="Direct link to Community Engagement">​</a></h3>
+<p><strong>Share Your Learning</strong>:</p>
+<ul>
+<li>Post about your AI experiences on social media</li>
+<li>Join AI-focused forums or Discord servers</li>
+<li>Attend local AI meetups or online events</li>
+<li>Contribute to AI discussions with questions and insights</li>
+</ul>
+<p><strong>Learn from Others</strong>:</p>
+<ul>
+<li>Follow AI practitioners in your field</li>
+<li>Read case studies and success stories</li>
+<li>Watch AI tutorial videos and demos</li>
+<li>Subscribe to AI newsletters and podcasts</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="continued-skill-building">Continued Skill Building<a href="#continued-skill-building" class="hash-link" aria-label="Direct link to Continued Skill Building" title="Direct link to Continued Skill Building">​</a></h3>
+<p><strong>Monthly Challenges</strong>:</p>
+<ul>
+<li>Try a new AI tool each month</li>
+<li>Complete one significant AI-assisted project</li>
+<li>Teach one person about AI usage</li>
+<li>Contribute to an AI-related discussion or community</li>
+</ul>
+<p><strong>Quarterly Reviews</strong>:</p>
+<ul>
+<li>Assess your AI skill progression</li>
+<li>Update your AI toolkit and workflows</li>
+<li>Set new learning goals</li>
+<li>Plan advanced learning paths</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ready-for-more">Ready for More?<a href="#ready-for-more" class="hash-link" aria-label="Direct link to Ready for More?" title="Direct link to Ready for More?">​</a></h2>
+<p>Completed these exercises and ready for the next level? Continue your AI journey with:</p>
+<ul>
+<li><strong><a href="/ai-maniacs/docs/ai-201-intro">AI 201: Intermediate AI Skills</a></strong> - Advanced techniques and professional applications</li>
+<li><strong><a href="/ai-maniacs/docs/ai-101/community/ai-communities-resources">AI Communities &amp; Resources</a></strong> - Connect with other AI learners</li>
+<li><strong><a href="/ai-maniacs/docs/ai-101/community/advanced-learning-paths">Advanced Learning Paths</a></strong> - Specialized learning directions</li>
+</ul>
+<p>Remember: The best way to learn AI is by using it regularly. Make AI part of your daily routine, and you&#x27;ll continue improving naturally!</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/sethdavis512/ai-maniacs/tree/main/docs/ai-101/hands-on-exercises.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ai-maniacs/docs/ai-101/applications/audio-video-ai"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Audio &amp; Video AI Applications</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ai-maniacs/docs/category/ai-safety--responsible-use"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">AI Safety &amp; Responsible Use</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-quick-practice-exercises-15-30-minutes-each" class="table-of-contents__link toc-highlight">🎯 Quick Practice Exercises (15-30 minutes each)</a><ul><li><a href="#exercise-1-prompt-engineering-fundamentals" class="table-of-contents__link toc-highlight">Exercise 1: Prompt Engineering Fundamentals</a></li><li><a href="#exercise-2-ai-tool-comparison" class="table-of-contents__link toc-highlight">Exercise 2: AI Tool Comparison</a></li><li><a href="#exercise-3-quality-control-practice" class="table-of-contents__link toc-highlight">Exercise 3: Quality Control Practice</a></li></ul></li><li><a href="#️-mini-projects-1-3-hours-each" class="table-of-contents__link toc-highlight">🏗️ Mini Projects (1-3 hours each)</a><ul><li><a href="#project-1-personal-ai-assistant-setup" class="table-of-contents__link toc-highlight">Project 1: Personal AI Assistant Setup</a></li><li><a href="#project-2-content-creation-pipeline" class="table-of-contents__link toc-highlight">Project 2: Content Creation Pipeline</a></li><li><a href="#project-3-problem-solving-with-ai" class="table-of-contents__link toc-highlight">Project 3: Problem-Solving with AI</a></li></ul></li><li><a href="#-major-projects-5-10-hours-each" class="table-of-contents__link toc-highlight">🏆 Major Projects (5-10 hours each)</a><ul><li><a href="#project-a-ai-powered-research-report" class="table-of-contents__link toc-highlight">Project A: AI-Powered Research Report</a></li><li><a href="#project-b-ai-workflow-automation" class="table-of-contents__link toc-highlight">Project B: AI Workflow Automation</a></li><li><a href="#project-c-ai-educational-content-creation" class="table-of-contents__link toc-highlight">Project C: AI Educational Content Creation</a></li></ul></li><li><a href="#-assessment-and-reflection" class="table-of-contents__link toc-highlight">🎓 Assessment and Reflection</a><ul><li><a href="#skills-self-assessment" class="table-of-contents__link toc-highlight">Skills Self-Assessment</a></li><li><a href="#learning-reflection" class="table-of-contents__link toc-highlight">Learning Reflection</a></li><li><a href="#next-steps-planning" class="table-of-contents__link toc-highlight">Next Steps Planning</a></li></ul></li><li><a href="#-additional-practice-resources" class="table-of-contents__link toc-highlight">📚 Additional Practice Resources</a><ul><li><a href="#daily-practice-ideas" class="table-of-contents__link toc-highlight">Daily Practice Ideas</a></li><li><a href="#community-engagement" class="table-of-contents__link toc-highlight">Community Engagement</a></li><li><a href="#continued-skill-building" class="table-of-contents__link toc-highlight">Continued Skill Building</a></li></ul></li><li><a href="#ready-for-more" class="table-of-contents__link toc-highlight">Ready for More?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Learn</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ai-maniacs/docs/intro">AI 101</a></li><li class="footer__item"><a class="footer__link-item" href="/ai-maniacs/docs/category/ai-201-intermediate-ai-skills--applications">AI 201</a></li><li class="footer__item"><a class="footer__link-item" href="/ai-maniacs/blog">Blog</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 A.I. Maniacs. Empowering everyone with AI knowledge.</div></div></div></footer></div>
+</body>
+</html>
