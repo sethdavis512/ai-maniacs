@@ -6,6 +6,12 @@ sidebar_position: 1
 
 Welcome to **AI Maniacs** - your comprehensive guide to understanding and using artificial intelligence tools effectively and responsibly.
 
+:::warning
+
+This content was created with AI assistance to provide you with the most current and comprehensive information available. While we strive for accuracy, AI-generated content may occasionally contain errors or become outdated as technology evolves. We welcome community contributions - if you spot something that needs updating or have suggestions for improvement, please feel free to submit a pull request or open an issue on our GitHub repository.
+
+:::
+
 ## What You'll Learn
 
 This course is designed for complete beginners who want to:
