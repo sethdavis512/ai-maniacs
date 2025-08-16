@@ -48,7 +48,7 @@ export default function Home(): ReactNode {
     return (
         <Layout
             title={`Welcome to ${siteConfig.title}`}
-            description="Your comprehensive guide to mastering AI - from beginner to power user. Learn about LLMs, AI tools, safety, and best practices."
+            description="Your comprehensive guide to learning AI - from beginner to power user. Learn about LLMs, AI tools, safety, and best practices."
         >
             <HomepageHeader />
             {/* <main>

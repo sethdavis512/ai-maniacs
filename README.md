@@ -1,6 +1,6 @@
 # AI Maniacs - AI 101 Learning Platform
 
-**Your comprehensive guide to mastering AI - from beginner to power user**
+**Your comprehensive guide to learning AI - from beginner to power user**
 
 This is an educational platform designed to teach artificial intelligence concepts, tools, and best practices to complete beginners. No technical background required!
 

@@ -230,7 +230,7 @@ Audio and video AI tools are revolutionizing content creation, communication, an
 - Generate base tracks with AI music tools
 - Create lyrics with AI assistance
 - Produce professional-quality vocals with AI
-- Enhance recordings with AI mastering tools
+- Enhance recordings with AI learning tools
 
 #### Filmmaking and Animation
 

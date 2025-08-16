@@ -136,6 +136,10 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
+                            label: 'Created by Seth Davis',
+                            href: 'https://sethdavis.tech/'
+                        },
+                        {
                             label: 'GitHub',
                             href: 'https://github.com/sethdavis512/ai-maniacs'
                         }
