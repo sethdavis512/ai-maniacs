@@ -76,10 +76,10 @@ const config: Config = {
         image: 'img/ai-maniacs-social-card.jpg',
         navbar: {
             title: 'A.I. Maniacs',
-            logo: {
-                alt: 'A.I. Maniacs Logo',
-                src: 'img/ai-maniacs-logo-full.svg'
-            },
+            // logo: {
+            //     alt: 'A.I. Maniacs Logo',
+            //     src: 'img/ai-maniacs-logo-full.svg'
+            // },
             items: [
                 {
                     type: 'docSidebar',
