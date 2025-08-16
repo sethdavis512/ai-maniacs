@@ -215,7 +215,7 @@ Rate yourself honestly on each skill (1 = Beginner, 5 = Expert):
 
 **Next Steps:**
 
-- [ ] Start [AI 201: Intermediate AI Skills](../ai-201-intro.md)
+- [ ] Start [AI 201: Intermediate AI Skills](../ai-201/ai-201-intro.md)
 - [ ] Take on leadership roles in AI adoption
 - [ ] Share your knowledge with others
 - [ ] Explore specialized AI applications in your field
@@ -249,7 +249,7 @@ Rate yourself honestly on each skill (1 = Beginner, 5 = Expert):
 
 **Study Plan:**
 
-- [ ] Review [AI fundamentals](../ai-101/foundations/) carefully
+- [ ] Review [AI fundamentals](./foundations/what-is-ai.md) carefully
 - [ ] Start with simple, guided exercises
 - [ ] Use AI tools daily for basic tasks
 - [ ] Ask questions in AI communities
@@ -359,7 +359,7 @@ To consider yourself "AI 101 Complete," you should be able to:
 
 Based on your assessment results, choose your path:
 
-🚀 **Ready for Advanced Learning**: [Start AI 201](../ai-201-intro.md)
+🚀 **Ready for Advanced Learning**: [Start AI 201](../ai-201/ai-201-intro.md)
 
 📚 **Need More Practice**: [Hands-On Exercises](./hands-on-exercises.md)
 

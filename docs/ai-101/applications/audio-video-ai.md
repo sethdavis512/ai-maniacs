@@ -346,7 +346,7 @@ Ready to implement audio and video AI in your projects? Consider these paths:
 - **Technical Focus**: Learn API integration for custom audio/video solutions
 - **Content Creator Focus**: Build efficient content production workflows
 
-Continue your journey with [Advanced Automation Tools](../workflow-automation/advanced-automation-tools.md) to learn how to combine these audio/video tools with other AI services.
+As you advance in your AI journey, you can learn how to combine these audio/video tools with other AI services for more sophisticated automation workflows.
 
 ## Key Takeaways
 

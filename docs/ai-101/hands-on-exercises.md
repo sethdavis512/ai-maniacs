@@ -395,7 +395,7 @@ After completing exercises and projects, rate your progress:
 
 Completed these exercises and ready for the next level? Continue your AI journey with:
 
-- **[AI 201: Intermediate AI Skills](../ai-201-intro.md)** - Advanced techniques and professional applications
+- **[AI 201: Intermediate AI Skills](../ai-201/ai-201-intro.md)** - Advanced techniques and professional applications
 - **[AI Communities & Resources](../ai-101/community/ai-communities-resources.md)** - Connect with other AI learners
 - **[Advanced Learning Paths](../ai-101/community/advanced-learning-paths.md)** - Specialized learning directions
 

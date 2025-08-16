@@ -2,6 +2,24 @@
     "name": "ai-maniacs",
     "version": "0.0.0",
     "private": true,
+    "license": "MIT",
+    "description": "AI education platform for complete beginners - teaching AI fundamentals, tools, and best practices",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sethdavis512/ai-maniacs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sethdavis512/ai-maniacs/issues"
+    },
+    "homepage": "https://sethdavis512.github.io/ai-maniacs/",
+    "keywords": [
+        "ai",
+        "education",
+        "learning",
+        "beginners",
+        "artificial-intelligence",
+        "docusaurus"
+    ],
     "scripts": {
         "docusaurus": "docusaurus",
         "start": "docusaurus start",

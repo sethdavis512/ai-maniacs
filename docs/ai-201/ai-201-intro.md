@@ -269,7 +269,7 @@ If you've completed the prerequisites and feel confident with the fundamentals, 
 
 **Next Step**: Begin with [Advanced Foundations: Model Architecture Deep Dive](../ai-201/advanced-foundations/model-architecture-deep-dive.md)
 
-**Need More Practice?**: Return to [AI 101](../ai-101/) and work through additional exercises
+**Need More Practice?**: Return to [AI 101](../intro.md) and work through additional exercises
 
 **Questions?**: Join our community discussions or reach out for guidance
 

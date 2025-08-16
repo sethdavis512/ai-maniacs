@@ -225,4 +225,4 @@ Thank you for completing this course on Model Context Protocol. You're now equip
 - 💬 **Community Support**: [AI Maniacs Discord](#)
 - 📚 **Documentation**: [MCP Reference Guide](#)  
 - 🎯 **Examples**: [Template Library](#)
-- 🚀 **Advanced Learning**: [AI 301 Course](../ai-301/)
+- 🚀 **Advanced Learning**: Continue exploring advanced AI system patterns and architectures

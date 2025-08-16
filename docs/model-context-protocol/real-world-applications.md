@@ -546,19 +546,19 @@ Content platforms need AI that:
 **Consistency Metrics**:
 
 - Policy adherence rate: >95%
-- Decision variance between identical cases: \<5%
+- Decision variance between identical cases: under 5%
 - User satisfaction with consistency: >4.0/5.0
 
 **Efficiency Metrics**:
 
 - Time to resolution: 40% faster than manual
-- Escalation rate: \<15% for routine cases
+- Escalation rate: under 15% for routine cases
 - Cost per interaction: 60% reduction
 
 **Quality Metrics**:
 
 - Accuracy of AI decisions: >90%
-- Appeal overturn rate: \<10%
+- Appeal overturn rate: under 10%
 - User trust score: >4.2/5.0
 
 ## Your Turn: Application Analysis

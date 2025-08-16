@@ -45,16 +45,54 @@ The course is organized into 6 progressive modules:
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the learning experience:
+We welcome contributions from educators, AI enthusiasts, developers, and learners! Here's how you can help:
 
-- **Content improvements**: Fix typos, clarify explanations, add examples
-- **New lessons**: Suggest additional topics or tutorials
-- **Bug reports**: Report any issues with the platform
-- **Community feedback**: Share what worked well or could be improved
+### Quick Contributions
+
+- **Fix typos or errors**: Submit a quick PR for any mistakes you find
+- **Improve explanations**: Make concepts clearer for beginners
+- **Update outdated info**: Keep AI tool information current
+- **Share feedback**: Open an issue with suggestions
+
+### Larger Contributions
+
+- **New lessons**: Propose additional topics or tutorials
+- **Feature development**: Improve the platform functionality
+- **Translations**: Help make AI education globally accessible
+- **Community building**: Help others learn and grow
+
+**Getting Started**: See our [Contributing Guide](./CONTRIBUTING.md) for detailed instructions.
+
+## 📊 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/sethdavis512/ai-maniacs?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sethdavis512/ai-maniacs?style=social)
+![GitHub issues](https://img.shields.io/github/issues/sethdavis512/ai-maniacs)
+![GitHub license](https://img.shields.io/github/license/sethdavis512/ai-maniacs)
 
 ## 📄 License
 
-This educational content is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+### What this means
+
+- ✅ **Free to use**: Personal, educational, and commercial use
+- ✅ **Modify freely**: Adapt content for your needs
+- ✅ **Share widely**: Distribute and remix the content
+- ✅ **No restrictions**: Use however helps your learning
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who help improve AI education
+- Built with [Docusaurus](https://docusaurus.io/) - an amazing documentation platform
+- Inspired by the need to make AI accessible to everyone
+
+## 📞 Connect With Us
+
+- 🐙 **GitHub**: [Project Repository](https://github.com/sethdavis512/ai-maniacs)
+- 🌐 **Website**: [AI Maniacs Platform](https://sethdavis512.github.io/ai-maniacs/)
+- 💬 **Issues**: [Report bugs or suggest features](https://github.com/sethdavis512/ai-maniacs/issues)
+- 🔀 **Pull Requests**: [Contribute directly](https://github.com/sethdavis512/ai-maniacs/pulls)
 
 ---
 
