@@ -38,6 +38,62 @@ const config: Config = {
         locales: ['en']
     },
 
+    headTags: [
+        // Preconnect to external domains for performance
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'preconnect',
+                href: 'https://fonts.googleapis.com'
+            }
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'preconnect',
+                href: 'https://fonts.gstatic.com',
+                crossorigin: 'anonymous'
+            }
+        },
+        // JSON-LD structured data for educational content
+        {
+            tagName: 'script',
+            attributes: {
+                type: 'application/ld+json'
+            },
+            innerHTML: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'EducationalOrganization',
+                name: 'AI Maniacs',
+                description:
+                    'Comprehensive AI education platform for beginners. Learn artificial intelligence fundamentals, explore AI tools, and discover career applications.',
+                url: 'https://sethdavis512.github.io/ai-maniacs/',
+                logo: 'https://sethdavis512.github.io/ai-maniacs/img/ai-maniacs-logo-full.svg',
+                sameAs: [
+                    'https://github.com/sethdavis512/ai-maniacs',
+                    'https://sethdavis.tech/'
+                ],
+                teaches: [
+                    'Artificial Intelligence Fundamentals',
+                    'AI Tools and Applications',
+                    'AI Safety and Ethics',
+                    'Career Applications of AI',
+                    'Model Context Protocol'
+                ],
+                courseMode: 'online',
+                educationalLevel: 'beginner',
+                inLanguage: 'en',
+                isAccessibleForFree: true,
+                learningResourceType: 'Course',
+                author: {
+                    '@type': 'Person',
+                    name: 'Seth Davis',
+                    url: 'https://sethdavis.tech/'
+                }
+            })
+        }
+    ],
+
     presets: [
         [
             'classic',
@@ -47,12 +103,23 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/sethdavis512/ai-maniacs/tree/main/'
+                        'https://github.com/sethdavis512/ai-maniacs/tree/main/',
+                    // SEO improvements for docs
+                    showLastUpdateTime: true,
+                    showLastUpdateAuthor: true
                 },
                 blog: {
                     showReadingTime: true,
+                    blogTitle: 'AI Maniacs Blog - Latest AI News & Tutorials',
+                    blogDescription:
+                        'Stay updated with the latest AI trends, tutorials, and insights. Expert analysis of AI tools, industry news, and practical guides for AI implementation.',
+                    postsPerPage: 10,
                     feedOptions: {
                         type: ['rss', 'atom'],
+                        title: 'AI Maniacs Blog - AI News & Tutorials',
+                        description:
+                            'Latest AI insights, tutorials, and industry analysis for beginners and professionals.',
+                        copyright: `Copyright © ${new Date().getFullYear()} AI Maniacs`,
                         xslt: true
                     },
                     // Please change this to your repo.
@@ -73,7 +140,29 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/ai-maniacs-social-card.jpg',
+        image: 'img/docusaurus-social-card.jpg', // Using existing file until ai-maniacs-social-card.jpg is created
+        // Global metadata for SEO
+        metadata: [
+            {
+                name: 'keywords',
+                content:
+                    'AI learning, artificial intelligence education, AI courses, AI for beginners, machine learning tutorials, AI tools, AI career guidance, AI safety, prompt engineering, AI literacy'
+            },
+            {
+                name: 'description',
+                content:
+                    'Comprehensive AI education platform for beginners. Learn artificial intelligence fundamentals, explore AI tools, and discover career applications with hands-on tutorials and safety-first approach.'
+            },
+            { name: 'author', content: 'Seth Davis' },
+            { name: 'robots', content: 'index, follow' },
+            { name: 'twitter:card', content: 'summary_large_image' },
+            { name: 'twitter:site', content: '@sethdavis512' },
+            { name: 'twitter:creator', content: '@sethdavis512' },
+            { property: 'og:type', content: 'website' },
+            { property: 'og:site_name', content: 'AI Maniacs' },
+            { property: 'og:locale', content: 'en_US' },
+            { property: 'article:author', content: 'Seth Davis' }
+        ],
         navbar: {
             title: 'A.I. Maniacs',
             // logo: {

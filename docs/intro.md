@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: AI Learning for Beginners - Complete AI Education Course | AI Maniacs
+description: Learn artificial intelligence from scratch with our comprehensive beginner-friendly course. Master AI tools, explore career applications, and build AI literacy with hands-on tutorials and safety-first approach.
+keywords: [AI course, artificial intelligence learning, AI for beginners, AI education, machine learning tutorials, AI tools, AI literacy, AI safety, prompt engineering, AI careers]
+image: /img/ai-maniacs-social-card.jpg
 ---
 
 # Welcome
