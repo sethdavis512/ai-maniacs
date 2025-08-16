@@ -83,9 +83,27 @@ const config: Config = {
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'ai101Sidebar',
                     position: 'left',
                     label: 'AI 101'
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'ai201Sidebar',
+                    position: 'left',
+                    label: 'AI 201'
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'careersSidebar',
+                    position: 'left',
+                    label: 'AI & Careers'
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'mcpSidebar',
+                    position: 'left',
+                    label: 'MCP'
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
@@ -107,7 +125,15 @@ const config: Config = {
                         },
                         {
                             label: 'AI 201',
-                            to: '/docs/category/ai-201-intermediate-ai-skills--applications'
+                            to: '/docs/ai-201/ai-201-intro'
+                        },
+                        {
+                            label: 'AI & Careers',
+                            to: '/docs/ai-and-careers/'
+                        },
+                        {
+                            label: 'MCP',
+                            to: '/docs/model-context-protocol/introduction'
                         },
                         {
                             label: 'Blog',
