@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_maniacs=self.webpackChunkai_maniacs||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/ai-maniacs/blog","blogTitle":"AI Maniacs Blog - Latest AI News & Tutorials","authorsListPath":"/ai-maniacs/blog/authors"}')}}]);

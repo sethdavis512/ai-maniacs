@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sethdavis512.github.io/ai-maniacs/blog</id>
-    <title>A.I. Maniacs Blog</title>
+    <title>AI Maniacs Blog - AI News &amp; Tutorials</title>
     <updated>2025-08-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sethdavis512.github.io/ai-maniacs/blog"/>
-    <subtitle>A.I. Maniacs Blog</subtitle>
+    <subtitle>Latest AI insights, tutorials, and industry analysis for beginners and professionals.</subtitle>
     <icon>https://sethdavis512.github.io/ai-maniacs/img/favicon.ico</icon>
+    <rights>Copyright © 2025 AI Maniacs</rights>
     <entry>
         <title type="html"><![CDATA[Welcome to AI Maniacs - Your Journey into AI Starts Here! 🚀]]></title>
         <id>https://sethdavis512.github.io/ai-maniacs/blog/welcome-to-ai-maniacs</id>

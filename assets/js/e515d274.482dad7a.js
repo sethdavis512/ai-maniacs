@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_maniacs=self.webpackChunkai_maniacs||[]).push([[9024],{6197:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/ai-maniacs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
