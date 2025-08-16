@@ -4,7 +4,7 @@ This is an **AI education platform** built with Docusaurus v3, TypeScript and Re
 
 ## Platform Architecture
 
--   **Educational content**: Progressive courses in `docs/` organized by skill level (AI 101 → AI 201 → MCP)
+-   **Educational content**: Progressive courses in `docs/` organized by skill level (AI 101 → AI 201 → AI & Careers → MCP)
 -   **Course structure**: Auto-generated sidebars from folder hierarchy using `sidebar_position` frontmatter
 -   **Target audience**: Complete beginners with no technical background required
 -   **Content approach**: Hands-on, practical, safety-first methodology with interactive exercises
@@ -29,6 +29,12 @@ docs/
 │   ├── enterprise-integration/
 │   ├── advanced-ethics/
 │   └── innovation-research/
+├── ai-and-careers/             # NEW: Career-specific AI applications
+│   ├── index.md               # Career navigation hub
+│   ├── healthcare.md          # Industry-specific guides with tools & prompts
+│   ├── marketing-sales.md     # Each page: Use cases + tools + examples
+│   ├── education.md           # 13 total career guides
+│   └── [10 more career pages] # Pattern: Overview → Tools → Prompts → Safety
 └── model-context-protocol/     # Advanced MCP concepts
 ```
 
@@ -41,6 +47,43 @@ docs/
 -   **Progressive difficulty**: Each module builds on previous knowledge with explicit prerequisites
 -   **Safety warnings**: Use `:::warning` admonitions for AI-generated content disclaimers
 -   **Practical exercises**: Include hands-on activities that students can try immediately
+
+### Career Guide Pattern (ai-and-careers/)
+
+Each career page follows a standardized structure:
+
+```markdown
+---
+sidebar_position: N
+---
+
+# Career Title
+
+:::warning
+Content created with AI assistance - may contain errors or become outdated.
+:::
+
+## Overview
+
+## Key Applications
+
+### Use Case Name
+
+**Recommended Tools**: Specific AI platforms
+**Example Prompts**: Copy-paste templates in code blocks
+
+## Specialized Applications by Role
+
+## Workflow Automation
+
+## Cost-Effective Tool Recommendations (Free → Pro → Enterprise)
+
+## Safety and Best Practices
+
+## Success Stories
+
+## Getting Started Roadmap
+```
 
 ### MDX Specific Patterns
 
@@ -136,6 +179,56 @@ Svg: require('@site/static/img/ai-learning-illustration.svg').default;
 -   **Navigation**: Test all internal links with `yarn build` before committing
 -   **Content updates**: Maintain beginner-friendly tone and progressive difficulty
 -   **Link fixes**: Always use specific file paths, never directory-only links
+
+## AI and Careers Content Patterns
+
+### Career Page Structure
+
+Each career guide in `docs/ai-and-careers/` follows a specific template:
+
+-   **Overview** - Brief introduction to AI applications for the profession
+-   **Key Applications** - 3-4 major use cases with specific tools and prompts
+-   **Specialized Applications** - Role-specific or advanced applications
+-   **Workflow Automation** - Make.com/Zapier examples and AI-enhanced tools
+-   **Cost-Effective Recommendations** - Free → Professional → Enterprise tool tiers
+-   **Safety & Best Practices** - Industry-specific ethical and compliance considerations
+-   **Success Stories** - Brief practitioner examples
+-   **Getting Started Roadmap** - 4-week implementation plan
+
+### Prompt Template Format
+
+Career guides use consistent formatting for AI prompts:
+
+```text
+"Specific prompt example with [variables] in brackets"
+```
+
+-   Use text code blocks (not bash/other languages)
+-   Include variable placeholders in brackets
+-   Provide context-specific, actionable prompts
+-   Group related prompts under use case headings
+
+## Contributing & Open Source Standards
+
+### Community Guidelines
+
+-   **Beginner-first contributions**: All content should be accessible to complete beginners
+-   **Practical focus**: Include hands-on exercises and real-world examples
+-   **Safety emphasis**: Address ethics and responsible AI use throughout
+-   **AI transparency**: Use `:::warning` admonitions for AI-assisted content
+
+### Contribution Process
+
+-   **Issues**: Use templates in `.github/ISSUE_TEMPLATE/` for bugs, features, and content
+-   **Pull requests**: Follow template in `.github/pull_request_template.md`
+-   **Testing**: Run `yarn build` to validate links and ensure deployment readiness
+-   **Review criteria**: Educational value, technical accuracy, and beginner accessibility
+
+### License & Usage
+
+-   **MIT License**: Open source, free for personal/commercial/educational use
+-   **Attribution**: Credit contributors in releases and community recognition
+-   **Content standards**: Follow CONTRIBUTING.md guidelines for educational content
 
 ## Contributing & Open Source Standards
 
