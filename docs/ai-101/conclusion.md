@@ -127,7 +127,7 @@ Establish sustainable learning practices that keep pace with AI developments wit
 ### Follow AI Maniacs
 
 - Check back for new lessons and updates
-- Share your success stories and challenges
+- Share your experiences and challenges
 - Suggest topics for future content
 - Connect with other course graduates
 

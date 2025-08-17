@@ -369,7 +369,7 @@ After completing exercises and projects, rate your progress:
 **Learn from Others**:
 
 - Follow AI practitioners in your field
-- Read case studies and success stories
+- Read case studies and practical examples
 - Watch AI tutorial videos and demos
 - Subscribe to AI newsletters and podcasts
 

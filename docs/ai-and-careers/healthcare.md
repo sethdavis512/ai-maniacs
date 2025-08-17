@@ -254,19 +254,6 @@ AI should NEVER replace clinical judgment. Always verify AI suggestions with cur
 - **Nuance PowerScribe**: Radiology reporting AI
 - **Suki AI**: Healthcare-specific voice assistant
 
-## Success Stories
-
-### Dr. Sarah's Documentation Efficiency
-
-"Using AI templates reduced my charting time by 40%. I create SOAP note structures for common visits and use voice-to-text for rapid documentation."
-
-### Nurse Manager Lisa's Patient Education
-
-"AI helps me create culturally appropriate patient education materials in multiple languages, improving patient understanding and compliance."
-
-### ER Physician Mike's Research Integration
-
-"Perplexity helps me quickly verify treatment protocols during busy shifts, ensuring I'm following the latest evidence-based guidelines."
 
 ## Next Steps
 

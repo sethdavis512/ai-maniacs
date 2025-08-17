@@ -470,19 +470,6 @@ Customer service professionals can use AI to provide faster, more accurate suppo
 "Develop feedback loops that improve [service delivery]"
 ```
 
-## Success Stories
-
-### Support Manager Sarah's Team Efficiency
-
-"AI helps our team respond 40% faster while maintaining quality. Agents can focus on complex problems while AI handles routine responses and knowledge lookup."
-
-### E-commerce Support Lead Mike's Customer Satisfaction
-
-"Using AI for personalized responses increased our CSAT scores by 25%. Customers feel heard and understood because we can craft thoughtful, relevant replies quickly."
-
-### SaaS Support Director Lisa's Scalability
-
-"AI-powered knowledge management helped us scale support without proportional headcount growth. Our resolution rates improved as agents had better information access."
 
 ## Getting Started Roadmap
 

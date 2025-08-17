@@ -21,7 +21,7 @@ This section provides career-specific guidance on:
 - **Practical AI applications** for your profession
 - **Specific tools and platforms** you can start using today
 - **Prompting strategies** tailored to your field
-- **Real-world examples** and success stories
+- **Real-world examples** and practical applications
 - **Getting started tips** with safety considerations
 
 ## Choose Your Career Path

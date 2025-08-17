@@ -491,19 +491,6 @@ HR professionals can leverage AI to streamline recruitment, enhance employee eng
 "Create fairness metrics for [recruitment/performance evaluation] AI"
 ```
 
-## Success Stories
-
-### HR Director Maria's Recruitment Efficiency
-
-"AI-powered candidate screening reduced our time-to-hire by 40%. We can focus on building relationships with top candidates while AI handles initial qualification."
-
-### People Operations Manager Tom's Employee Engagement
-
-"Using AI to analyze engagement surveys helped us identify specific improvement areas. Our engagement scores increased 30% after implementing targeted interventions."
-
-### HR Business Partner Sarah's Strategic Impact
-
-"AI-generated workforce analytics help me provide data-driven recommendations to business leaders. HR is now seen as a strategic partner, not just administrative support."
 
 ## Getting Started Roadmap
 

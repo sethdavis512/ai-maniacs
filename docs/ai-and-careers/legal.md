@@ -406,19 +406,6 @@ AI should NEVER replace professional legal judgment. Always verify AI research w
 - Maintain competency requirements with evolving technology
 - Document AI usage for professional responsibility purposes
 
-## Success Stories
-
-### Solo Practitioner Jennifer's Efficiency
-
-"AI helps me compete with larger firms by accelerating research and document drafting. I can handle more cases while maintaining quality because AI handles routine tasks."
-
-### Corporate Counsel Mark's Contract Review
-
-"AI contract analysis catches issues I might miss and speeds up our deal timelines. We've reduced contract review time by 50% while improving risk identification."
-
-### Litigation Partner Sarah's Case Preparation
-
-"AI helps organize case materials and generate discovery requests. Our team can focus on strategy and client counsel rather than document preparation."
 
 ## Getting Started Roadmap
 

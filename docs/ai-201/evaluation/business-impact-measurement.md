@@ -280,9 +280,9 @@ Section 3: Strategic Progress
 - Cash flow impact and timing
 - Capital allocation recommendations
 
-### Success Story Development
+### Case Study Development
 
-**Case Study Template**:
+**Business Impact Documentation Template**:
 
 1. **Business Challenge**: What problem was AI solving?
 2. **Solution Approach**: How was AI implemented?
@@ -381,7 +381,7 @@ Section 3: Strategic Progress
 - [ ] Establish baseline metrics before implementing new AI initiatives
 - [ ] Create stakeholder-specific reporting dashboards
 - [ ] Implement regular review and optimization cycles
-- [ ] Develop success stories and case studies for organizational learning
+- [ ] Develop case studies and documentation for organizational learning
 
 ### Advanced Topics
 

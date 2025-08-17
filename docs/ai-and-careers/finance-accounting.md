@@ -470,19 +470,6 @@ Finance and accounting professionals can leverage AI to automate data analysis, 
 3. Maintain professional skepticism and critical thinking
 4. Document AI usage for audit and review purposes
 
-## Success Stories
-
-### CPA Firm Partner Lisa's Efficiency
-
-"AI helps our team complete routine analyses 60% faster. We can focus on strategic advisory services while AI handles data processing and preliminary insights."
-
-### Corporate Controller David's Reporting
-
-"Automated monthly reporting with AI analysis gives our executives better insights faster. We've reduced close time by 3 days while improving report quality."
-
-### Financial Advisor Maria's Client Service
-
-"AI helps me create personalized financial projections and scenarios for each client. I can provide more comprehensive advice in less time."
 
 ## Getting Started Roadmap
 
