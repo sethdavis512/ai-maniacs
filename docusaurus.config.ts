@@ -140,7 +140,7 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg', // Using existing file until ai-maniacs-social-card.jpg is created
+        image: 'img/ai-maniacs-logo-social-card.jpg', // Using existing file until ai-maniacs-social-card.jpg is created
         // Global metadata for SEO
         metadata: [
             {
