@@ -67,5 +67,3 @@ Understanding that AI tools are probabilistic rather than deterministic helps se
 ## Next Steps
 
 Now that you have a foundation in digital literacy, you're ready to learn about the mathematical concepts that underlie how AI works. Don't worry - we'll keep it simple and practical.
-
-**Continue to**: [Math Concepts for AI](./math-concepts.md)

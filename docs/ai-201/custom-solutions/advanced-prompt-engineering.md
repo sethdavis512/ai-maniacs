@@ -451,5 +451,3 @@ Requirements:
 ## What's Next?
 
 Advanced prompting is just one aspect of customization. Next, we'll explore fine-tuning models and creating custom GPTs for specialized applications.
-
-Continue to: [Fine-tuning & Model Customization](./fine-tuning-customization.md)

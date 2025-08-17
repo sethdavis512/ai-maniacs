@@ -433,5 +433,3 @@ Weight each criteria based on importance:
 The right AI tool choice can dramatically improve your productivity and capabilities. Take time to evaluate properly, but don't get stuck in analysis paralysis. Start with a good-enough choice and evolve your toolkit as you learn and grow.
 
 ---
-
-Continue to: [AI Safety Fundamentals](../safety/data-privacy-security.md)

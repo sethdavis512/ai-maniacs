@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
-title: AI for Healthcare Professionals - Medical AI Tools & Applications | AI Maniacs
+title: AI for Healthcare
 description: Discover how AI transforms healthcare. Practical AI tools for doctors, nurses, and medical staff. Get clinical decision support, documentation assistance, and patient care applications.
 keywords: [ai in healthcare, medical ai tools, clinical ai, healthcare automation, medical documentation ai, patient care ai, healthcare professionals, clinical decision support, medical ai applications]
 image: /img/docusaurus-social-card.jpg
 ---
 
-# Healthcare Professionals
+# AI for Healthcare Professionals
 
 :::warning
 Content created with AI assistance - may contain errors or become outdated. Always verify medical information and follow your institution's AI policies.

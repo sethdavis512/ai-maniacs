@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: AI Applications by Career - Professional AI Tools & Guides | AI Maniacs
+title: AI and Careers
 description: Discover how AI transforms your profession. Career-specific guides for healthcare, finance, education, marketing, and more. Get practical AI tools, prompts, and implementation strategies for your field.
 keywords: [AI careers, professional AI tools, AI in healthcare, AI in finance, AI in education, AI in marketing, career AI applications, workplace AI, AI automation, industry AI solutions]
 image: /img/ai-maniacs-social-card.jpg

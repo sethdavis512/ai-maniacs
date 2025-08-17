@@ -442,5 +442,3 @@ def analyze_article(url):
 ## What's Next?
 
 Now that you understand API integration basics, let's explore more sophisticated automation patterns and tools that can orchestrate complex AI workflows.
-
-Continue to: [Advanced Automation Tools](./advanced-automation-tools.md)

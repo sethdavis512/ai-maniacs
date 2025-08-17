@@ -645,5 +645,3 @@ class AdaptiveAutomationOptimizer:
 ## What's Next?
 
 Advanced automation is just one component of building custom AI solutions. Let's explore how to create specialized AI applications tailored to specific business needs.
-
-Continue to: [Custom AI Solutions](../custom-solutions/advanced-prompt-engineering.md)

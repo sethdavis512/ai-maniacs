@@ -350,5 +350,3 @@ Test model knowledge boundaries and biases:
 ## What's Next?
 
 Understanding how training shapes model behavior prepares you for the next crucial skill: fine-tuning and customization. Let's explore how to adapt models for specific use cases.
-
-Continue to: [Fine-tuning & Model Customization](../custom-solutions/fine-tuning-customization.md)

@@ -461,5 +461,3 @@ Advanced AI implementation requires robust governance frameworks that balance in
 ## What's Next?
 
 Governance provides the foundation for responsible innovation. Let's explore cutting-edge AI developments and how to contribute to the future of AI.
-
-Continue to: [Innovation & Research](../innovation-research/emerging-ai-trends.md)

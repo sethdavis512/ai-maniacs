@@ -567,8 +567,6 @@ Congratulations! You've built your first complete MCP context. You now understan
 
 In the next lesson, we'll explore **real-world applications** where MCP shines, including customer support, content creation, and educational systems.
 
-**Ready for more examples?** Let's explore [Real-World MCP Applications →](./real-world-applications.md)
-
 ---
 
 ## Quick Reference: Context Building Process

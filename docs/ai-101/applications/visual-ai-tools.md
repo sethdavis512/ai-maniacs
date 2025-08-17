@@ -299,7 +299,3 @@ Specify what you DON'T want:
 6. **Keep experimenting** as tools rapidly evolve
 
 The visual AI landscape is evolving rapidly. Focus on understanding the fundamentals and building good practices that will adapt as tools improve.
-
----
-
-**Next Steps**: Ready to explore AI development? Continue to the [Foundations](../foundations/what-is-ai.md) section to understand how these tools work.

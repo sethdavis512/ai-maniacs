@@ -281,7 +281,6 @@ Take the same content and ask AI to rewrite it for different audiences:
 
 Now that you understand text and content creation, let's explore how AI can help with visual content.
 
-Continue to: [Visual AI Tools](./visual-ai-tools.md)
 
 ## Key Takeaways
 

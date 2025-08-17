@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Prompt Engineering Fundamentals
+# Prompt Engineering
 
 Prompt engineering is the art and science of communicating effectively with AI models. Good prompts lead to better, more accurate, and more useful responses. This lesson will teach you how to craft excellent prompts.
 
@@ -318,7 +318,6 @@ Practice the same prompt with different role specifications:
 
 Now that you understand prompt engineering fundamentals, let's learn about quality control and how to verify and improve AI outputs.
 
-Continue to: [Quality Control & Verification](./quality-control-verification.md)
 
 ## Key Takeaways
 

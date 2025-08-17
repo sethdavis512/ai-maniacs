@@ -204,7 +204,6 @@ Not all AI is the same! There are different types of AI models designed for diff
 
 Now that you understand the different types of AI models, let's explore the major companies behind these technologies and their specific offerings.
 
-Continue to: [Major AI Companies & Platforms](../companies/ai-landscape.md)
 
 ## Key Takeaways
 

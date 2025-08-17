@@ -44,7 +44,7 @@ Identify support resources before you need them. This might include online commu
 
 Based on your assessment, you're ready to choose your next step:
 
-**Option 1: Continue to AI 101** - [AI 101: Using AI for Beginners](../ai-101/ai-101-intro.md)
+**Option 1: Begin AI 101** - [AI 101: Using AI for Beginners](../ai-101/ai-101-intro.md)
 
 **Option 2: Review specific areas** - Return to any Pre-AI Foundation modules that address your particular needs
 
@@ -58,4 +58,3 @@ AI technology evolves rapidly, but the fundamental concepts you'll learn remain 
 
 Most importantly, maintain curiosity and willingness to experiment. The best way to learn AI is through hands-on practice with real tools and authentic tasks that matter to you.
 
-**Ready to begin your AI journey?** [Start with AI 101](../ai-101/ai-101-intro.md)

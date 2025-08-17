@@ -30,21 +30,18 @@
 }
 
 .heroLogo {
-    height: 420px;
     width: auto;
     max-width: 400px;
 }
 
 @media screen and (max-width: 768px) {
     .heroLogo {
-        height: 80px;
         max-width: 280px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .heroLogo {
-        height: 60px;
         max-width: 240px;
     }
 }

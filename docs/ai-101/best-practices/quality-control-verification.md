@@ -376,4 +376,3 @@ Quality control isn't about mistrusting AI—it's about using it responsibly and
 
 ---
 
-Continue to: [Safety Fundamentals](../safety/data-privacy-security.md)

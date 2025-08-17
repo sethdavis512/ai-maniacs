@@ -418,5 +418,3 @@ Stay ahead of the curve by understanding cutting-edge AI developments, emerging 
 ## What's Next?
 
 You've now completed comprehensive intermediate AI education. Let's wrap up with a conclusion that charts your continued journey and advanced learning pathways.
-
-Continue to: [Course Conclusion](../conclusion.md)

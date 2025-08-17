@@ -1,4 +1,4 @@
-# Model Context Protocol: Complete Learning Guide
+# Model Context Protocol
 
 ## Welcome to Structured AI Systems
 
@@ -18,7 +18,7 @@ By completing this module, you'll master:
 
 This module is designed as a progressive learning experience. Complete the lessons in order for the best results:
 
-### 🎯 **Lesson 1: [Introduction to MCP](./introduction.md)**
+### **Lesson 1: [Introduction to MCP](./introduction.md)**
 
 **Time**: 20 minutes  
 **Level**: Beginner
@@ -172,8 +172,6 @@ Ready for more? This module prepares you for advanced topics covered in our **AI
 ## Ready to Start?
 
 Transform your AI applications from unpredictable to reliable, from mysterious to auditable, from basic to professional.
-
-**Begin your MCP journey**: [Introduction to Model Context Protocol →](./introduction.md)
 
 ---
 

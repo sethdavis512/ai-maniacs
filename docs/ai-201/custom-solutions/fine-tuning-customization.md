@@ -438,5 +438,3 @@ def prepare_training_data():
 ## What's Next?
 
 Custom AI solutions need proper enterprise integration to deliver business value. Let's explore how to implement these solutions at scale.
-
-Continue to: [Enterprise Integration](../enterprise-integration/enterprise-strategy-implementation.md)

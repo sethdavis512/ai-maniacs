@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is Artificial Intelligence?
 
-Artificial Intelligence (AI) might seem like science fiction, but you're already using it every day! Let's break down what AI really is and why it matters.
+Artificial Intelligence (AI) might seem like science fiction, but you're already using it every day. Understanding what AI actually is helps you recognize its current capabilities and make informed decisions about when and how to use it.
 
 ## AI in Your Daily Life
 
@@ -16,7 +16,7 @@ Before we dive into technical details, think about these tools you might already
 - **Photo apps** that automatically organize your pictures by faces
 - **Navigation apps** that find the best route and predict traffic
 
-All of these use artificial intelligence!
+All of these applications rely on artificial intelligence to function effectively.
 
 ## What is AI?
 
@@ -90,8 +90,6 @@ AI is having a transformative impact because:
 ## What's Next?
 
 Now that you understand what AI is, let's dive deeper into the most popular type of AI today: **Large Language Models (LLMs)**. These are the systems behind tools like ChatGPT, Claude, and Google Gemini.
-
-Continue to: [Understanding Large Language Models](./understanding-llms.md)
 
 ## Key Takeaways
 

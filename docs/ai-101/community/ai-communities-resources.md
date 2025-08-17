@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# AI Communities & Resources
+# AI Communities
 
 Learning about AI is more fun and effective when you're part of a community. This lesson covers the best places to connect with other AI enthusiasts, get help, and stay updated.
 
@@ -408,8 +408,6 @@ Learning about AI is more fun and effective when you're part of a community. Thi
 ## What's Next?
 
 You've completed the AI 101 course! Now it's time to continue your AI journey with advanced learning and real-world application.
-
-Continue to: [Advanced Learning Paths](./advanced-learning-paths.md)
 
 ## Key Takeaways
 

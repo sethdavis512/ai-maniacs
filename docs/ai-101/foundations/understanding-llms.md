@@ -164,8 +164,6 @@ When you chat with an LLM:
 
 Now that you understand how LLMs work, let's explore the different types of AI models and their specific use cases.
 
-Continue to: [Types of AI Models](./types-of-ai-models.md)
-
 ## Key Takeaways
 
 - LLMs are trained on massive text datasets to understand and generate human language

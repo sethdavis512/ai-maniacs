@@ -434,5 +434,3 @@ Success Criteria:
 ## What's Next?
 
 Enterprise implementation requires deep understanding of ethical considerations and governance. Let's explore advanced AI ethics and regulatory compliance frameworks.
-
-Continue to: [Advanced AI Ethics & Governance](../advanced-ethics/ai-governance-frameworks.md)

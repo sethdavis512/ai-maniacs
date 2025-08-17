@@ -305,7 +305,6 @@ Your data privacy and security should be top priorities when using AI tools. Thi
 
 Understanding data privacy is just one aspect of responsible AI use. Next, let's explore the broader ethical considerations when using AI tools.
 
-Continue to: [Ethical AI Usage](./ethical-ai-usage.md)
 
 ## Key Takeaways
 

@@ -69,5 +69,3 @@ Think of AI as a pattern-matching system that works with probabilities and avera
 ## Next Steps
 
 Now that you understand the basic mathematical concepts underlying AI, let's focus on building your confidence with technology and preparing for hands-on AI use.
-
-**Continue to**: [Technology Comfort Building](./technology-comfort.md)

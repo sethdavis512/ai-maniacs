@@ -179,8 +179,6 @@ Before moving on, make sure you can answer these questions:
 3. When would you choose MCP over a simple prompt?
 4. What does the "nutrition label" analogy teach us about MCP?
 
-**Ready to continue?** Let's explore the [Context Components →](./context-components.md)
-
 ---
 
 ## Quick Reference

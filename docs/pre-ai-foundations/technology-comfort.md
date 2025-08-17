@@ -33,5 +33,3 @@ Skills learned with one AI tool transfer to others. Clear prompting, file manage
 ## Continuous Learning
 
 AI tools update frequently with new features. Stay curious about updates rather than viewing them as disruptions. Spend a few minutes weekly exploring new features or trying different approaches to familiar tasks.
-
-**Continue to**: [AI Readiness Assessment](./readiness-assessment.md)
