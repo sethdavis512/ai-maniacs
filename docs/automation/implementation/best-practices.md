@@ -230,4 +230,4 @@ Need to understand specific tools and capabilities? Visit: [Tools and Platforms]
 
 Want to see best practices in action? Explore: [Industry Applications](../applications/industry-specific-use-cases) for examples of successful automation implementations across different sectors.
 
-Continue building your automation expertise by exploring the broader [AI learning path](../../ai-101/) to understand how AI enhances automation capabilities and career opportunities.
+Continue building your automation expertise by exploring the broader AI learning path to understand how AI enhances automation capabilities and career opportunities.

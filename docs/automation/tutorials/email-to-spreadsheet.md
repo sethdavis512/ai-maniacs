@@ -154,7 +154,7 @@ Once comfortable with basic automation, consider these enhancements:
 
 ## Next Steps
 
-Ready for more automation? Try the [Customer Inquiry Router Tutorial](customer-inquiry-router) to learn conditional logic and multi-path workflows.
+Ready for more automation? Try building a customer inquiry router to learn conditional logic and multi-path workflows.
 
 Want to understand platform options? Return to [No-Code Workflow Tools](../tools/no-code-workflow-tools) to compare Zapier with alternatives.
 

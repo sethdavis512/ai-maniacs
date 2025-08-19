@@ -63,8 +63,8 @@ If you're completely new to automation, start with the foundations section to bu
 
 ## Next Steps
 
-Ready to explore the automation landscape? Continue to: [Understanding Automation Fundamentals](foundations/what-is-automation) to build a solid foundation in automation concepts and approaches.
+Ready to explore the automation landscape? Continue to the Understanding Automation Fundamentals section to build a solid foundation in automation concepts and approaches.
 
-Want to jump straight to tools? Visit [Tools and Platforms](tools/no-code-workflow-tools) to compare popular automation solutions.
+Want to jump straight to tools? Visit the Tools and Platforms section to compare popular automation solutions.
 
-Need to see real applications? Check out [Industry Applications](applications/business-process-automation) for specific use cases and success stories.
+Need to see real applications? Check out the Industry Applications section for specific use cases and success stories.

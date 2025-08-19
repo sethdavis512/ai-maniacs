@@ -194,7 +194,7 @@ Track these metrics to evaluate automation effectiveness:
 
 **Routing Accuracy**: Percentage of inquiries correctly categorized (target: 85%+)
 
-**Response Time**: Average time from inquiry receipt to team acknowledgment (target: <2 hours during business hours)
+**Response Time**: Average time from inquiry receipt to team acknowledgment (target: under 2 hours during business hours)
 
 **Customer Satisfaction**: Feedback scores on inquiry handling and resolution speed
 
@@ -214,4 +214,4 @@ Ready to explore more advanced automation? Learn about [AI-Powered Automation To
 
 Want to scale your automation program? Visit [Implementation Best Practices](../implementation/best-practices) for guidance on governance and change management.
 
-Need to understand the broader automation landscape? Return to [Automation Essentials](../index) to explore additional automation opportunities for your organization.
+Need to understand the broader automation landscape? Return to the Automation Essentials section to explore additional automation opportunities for your organization.
