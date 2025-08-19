@@ -1,234 +1,67 @@
-# AI Maniacs - AI Learning Platform Guide
+# AI Maniacs – AI Coding Agent Instructions
 
-This is an **AI education platform** built with Docusaurus v3, TypeScript and React 19. The project focuses on teaching AI fundamentals to complete beginners through a structured, progressive curriculum.
+This project is a Docusaurus v3, TypeScript, and React 19–based AI education platform. It is structured for progressive, beginner-first learning, with a strong focus on content safety, hands-on exercises, and clear navigation. These instructions are tailored for AI coding agents (Copilot, Claude, Cursor, etc.) to maximize productivity and codebase alignment.
 
-## Platform Architecture
+## 1. Architecture & Content Flow
 
--   **Educational content**: Progressive courses in `docs/` organized by skill level (AI 101 → AI 201 → AI & Careers → MCP)
--   **Course structure**: Auto-generated sidebars from folder hierarchy using `sidebar_position` frontmatter
--   **Target audience**: Complete beginners with no technical background required
--   **Content approach**: Hands-on, practical, safety-first methodology with interactive exercises
+-   **Content-first**: All educational material lives in `docs/`, organized by course and module. Each course (e.g., `ai-101`, `ai-201`, `ai-and-careers`, `model-context-protocol`) is a folder with submodules and lessons.
+-   **Sidebar & Navigation**: Sidebars are auto-generated from folder structure and `sidebar_position` frontmatter. Never link to a directory—always link to a specific `.md` file.
+-   **React/TypeScript**: All custom UI is in `src/components/`. Homepage features use the `FeatureItem` pattern (see `src/components/HomepageFeatures/`).
+-   **Styling**: Use Infima CSS variables in `src/css/custom.css` for theming. Do not override classes directly.
 
-## Critical File Organization
+## 2. Content & MDX Patterns
 
-```
-docs/
-├── intro.md                    # Platform entry point
-├── ai-101/                     # Beginner course (6 modules)
-│   ├── _category_.json         # Module metadata & auto-index generation
-│   ├── foundations/            # Core AI concepts
-│   ├── companies/              # Industry landscape
-│   ├── applications/           # Practical use cases
-│   ├── safety/                 # Ethics & responsible use
-│   ├── best-practices/         # Optimization techniques
-│   └── community/              # Resources & next steps
-├── ai-201/                     # Intermediate course (6 modules)
-│   ├── advanced-foundations/
-│   ├── workflow-automation/
-│   ├── custom-solutions/
-│   ├── enterprise-integration/
-│   ├── advanced-ethics/
-│   └── innovation-research/
-├── ai-and-careers/             # NEW: Career-specific AI applications
-│   ├── index.md               # Career navigation hub
-│   ├── healthcare.md          # Industry-specific guides with tools & prompts
-│   ├── marketing-sales.md     # Each page: Use cases + tools + examples
-│   ├── education.md           # 13 total career guides
-│   └── [10 more career pages] # Pattern: Overview → Tools → Prompts → Safety
-└── model-context-protocol/     # Advanced MCP concepts
-```
+-   **Frontmatter**: Every lesson/page must have `sidebar_position: N` for ordering.
+-   **Learning objectives**: Start each lesson with a "What you'll learn" section.
+-   **Safety**: All AI-generated or AI-assisted content must include a `:::warning` disclaimer at the top.
+-   **Career guides**: Follow the template in `docs/ai-and-careers/` (Overview → Key Applications → Prompts → Safety, etc.).
+-   **Prompt blocks**: Use text code blocks with bracketed variables, e.g.:
+    ```text
+    "Summarize [topic] for a beginner."
+    ```
+-   **Linking**: Use relative paths (`../ai-201/lesson.md`), never link to folders. Avoid `<5%`—write "under 5%" to prevent MDX errors.
 
-## Content Conventions & Patterns
+## 3. Developer Workflow
 
-### Educational Content Standards
+-   **Local dev**: `yarn start` (hot reload)
+-   **Build**: `yarn build` (validates links, fails on broken links)
+-   **Type checking**: `yarn typecheck`
+-   **Clear cache**: `yarn clear` if builds behave unexpectedly
+-   **Test links**: Always run `yarn build` before PRs to catch navigation errors
 
--   **Frontmatter**: Always include `sidebar_position: N` for lesson ordering within categories
--   **Learning objectives**: Start lessons with clear "What you'll learn" sections
--   **Progressive difficulty**: Each module builds on previous knowledge with explicit prerequisites
--   **Safety warnings**: Use `:::warning` admonitions for AI-generated content disclaimers
--   **Practical exercises**: Include hands-on activities that students can try immediately
+## 4. Project-Specific Conventions
 
-### Career Guide Pattern (ai-and-careers/)
+-   **Beginner-first**: Assume zero technical background for all content and code
+-   **Progressive learning**: Each module builds on the previous; prerequisites must be explicit
+-   **Safety woven throughout**: Ethics and responsible use are not isolated—integrate them into all lessons
+-   **Community-driven**: Use `.github/ISSUE_TEMPLATE/` and PR templates for all contributions
+-   **No directory links**: All navigation must resolve to a file, not a folder
 
-Each career page follows a standardized structure:
+## 5. Integration & External Dependencies
 
-```markdown
----
-sidebar_position: N
----
+-   **Docusaurus**: Core static site generator; see `docusaurus.config.ts` and `sidebars.ts`
+-   **React 19**: For all custom interactivity/components
+-   **TypeScript**: Strict typing enforced in all React code
 
-# Career Title
+## 6. Examples & Key Files
 
-:::warning
-Content created with AI assistance - may contain errors or become outdated.
-:::
+-   `docs/ai-101/foundations/` – Example of a beginner module
+-   `docs/ai-and-careers/marketing-sales.md` – Example of a career guide with prompts
+-   `src/components/HomepageFeatures/` – Example of React feature pattern
+-   `src/css/custom.css` – Where to change theme colors
+-   `docusaurus.config.ts` – Site config, plugins, and theme
+-   `sidebars.ts` – Sidebar generation logic
 
-## Overview
+## 7. Contribution & Review
 
-## Key Applications
+-   All content must be accessible, actionable, and up-to-date
+-   Use `:::warning` for AI-generated content
+-   Run `yarn build` before submitting PRs
+-   See `CONTRIBUTING.md` for detailed guidelines
 
-### Use Case Name
-
-**Recommended Tools**: Specific AI platforms
-**Example Prompts**: Copy-paste templates in code blocks
-
-## Specialized Applications by Role
-
-## Workflow Automation
-
-## Cost-Effective Tool Recommendations (Free → Pro → Enterprise)
-
-## Safety and Best Practices
-
-## Success Stories
-
-## Getting Started Roadmap
-```
-
-### MDX Specific Patterns
-
-```markdown
----
-sidebar_position: 1
 ---
 
-# Lesson Title
-
-:::warning
-Content created with AI assistance - may contain errors or become outdated.
-:::
-
-## Learning Objectives
-
--   Clear, actionable learning goals
-
-## Prerequisites
-
--   Explicit requirements from previous lessons
-```
-
-### Link Management (CRITICAL)
-
--   **Cross-course navigation**: Use relative paths like `../ai-201/ai-201-intro.md`
--   **Within same course**: Use `./` for same directory, `../` for parent directory
--   **Avoid directory links**: Link to specific `.md` files, not directories (causes build errors)
--   **Recent fix pattern**: Replace `<5%` with `under 5%` in content to avoid MDX parsing issues
-
-## Development Workflow
-
-### Essential Commands
-
--   `yarn start` - Local dev with hot reload (primary development)
--   `yarn build` - Production build with link validation (catches broken links)
--   `yarn clear` - Clear Docusaurus cache (use when build acts unexpectedly)
--   `yarn typecheck` - TypeScript validation for React components
-
-### Build-Breaking Issues to Watch
-
-1. **Broken internal links** - Build fails with exhaustive broken link report
-2. **MDX parsing errors** - Avoid `<` symbols followed by numbers (use "under N%" instead)
-3. **Missing sidebar positions** - Can cause ordering issues in navigation
-
-### Deployment
-
--   **GitHub Pages**: Configured for `sethdavis512.github.io/ai-maniacs/`
--   **Base URL**: `/ai-maniacs/` (critical for asset paths)
--   **Broken links**: Set to 'warn' not 'throw' to allow deployment despite link issues
-
-## Course Content Philosophy
-
-### Beginner-First Design
-
--   **No technical prerequisites**: Assume zero AI knowledge
--   **Scaffolded learning**: Each lesson builds incrementally on previous concepts
--   **Real-world examples**: Use familiar tools (Google, Netflix, Siri) before technical concepts
--   **Safety integration**: Ethics and responsible use woven throughout, not relegated to single section
-
-### Content Quality Standards
-
--   **AI transparency**: Acknowledge AI-assisted content creation with warnings
--   **Community-driven**: Welcome corrections and improvements via GitHub
--   **Current relevance**: Focus on current tools and practices, not theoretical concepts
--   **Practical application**: Every concept includes hands-on exercises or real examples
-
-## React Component Patterns
-
-### Homepage Features (src/components/HomepageFeatures/)
-
-```tsx
-type FeatureItem = {
-    title: string;
-    Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-    description: ReactNode;
-};
-
-// Static asset imports
-Svg: require('@site/static/img/ai-learning-illustration.svg').default;
-```
-
-### Styling Approach
-
--   **CSS Variables**: Modify `src/css/custom.css` Infima variables, don't override classes
--   **Brand colors**: Navy-based palette with dark mode considerations
--   **Responsive design**: Leverage Docusaurus/Infima responsive utilities
-
-## When Making Changes
-
--   **New lessons**: Add to appropriate `docs/` subfolder with `sidebar_position` frontmatter
--   **Course structure**: Update `_category_.json` files for module metadata
--   **Navigation**: Test all internal links with `yarn build` before committing
--   **Content updates**: Maintain beginner-friendly tone and progressive difficulty
--   **Link fixes**: Always use specific file paths, never directory-only links
-
-## AI and Careers Content Patterns
-
-### Career Page Structure
-
-Each career guide in `docs/ai-and-careers/` follows a specific template:
-
--   **Overview** - Brief introduction to AI applications for the profession
--   **Key Applications** - 3-4 major use cases with specific tools and prompts
--   **Specialized Applications** - Role-specific or advanced applications
--   **Workflow Automation** - Make.com/Zapier examples and AI-enhanced tools
--   **Cost-Effective Recommendations** - Free → Professional → Enterprise tool tiers
--   **Safety & Best Practices** - Industry-specific ethical and compliance considerations
--   **Success Stories** - Brief practitioner examples
--   **Getting Started Roadmap** - 4-week implementation plan
-
-### Prompt Template Format
-
-Career guides use consistent formatting for AI prompts:
-
-```text
-"Specific prompt example with [variables] in brackets"
-```
-
--   Use text code blocks (not bash/other languages)
--   Include variable placeholders in brackets
--   Provide context-specific, actionable prompts
--   Group related prompts under use case headings
-
-## Contributing & Open Source Standards
-
-### Community Guidelines
-
--   **Beginner-first contributions**: All content should be accessible to complete beginners
--   **Practical focus**: Include hands-on exercises and real-world examples
--   **Safety emphasis**: Address ethics and responsible AI use throughout
--   **AI transparency**: Use `:::warning` admonitions for AI-assisted content
-
-### Contribution Process
-
--   **Issues**: Use templates in `.github/ISSUE_TEMPLATE/` for bugs, features, and content
--   **Pull requests**: Follow template in `.github/pull_request_template.md`
--   **Testing**: Run `yarn build` to validate links and ensure deployment readiness
--   **Review criteria**: Educational value, technical accuracy, and beginner accessibility
-
-### License & Usage
-
--   **MIT License**: Open source, free for personal/commercial/educational use
--   **Attribution**: Credit contributors in releases and community recognition
--   **Content standards**: Follow CONTRIBUTING.md guidelines for educational content
+If any section is unclear or missing project-specific nuance, please provide feedback for further refinement.
 
 ## Contributing & Open Source Standards
 
