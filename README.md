@@ -90,7 +90,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## 📞 Connect With Us
 
 - 🐙 **GitHub**: [Project Repository](https://github.com/sethdavis512/ai-maniacs)
-- 🌐 **Website**: [AI Maniacs Platform](https://sethdavis512.github.io/ai-maniacs/)
+- 🌐 **Website**: [AI Maniacs Platform](https://ai-maniacs.com)
 - 💬 **Issues**: [Report bugs or suggest features](https://github.com/sethdavis512/ai-maniacs/issues)
 - 🔀 **Pull Requests**: [Contribute directly](https://github.com/sethdavis512/ai-maniacs/pulls)
 
