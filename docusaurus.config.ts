@@ -190,6 +190,12 @@ const config: Config = {
                 },
                 {
                     type: 'docSidebar',
+                    sidebarId: 'automationSidebar',
+                    position: 'left',
+                    label: 'Automation'
+                },
+                {
+                    type: 'docSidebar',
                     sidebarId: 'mcpSidebar',
                     position: 'left',
                     label: 'MCP'
