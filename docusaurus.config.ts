@@ -67,8 +67,8 @@ const config: Config = {
                 name: 'AI Maniacs',
                 description:
                     'Comprehensive AI education platform for beginners. Learn artificial intelligence fundamentals, explore AI tools, and discover career applications.',
-                url: 'https://sethdavis512.github.io/ai-maniacs/',
-                logo: 'https://sethdavis512.github.io/ai-maniacs/img/ai-maniacs-logo-full.svg',
+                url: 'https://ai-maniacs.com',
+                logo: 'https://ai-maniacs.com/img/ai-maniacs-logo-full.svg',
                 sameAs: [
                     'https://github.com/sethdavis512/ai-maniacs',
                     'https://sethdavis.tech/'
