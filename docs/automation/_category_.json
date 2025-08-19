@@ -1,0 +1,10 @@
+{
+  "label": "Automation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Automation Essentials",
+    "description": "Master the tools and strategies that are transforming how work gets done. From simple workflow automation to sophisticated AI-powered systems, learn to identify opportunities, choose the right tools, and implement automation solutions that deliver real business value.",
+    "slug": "/automation"
+  }
+}
