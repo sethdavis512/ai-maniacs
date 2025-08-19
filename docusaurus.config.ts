@@ -222,7 +222,7 @@ const config: Config = {
                         },
                         {
                             label: 'MCP',
-                            to: '/docs/model-context-protocol/introduction'
+                            to: '/docs/model-context-protocol/mcp-start'
                         },
                         {
                             label: 'Blog',

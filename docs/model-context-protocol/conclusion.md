@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # MCP Course Summary & Next Steps
 
 ## What You've Learned

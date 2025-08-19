@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Model Context Protocol
 
 ## Welcome to Structured AI Systems
