@@ -20,13 +20,13 @@ The biggest addition to our platform is a complete [Automation Essentials](/docs
 
 **[Automation Fundamentals](/docs/automation/foundations/what-is-automation)** - Understand the different types of automation and when to use each approach, from workflow automation to AI-powered systems.
 
-**[Tool Evaluation & Selection](/docs/automation/tools/)** - Compare no-code platforms like Zapier with enterprise RPA solutions, plus discover AI-powered automation tools that add intelligence to routine processes.
+**[Tool Evaluation & Selection](/docs/automation/tools/no-code-workflow-tools)** - Compare no-code platforms like Zapier with enterprise RPA solutions, plus discover AI-powered automation tools that add intelligence to routine processes.
 
 **[Strategic Implementation](/docs/automation/strategy/building-automation-strategy)** - Learn how to develop comprehensive automation strategies that deliver measurable ROI and scale across your organization.
 
-**[Industry Applications](/docs/automation/applications/)** - See real-world automation examples across different departments and industries, with specific use cases you can adapt immediately.
+**[Industry Applications](/docs/automation/applications/business-process-automation)** - See real-world automation examples across different departments and industries, with specific use cases you can adapt immediately.
 
-**[Hands-On Tutorials](/docs/automation/tutorials/)** - Follow step-by-step guides to build practical automation solutions, including our popular [Customer Inquiry Router](/docs/automation/tutorials/customer-inquiry-router) and [Email to Spreadsheet](/docs/automation/tutorials/email-to-spreadsheet) tutorials.
+**[Hands-On Tutorials](/docs/automation/tutorials/customer-inquiry-router)** - Follow step-by-step guides to build practical automation solutions, including our popular [Customer Inquiry Router](/docs/automation/tutorials/customer-inquiry-router) and [Email to Spreadsheet](/docs/automation/tutorials/email-to-spreadsheet) tutorials.
 
 This track addresses the growing demand for automation skills, with companies reporting 10-20 hours saved per employee weekly through strategic automation implementation.
 
@@ -70,7 +70,7 @@ Each guide now includes specific tool recommendations, detailed example prompts,
 
 ## 🔧 Developer Resources & Project Architecture
 
-For contributors and developers, we've added comprehensive [project documentation](/CLAUDE.md) that covers:
+For contributors and developers, we've added comprehensive project documentation that covers:
 
 - Complete Docusaurus architecture and configuration details
 - Content standards and style guide requirements  
@@ -82,7 +82,7 @@ This documentation ensures consistent, high-quality contributions as our platfor
 
 ## 🌐 Model Context Protocol Integration
 
-We've enhanced our [Model Context Protocol](/docs/model-context-protocol/) documentation with improved structure and clearer learning progression. This advanced topic covers structured AI system design and represents an important bridge between foundational AI knowledge and enterprise implementation.
+We've enhanced our [Model Context Protocol](/docs/model-context-protocol/introduction) documentation with improved structure and clearer learning progression. This advanced topic covers structured AI system design and represents an important bridge between foundational AI knowledge and enterprise implementation.
 
 ## What This Means for You
 
@@ -121,7 +121,7 @@ Ready to dive into the new content? Here are recommended starting points:
 
 **Looking for Career-Specific Guidance?** Visit the enhanced [career guides](/docs/ai-and-careers/) for your industry.
 
-**Ready for Advanced Topics?** Check out the [Model Context Protocol](/docs/model-context-protocol/) for structured AI system design.
+**Ready for Advanced Topics?** Check out the [Model Context Protocol](/docs/model-context-protocol/introduction) for structured AI system design.
 
 This expansion nearly doubles our available content while maintaining the practical, safety-focused approach that defines AI Maniacs education. Every piece of new content is designed to provide immediate value while building skills for ongoing professional development.
 

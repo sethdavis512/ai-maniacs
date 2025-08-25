@@ -57,3 +57,38 @@ welcome:
   label: Welcome
   permalink: /welcome
   description: Welcome posts and site announcements
+
+updates:
+  label: Updates
+  permalink: /updates
+  description: Platform updates and feature announcements
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Workflow automation tools and techniques
+
+generative-ui:
+  label: Generative UI
+  permalink: /generative-ui
+  description: AI-powered user interface generation tools
+
+career-guides:
+  label: Career Guides
+  permalink: /career-guides
+  description: AI applications for specific careers and industries
+
+expansion:
+  label: Expansion
+  permalink: /expansion
+  description: Platform expansion and new content announcements
+
+improvements:
+  label: Improvements
+  permalink: /improvements
+  description: Platform improvements and enhancements
+
+user-experience:
+  label: User Experience
+  permalink: /user-experience
+  description: User experience improvements and accessibility updates

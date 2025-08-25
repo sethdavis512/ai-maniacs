@@ -128,6 +128,36 @@ Write as a knowledgeable guide who has walked this path before and wants to help
 - Reference previous learning when building on concepts
 - Set expectations for upcoming complexity
 
+### Link Validation Standards
+
+**Internal Link Format:**
+- **Correct:** `/docs/section/page` (no file extensions)
+- **Incorrect:** `/docs/section/page.md` (never include .md)
+- **Incorrect:** `/docs/section/` (avoid directory links)
+
+**Required Validation Steps:**
+1. **Before Publishing:** Manually verify 3-5 random internal links by checking live URLs
+2. **Build Test:** Always run `npm run build` before committing - build fails on broken links
+3. **Documentation Check:** Verify referenced pages exist in actual file structure using `ls docs/[path]`
+
+**Common Link Errors to Avoid:**
+- Linking to directories instead of specific files
+- Including `.md` extensions in URLs
+- Using old paths after content restructuring
+- Linking to placeholder content that doesn't exist yet
+
+**Link Maintenance Process:**
+- When moving or renaming files, search codebase for all references
+- Update all internal links before deploying changes
+- Use relative paths consistently: `./filename` or `../folder/filename`
+- Test all changed links on live site after deployment
+
+**Emergency Link Fix Protocol:**
+1. Identify broken link pattern (e.g., all `.md` extensions)
+2. Use global search/replace to fix pattern across all files
+3. Run build validation immediately after changes
+4. Verify fixes on live site within 24 hours
+
 ## Content Types and Specific Guidelines
 
 ### Introductory Content
@@ -162,6 +192,9 @@ Write as a knowledgeable guide who has walked this path before and wants to help
 - [ ] Structure follows established template
 - [ ] Content connects logically to prerequisite and subsequent material
 - [ ] Inclusive language standards followed (no "master/mastery/mastering")
+- [ ] All internal links validated (no .md extensions, actual files exist)
+- [ ] Build test passes (`npm run build` succeeds)
+- [ ] Sample of links tested on live site
 
 ### Review Process
 1. **Content Review**: Does this advance the reader's learning journey?
