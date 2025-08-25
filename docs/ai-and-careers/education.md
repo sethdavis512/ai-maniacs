@@ -142,7 +142,7 @@ AI transforms education by automating lesson planning, creating personalized lea
 
 "Generate college application essay prompts related to [academic subject]"
 
-"Design capstone project options for [course] that demonstrate mastery"
+"Design capstone project options for [course] that demonstrate proficiency"
 ```
 
 ### Higher Education
@@ -245,7 +245,7 @@ AI transforms education by automating lesson planning, creating personalized lea
 **Continuous Learning**:
 
 ```text
-"Create a professional development plan for mastering [educational technology/pedagogy]"
+"Create a professional development plan for excelling in [educational technology/pedagogy]"
 
 "Generate reflection questions for analyzing the effectiveness of [teaching strategy]"
 

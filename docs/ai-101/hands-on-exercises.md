@@ -10,7 +10,7 @@ Practice makes perfect! This section provides structured exercises to reinforce 
 
 ### Exercise 1: Prompt Engineering Fundamentals
 
-**Goal**: Master the basics of effective prompting
+**Goal**: Learn the basics of effective prompting
 
 **Task**: Write prompts for these scenarios and test them with your chosen AI tool:
 

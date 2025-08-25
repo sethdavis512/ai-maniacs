@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # AI Model Evaluation Methods
 
-Master systematic approaches to measuring AI performance, from basic accuracy metrics to sophisticated evaluation frameworks for complex applications.
+Learn systematic approaches to measuring AI performance, from basic accuracy metrics to sophisticated evaluation frameworks for complex applications.
 
 :::warning
 Content created with AI assistance - may contain errors or become outdated.

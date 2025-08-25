@@ -292,7 +292,7 @@ Specify what you DON'T want:
 ## Key Takeaways
 
 1. **Choose the right tool** for your specific needs and budget
-2. **Master prompt engineering** to get better results consistently
+2. **Learn prompt engineering** to get better results consistently
 3. **Understand licensing** and legal implications
 4. **Combine AI with human creativity** for best results
 5. **Stay ethical** and transparent about AI use

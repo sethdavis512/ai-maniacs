@@ -89,6 +89,11 @@ Write as a knowledgeable guide who has walked this path before and wants to help
 - Provide specific, actionable examples rather than abstract descriptions
 - Include both positive examples (what to do) and negative examples (what to avoid) when helpful
 
+### Inclusive Language Standards
+- **Avoid**: "master", "mastery", "mastering" - use "learn", "excel in", "proficiency", "expertise"
+- **Use**: "learn the basics", "develop expertise in", "gain proficiency", "become skilled at"
+- **Replace**: "master prompt" → "learn prompt", "mastery level" → "proficiency level", "master the tool" → "excel with the tool"
+
 ## Formatting Standards
 
 ### Headings
@@ -156,6 +161,7 @@ Write as a knowledgeable guide who has walked this path before and wants to help
 - [ ] Technical terms are explained appropriately for audience
 - [ ] Structure follows established template
 - [ ] Content connects logically to prerequisite and subsequent material
+- [ ] Inclusive language standards followed (no "master/mastery/mastering")
 
 ### Review Process
 1. **Content Review**: Does this advance the reader's learning journey?

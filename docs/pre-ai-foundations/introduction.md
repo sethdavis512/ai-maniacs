@@ -30,4 +30,4 @@ The estimated time for this module is 2-3 hours total, presented in short, pract
 
 ## Ready to Begin?
 
-Remember that everyone starts somewhere. This foundation will give you confidence and ensure you get the most out of your AI learning journey. Don't worry about understanding everything perfectly - the goal is familiarity and comfort, not mastery. You'll use these concepts throughout your AI journey.
+Remember that everyone starts somewhere. This foundation will give you confidence and ensure you get the most out of your AI learning journey. Don't worry about understanding everything perfectly - the goal is familiarity and comfort, not proficiency. You'll use these concepts throughout your AI journey.

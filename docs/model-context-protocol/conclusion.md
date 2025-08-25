@@ -8,7 +8,7 @@ sidebar_position: 6
 
 Congratulations! You've completed the Model Context Protocol (MCP) course. Let's review what you've accomplished:
 
-### Core Concepts Mastered ✅
+### Core Concepts Learned ✅
 
 - **MCP Foundation**: Understanding structured context vs. traditional prompting
 - **Four Components**: Identity, Instructions, Documents, and Tools working together

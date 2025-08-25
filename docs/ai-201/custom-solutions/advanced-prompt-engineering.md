@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Advanced Prompt Engineering Techniques
 
-Building on basic prompting skills from AI 101, you'll master sophisticated techniques that dramatically improve AI output quality, consistency, and reliability for professional applications.
+Building on basic prompting skills from AI 101, you'll learn sophisticated techniques that dramatically improve AI output quality, consistency, and reliability for professional applications.
 
 ## Structured Prompt Architecture
 

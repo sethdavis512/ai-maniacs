@@ -294,7 +294,7 @@ Audio and video AI tools are revolutionizing content creation, communication, an
 ### Beginner-Friendly Workflow
 
 1. **Start Simple**: Begin with one tool for one specific task
-2. **Learn the Basics**: Master prompt writing for audio/video AI
+2. **Learn the Basics**: Learn prompt writing for audio/video AI
 3. **Experiment**: Try different tools and compare results
 4. **Integrate Gradually**: Add AI tools to existing workflows
 5. **Scale Up**: Expand to more complex projects as you gain experience
@@ -335,7 +335,7 @@ Audio and video AI tools are revolutionizing content creation, communication, an
 
 #### Challenge: Learning curve for multiple tools
 
-**Solution**: Master one tool at a time, join communities for tips, practice regularly
+**Solution**: Learn one tool at a time, join communities for tips, practice regularly
 
 ## Next Steps
 

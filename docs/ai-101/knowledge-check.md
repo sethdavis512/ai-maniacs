@@ -211,7 +211,7 @@ Rate yourself honestly on each skill (1 = Beginner, 5 = Expert):
 
 #### High Performers (Knowledge: 8-10, Skills: 4.0+)
 
-**Congratulations!** You've mastered AI 101 concepts and are ready for advanced learning.
+**Congratulations!** You've completed AI 101 concepts and are ready for advanced learning.
 
 **Next Steps:**
 
@@ -299,11 +299,11 @@ To consider yourself "AI 101 Complete," you should be able to:
 - **Technical Roles**: Focus on AI 201 Advanced Foundations and Custom Solutions
 - **Business Roles**: Emphasize AI 201 Enterprise Integration and Ethics  
 - **Creative Roles**: Deep dive into AI applications and advanced prompt engineering
-- **Leadership Roles**: Master AI strategy, ROI analysis, and change management
+- **Leadership Roles**: Learn AI strategy, ROI analysis, and change management
 
 ### Personal Interest Learners
 
-- **Productivity**: Master workflow automation and AI tool integration
+- **Productivity**: Learn workflow automation and AI tool integration
 - **Creativity**: Explore advanced image, video, and audio AI tools
 - **Learning**: Use AI to accelerate learning in other subjects
 - **Problem-Solving**: Apply AI to personal challenges and projects

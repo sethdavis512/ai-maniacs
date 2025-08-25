@@ -137,7 +137,7 @@ d) RAG only for search applications
 
 **Requirements**:
 
-- One master prompt that works for technical, business, and general audiences
+- One universal prompt that works for technical, business, and general audiences
 - Include examples for each audience type
 - Test with a complex topic (e.g., machine learning, blockchain, or climate science)
 

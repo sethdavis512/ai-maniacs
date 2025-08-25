@@ -312,7 +312,7 @@ AI transforms marketing and sales by automating content creation, personalizing 
 ```text
 "Explain the latest trends in [marketing channel] and how to apply them"
 
-"Create a professional development plan for mastering [marketing skill]"
+"Create a professional development plan for excelling in [marketing skill]"
 
 "Generate ideas for marketing experiments to test in [industry]"
 ```

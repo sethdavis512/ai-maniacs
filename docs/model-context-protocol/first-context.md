@@ -147,7 +147,7 @@ Provide the AI with **information it needs** to help effectively:
       "content": {
         "completed_sessions": 3,
         "total_study_hours": 8.5,
-        "topics_mastered": ["basic_psychology_concepts", "descriptive_statistics"],
+        "topics_learned": ["basic_psychology_concepts", "descriptive_statistics"],
         "topics_struggling": ["inferential_statistics", "experimental_controls"]
       }
     }
@@ -305,7 +305,7 @@ Here's our complete MCP context:
       "content": {
         "completed_sessions": 3,
         "total_study_hours": 8.5,
-        "topics_mastered": ["basic_psychology_concepts", "descriptive_statistics"],
+        "topics_learned": ["basic_psychology_concepts", "descriptive_statistics"],
         "topics_struggling": ["inferential_statistics", "experimental_controls"]
       }
     }

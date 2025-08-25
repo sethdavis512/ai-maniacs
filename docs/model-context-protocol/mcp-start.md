@@ -10,7 +10,7 @@ Ready to transform unpredictable AI into reliable, auditable systems? This compr
 
 ## What You'll Learn
 
-By completing this module, you'll master:
+By completing this module, you'll develop expertise in:
 
 - **Core Concepts**: Understanding structured context vs. traditional prompting
 - **Component Design**: Building Identity, Instructions, Documents, and Tools
@@ -45,7 +45,7 @@ Start here to understand what MCP is and why it matters. Learn the core concept 
 **Time**: 45 minutes  
 **Level**: Beginner
 
-Dive deep into the four building blocks of every MCP context. Master each component with hands-on examples.
+Dive deep into the four building blocks of every MCP context. Learn each component with hands-on examples.
 
 **Key Topics**:
 

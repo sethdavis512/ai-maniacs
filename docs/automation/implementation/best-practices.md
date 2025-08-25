@@ -11,7 +11,7 @@ Learning from common automation pitfalls and implementing proven best practices 
 ## What You'll Learn
 
 - **Establish effective governance**: Create structures and processes that ensure automation success across your organization
-- **Master change management**: Guide people through automation transitions with minimal resistance and maximum adoption
+- **Excel at change management**: Guide people through automation transitions with minimal resistance and maximum adoption
 - **Avoid common failures**: Recognize and prevent the mistakes that derail automation projects
 - **Build sustainable practices**: Develop processes for ongoing automation maintenance, optimization, and scaling
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: AI Learning Hub
-description: Learn artificial intelligence from scratch with our comprehensive beginner-friendly course. Master AI tools, explore career applications, and build AI literacy with hands-on tutorials and safety-first approach.
+description: Learn artificial intelligence from scratch with our comprehensive beginner-friendly course. Learn AI tools, explore career applications, and build AI literacy with hands-on tutorials and safety-first approach.
 keywords: [AI course, artificial intelligence learning, AI for beginners, AI education, machine learning tutorials, AI tools, AI literacy, AI safety, prompt engineering, AI careers]
 image: /img/ai-maniacs-social-card.jpg
 ---
@@ -24,7 +24,7 @@ This course is designed for complete beginners who want to:
 - Learn about different types of AI models, especially Large Language Models (LLMs)
 - Discover the major AI companies and their tools
 - Use AI safely and ethically
-- Master practical applications for work and creativity
+- Learn practical applications for work and creativity
 - Join the AI community and continue learning
 
 ## Course Structure

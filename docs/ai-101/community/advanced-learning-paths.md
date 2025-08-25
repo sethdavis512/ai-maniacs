@@ -20,7 +20,7 @@ Ready to take your AI skills to the next level? This lesson outlines different p
 
 **Skill-Focused Paths**
 
-- **Prompt Engineering Mastery**: Becoming expert at AI communication
+- **Prompt Engineering Proficiency**: Becoming expert at AI communication
 - **AI Tool Specialist**: Deep expertise in specific AI platforms
 - **Technical Implementation**: Learning to integrate AI into workflows
 - **AI Strategy**: Understanding business implications and adoption
@@ -67,14 +67,14 @@ Ready to take your AI skills to the next level? This lesson outlines different p
 
 **Learning Steps**:
 
-1. **Month 1-2: Prompt Mastery**
+1. **Month 1-2: Prompt Proficiency**
    - Complete advanced prompt engineering courses
    - Practice with complex, multi-step prompts
    - Learn prompt chaining and conversation management
    - Experiment with different AI models
 
 2. **Month 3-4: Tool Specialization**
-   - Master 2-3 AI tools deeply
+   - Learn 2-3 AI tools deeply
    - Learn API usage for automation
    - Explore custom GPTs and AI assistants
    - Build personal AI workflows
@@ -188,7 +188,7 @@ Ready to take your AI skills to the next level? This lesson outlines different p
 
 ### Path 4: The AI Creator/Artist
 
-**Goal**: Master AI tools for creative work and artistic expression
+**Goal**: Learn AI tools for creative work and artistic expression
 
 **Duration**: 3-6 months
 
@@ -202,8 +202,8 @@ Ready to take your AI skills to the next level? This lesson outlines different p
 
 **Learning Steps**:
 
-1. **Month 1-2: Visual Mastery**
-   - Master multiple image generation tools
+1. **Month 1-2: Visual Proficiency**
+   - Learn multiple image generation tools
    - Learn advanced prompting for art
    - Explore style transfer and editing
    - Practice consistent character/brand creation
@@ -218,7 +218,7 @@ Ready to take your AI skills to the next level? This lesson outlines different p
    - Develop client-ready creative processes
    - Build portfolio of AI-enhanced work
    - Learn about IP and licensing for AI art
-   - Master presentation and client communication
+   - Learn presentation and client communication
 
 **Recommended Resources**:
 
@@ -423,7 +423,7 @@ Learning Goal Assessment:
 ```
 Progress Review Questions:
 - What new skills have I developed?
-- Which tools have I mastered?
+- Which tools am I proficient in?
 - What challenges am I still facing?
 - How has my understanding deepened?
 - What should I focus on next month?
@@ -491,7 +491,7 @@ Progress Review Questions:
 4. **Build real projects** to apply your learning
 5. **Stay current** with AI developments and trends
 6. **Share your knowledge** to reinforce learning
-7. **Be patient and persistent** - AI mastery takes time
+7. **Be patient and persistent** - AI proficiency takes time
 
 The AI field is evolving rapidly, offering exciting opportunities for those who continue learning and adapting. Choose your path, stay committed to continuous learning, and enjoy the journey of becoming an AI expert.
 

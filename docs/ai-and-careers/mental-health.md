@@ -80,7 +80,7 @@ AI should NEVER replace clinical judgment or direct patient care. Always maintai
 ```text
 "Summarize recent research on [therapeutic intervention] for [client population]"
 
-"Create a professional development plan for mastering [therapy modality]"
+"Create a professional development plan for excelling in [therapy modality]"
 
 "Generate supervision questions for discussing [clinical scenario]"
 

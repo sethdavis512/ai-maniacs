@@ -47,7 +47,7 @@ Before starting AI 201, make sure you're comfortable with these AI 101 concepts:
 
 - Learn how training data affects model behavior
 - Understand different model architectures and their strengths
-- Master advanced prompt engineering techniques
+- Learn advanced prompt engineering techniques
 - Build custom AI solutions and workflows
 
 ### Business and Enterprise Focus
@@ -235,7 +235,7 @@ Staying ahead of the curve
 
 By completing AI 201, you'll be able to:
 
-### Technical Mastery
+### Technical Proficiency
 
 - Design and implement custom AI solutions
 - Understand model behavior and optimization
@@ -273,6 +273,6 @@ If you've completed the prerequisites and feel confident with the fundamentals, 
 
 ---
 
-**Remember**: AI 201 is challenging but rewarding. Take your time, practice actively, and don't hesitate to revisit concepts or ask for help. The goal is deep, practical mastery that will serve you for years to come.
+**Remember**: AI 201 is challenging but rewarding. Take your time, practice actively, and don't hesitate to revisit concepts or ask for help. The goal is deep, practical expertise that will serve you for years to come.
 
 Welcome to the next level of your AI journey! 🚀

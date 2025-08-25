@@ -1,17 +1,35 @@
-# AI Maniacs - AI 101 Learning Platform
+# AI Maniacs - Comprehensive AI Learning Platform
 
-**Your comprehensive guide to learning AI - from beginner to power user**
+**Your complete guide to excelling in AI, automation, and advanced AI systems**
 
-This is an educational platform designed to teach artificial intelligence concepts, tools, and best practices to complete beginners. No technical background required!
+AI Maniacs is a comprehensive educational platform that takes you from complete AI beginner to advanced practitioner. Learn artificial intelligence, automation strategies, and cutting-edge AI implementation techniques through practical, hands-on modules designed for real-world application.
 
 ## 🎯 What You'll Learn
 
-- **Foundations of AI**: Understanding what AI is and how LLMs work
-- **Major AI Companies**: OpenAI, Google, Microsoft, and the AI ecosystem
-- **Practical Applications**: Using AI for text, images, code, and business
-- **AI Safety**: Privacy, ethics, and responsible AI use
-- **Best Practices**: Prompt engineering and optimization techniques
-- **Community**: Resources for continued learning and growth
+### 🤖 **AI Foundations & Applications**
+- **Core AI Concepts**: Understanding AI, LLMs, and model architectures
+- **AI Company Landscape**: OpenAI, Google, Microsoft, and the AI ecosystem  
+- **Practical AI Applications**: Text, image, code, audio, and video AI tools
+- **AI Safety & Ethics**: Privacy, security, and responsible AI implementation
+- **Advanced Prompting**: Prompt engineering and optimization techniques
+
+### 🚀 **Career-Specific AI Integration**
+- **Industry Applications**: Healthcare, finance, education, marketing, legal, and more
+- **Professional AI Tools**: Role-specific AI applications and workflows
+- **Implementation Strategies**: Step-by-step integration into your profession
+- **ROI & Business Cases**: Measuring and proving AI value in organizations
+
+### ⚙️ **Automation & Workflow Optimization**
+- **Automation Fundamentals**: RPA, workflow automation, and AI-powered systems
+- **Tool Proficiency**: No-code platforms, enterprise solutions, and integration strategies
+- **Strategic Planning**: Building automation roadmaps and calculating ROI  
+- **Change Management**: Successfully implementing automation across organizations
+
+### 🔧 **Advanced AI Systems**
+- **Model Context Protocol (MCP)**: Building structured, reliable AI systems
+- **Enterprise Integration**: Scaling AI solutions across organizations
+- **Advanced Customization**: Fine-tuning, prompt engineering, and system optimization
+- **Future-Ready Skills**: Emerging AI trends and advanced implementation patterns
 
 ## 🚀 Getting Started
 
@@ -32,16 +50,58 @@ npm run build
 
 Generates optimized static content for deployment.
 
-## 📚 Course Structure
+## 📚 Learning Modules
 
-The course is organized into 6 progressive modules:
+The platform includes comprehensive modules designed for progressive skill building:
 
-1. **Foundations of AI** - Core concepts and background
-2. **Major AI Companies & Platforms** - Industry landscape
-3. **Practical AI Applications** - Real-world use cases
-4. **AI Safety & Responsible Use** - Ethics and best practices
-5. **Best Practices & Optimization** - Advanced techniques
-6. **Community & Continued Learning** - Resources and next steps
+### 🎓 **Core Learning Tracks**
+
+#### **AI 101: Foundations** - *Start Here*
+Learn AI fundamentals through 6 progressive modules:
+- 🧠 **AI Foundations** - Core concepts and model understanding
+- 🏢 **AI Company Landscape** - Major platforms and tools
+- ⚡ **Practical Applications** - Hands-on AI tool usage
+- 🛡️ **AI Safety & Ethics** - Responsible AI practices
+- 🎯 **Best Practices** - Prompt engineering and optimization
+- 🌍 **Community & Growth** - Resources and continued learning
+
+#### **AI 201: Advanced Applications** - *Next Level*
+Deep-dive into professional AI implementation:
+- 🔧 **Advanced Foundations** - Model architecture and behavior
+- 🏗️ **Custom Solutions** - Fine-tuning and advanced prompting
+- 🔗 **Workflow Automation** - API integration and automation tools
+- 🏢 **Enterprise Integration** - Organizational AI strategy
+- 📊 **Evaluation & Measurement** - ROI and impact assessment
+- 🚀 **Innovation & Research** - Emerging trends and future planning
+
+### 🎯 **Specialized Applications**
+
+#### **AI and Careers** - *Apply to Your Profession*
+Industry-specific AI integration guides:
+- 🏥 **Healthcare** - Clinical documentation, diagnosis support, patient education
+- 💼 **Business & Finance** - Marketing, sales, finance, consulting applications
+- 🎓 **Education** - Lesson planning, assessment, personalized learning
+- 🎨 **Creative Industries** - Content writing, design, visual arts
+- ⚙️ **Technology** - Software development, debugging, documentation
+- 🤝 **Support Services** - Customer service, HR, legal applications
+
+#### **Automation Essentials** - *Workflow Optimization*
+Complete automation proficiency:
+- 📖 **Foundations** - Understanding automation types and opportunities
+- 🛠️ **Tools & Platforms** - No-code, RPA, and AI-powered solutions
+- 📊 **Strategy & ROI** - Building business cases and scaling programs
+- 🏭 **Industry Applications** - Real-world automation implementations
+- 📋 **Implementation Guide** - Step-by-step deployment strategies
+- 🎯 **Hands-On Tutorials** - Practical automation projects
+
+#### **Model Context Protocol (MCP)** - *Advanced AI Systems*
+Building structured, reliable AI applications:
+- 📚 **MCP Fundamentals** - Understanding structured AI contexts
+- 🧩 **Context Components** - Identity, Instructions, Documents, and Tools
+- 🔨 **Practical Implementation** - Building your first MCP context
+- 🌍 **Real-World Applications** - Industry-specific MCP patterns
+- ⚙️ **Advanced Patterns** - Optimization, troubleshooting, and scaling
+- 🎓 **Expertise & Next Steps** - Advanced implementation and enterprise deployment
 
 ## 🤝 Contributing
 
@@ -96,4 +156,10 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
-**Ready to start your AI journey?** Visit the platform and begin with [AI 101: Using AI for Beginners](./docs/intro.md)!
+**Ready to excel in AI?** Start your learning journey:
+
+🔰 **New to AI?** Begin with [AI 101: Foundations](./docs/ai-101/ai-101-intro.md)  
+🚀 **Ready for more?** Advance to [AI 201: Applications](./docs/ai-201/ai-201-intro.md)  
+💼 **Apply to your career?** Explore [AI and Careers](./docs/ai-and-careers/index.md)  
+⚙️ **Optimize your workflows?** Explore [Automation Essentials](./docs/automation/index.md)  
+🔧 **Build advanced systems?** Learn [Model Context Protocol](./docs/model-context-protocol/mcp-start.md)

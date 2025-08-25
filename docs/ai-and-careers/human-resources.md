@@ -375,7 +375,7 @@ AI enhances HR by automating recruitment processes, analyzing employee sentiment
 **Technical Competencies**:
 
 ```text
-"Create learning plans for mastering [HR technology/analytics]"
+"Create learning plans for excelling in [HR technology/analytics]"
 
 "Generate certification study guides for [SHRM/HRCI credentials]"
 

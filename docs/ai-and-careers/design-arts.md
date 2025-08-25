@@ -378,7 +378,7 @@ Designers and visual artists can harness AI to accelerate ideation, enhance crea
 **Technical Growth**:
 
 ```text
-"Create learning paths for mastering [specific design software/AI tool]"
+"Create learning paths for excelling in [specific design software/AI tool]"
 
 "Generate practice projects that develop [design skill/technique]"
 

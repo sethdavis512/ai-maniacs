@@ -21,7 +21,7 @@ Every day, knowledge workers spend hours on tasks that computers can handle bett
 
 Automation changes this equation. Companies using automation report saving 10-20 hours per employee per week on routine tasks. More importantly, automation reduces errors, ensures consistency, and frees people to focus on high-impact activities that drive business results.
 
-The automation market reflects this value. Global automation spending reached $31 billion in 2024 and is projected to grow at 27% annually through 2030. Organizations that master automation gain competitive advantages in efficiency, accuracy, and employee satisfaction.
+The automation market reflects this value. Global automation spending reached $31 billion in 2024 and is projected to grow at 27% annually through 2030. Organizations that excel in automation gain competitive advantages in efficiency, accuracy, and employee satisfaction.
 
 ## Types of Automation
 
@@ -43,7 +43,9 @@ This guide follows a practical progression that mirrors how successful automatio
 
 **Tools and Platforms** provide detailed guidance on choosing between no-code workflow tools, enterprise RPA platforms, and AI-powered automation systems.
 
-**Industry Applications** show how automation solves real business problems across departments and industries, with specific examples you can adapt to your situation.
+**Strategy and ROI** shows you how to develop comprehensive automation strategies, calculate return on investment, and scale automation initiatives across your organization.
+
+**Industry Applications** demonstrate how automation solves real business problems across departments and industries, with specific examples you can adapt to your situation.
 
 **Implementation Guide** walks through the practical steps of planning, executing, and optimizing automation projects, including change management and measuring success.
 
@@ -55,7 +57,7 @@ If you're completely new to automation, start with the foundations section to bu
 
 ## Key Takeaways
 
-- **Automation is essential**: Organizations that master automation gain significant competitive advantages in efficiency and employee satisfaction
+- **Automation is essential**: Organizations that excel in automation gain significant competitive advantages in efficiency and employee satisfaction
 - **Multiple approaches exist**: Choose from workflow automation, RPA, AI-powered systems, and integration tools based on your specific needs
 - **Market momentum is strong**: $31 billion market growing at 27% annually indicates widespread adoption and continued innovation
 - **Implementation matters**: Success depends on proper planning, tool selection, and change management
@@ -66,5 +68,7 @@ If you're completely new to automation, start with the foundations section to bu
 Ready to explore the automation landscape? Continue to the Understanding Automation Fundamentals section to build a solid foundation in automation concepts and approaches.
 
 Want to jump straight to tools? Visit the Tools and Platforms section to compare popular automation solutions.
+
+Need to build a business case? Review the Strategy and ROI section for frameworks to calculate value and secure executive support.
 
 Need to see real applications? Check out the Industry Applications section for specific use cases and success stories.

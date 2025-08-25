@@ -244,7 +244,7 @@ Content created with AI assistance - may contain errors or become outdated.
 
 ### Exercise 5: Advanced Prompt Engineering Lab
 
-**Goal**: Master sophisticated prompt engineering techniques for complex applications.
+**Goal**: Learn sophisticated prompt engineering techniques for complex applications.
 
 **Challenge Areas**:
 

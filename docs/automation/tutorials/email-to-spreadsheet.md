@@ -150,7 +150,7 @@ Once comfortable with basic automation, consider these enhancements:
 - **Free tools provide real value**: Zapier's free plan and Google Sheets create professional automation without cost
 - **Testing prevents problems**: Always test automation thoroughly before relying on it for important business processes
 - **Monitoring ensures reliability**: Regular checks maintain data quality and catch issues early
-- **Start simple, then expand**: Master basic automation before adding complexity
+- **Start simple, then expand**: Learn basic automation before adding complexity
 
 ## Next Steps
 
