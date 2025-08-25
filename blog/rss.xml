@@ -21,10 +21,10 @@
 <p>The biggest addition to our platform is a complete <a href="https://ai-maniacs.com/docs/automation">Automation Essentials</a> learning track. This comprehensive curriculum takes you from automation beginner to confident implementer with over 15 detailed modules covering:</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-find">What You'll Find<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#what-youll-find" class="hash-link" aria-label="Direct link to What You'll Find" title="Direct link to What You'll Find">​</a></h3>
 <p><strong><a href="https://ai-maniacs.com/docs/automation/foundations/what-is-automation">Automation Fundamentals</a></strong> - Understand the different types of automation and when to use each approach, from workflow automation to AI-powered systems.</p>
-<p><strong><a href="https://ai-maniacs.com/docs/automation/tools">Tool Evaluation &amp; Selection</a></strong> - Compare no-code platforms like Zapier with enterprise RPA solutions, plus discover AI-powered automation tools that add intelligence to routine processes.</p>
+<p><strong><a href="https://ai-maniacs.com/docs/automation/tools/no-code-workflow-tools">Tool Evaluation &amp; Selection</a></strong> - Compare no-code platforms like Zapier with enterprise RPA solutions, plus discover AI-powered automation tools that add intelligence to routine processes.</p>
 <p><strong><a href="https://ai-maniacs.com/docs/automation/strategy/building-automation-strategy">Strategic Implementation</a></strong> - Learn how to develop comprehensive automation strategies that deliver measurable ROI and scale across your organization.</p>
-<p><strong><a href="https://ai-maniacs.com/docs/automation/applications">Industry Applications</a></strong> - See real-world automation examples across different departments and industries, with specific use cases you can adapt immediately.</p>
-<p><strong><a href="https://ai-maniacs.com/docs/automation/tutorials">Hands-On Tutorials</a></strong> - Follow step-by-step guides to build practical automation solutions, including our popular <a href="https://ai-maniacs.com/docs/automation/tutorials/customer-inquiry-router">Customer Inquiry Router</a> and <a href="https://ai-maniacs.com/docs/automation/tutorials/email-to-spreadsheet">Email to Spreadsheet</a> tutorials.</p>
+<p><strong><a href="https://ai-maniacs.com/docs/automation/applications/business-process-automation">Industry Applications</a></strong> - See real-world automation examples across different departments and industries, with specific use cases you can adapt immediately.</p>
+<p><strong><a href="https://ai-maniacs.com/docs/automation/tutorials/customer-inquiry-router">Hands-On Tutorials</a></strong> - Follow step-by-step guides to build practical automation solutions, including our popular <a href="https://ai-maniacs.com/docs/automation/tutorials/customer-inquiry-router">Customer Inquiry Router</a> and <a href="https://ai-maniacs.com/docs/automation/tutorials/email-to-spreadsheet">Email to Spreadsheet</a> tutorials.</p>
 <p>This track addresses the growing demand for automation skills, with companies reporting 10-20 hours saved per employee weekly through strategic automation implementation.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-generative-ui-tools--applications">🎨 Generative UI Tools &amp; Applications<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#-generative-ui-tools--applications" class="hash-link" aria-label="Direct link to 🎨 Generative UI Tools &amp; Applications" title="Direct link to 🎨 Generative UI Tools &amp; Applications">​</a></h2>
 <p>We've added comprehensive coverage of the rapidly evolving <a href="https://ai-maniacs.com/docs/ai-101/applications/generative-ui-tools">Generative UI Tools</a> landscape. This detailed guide covers:</p>
@@ -46,7 +46,7 @@
 <p><strong><a href="https://ai-maniacs.com/docs/ai-and-careers/software-development">AI for Software Development</a></strong> - Enhance coding productivity with AI assistants, automated testing, and intelligent debugging. Includes best practices for AI-assisted development workflows.</p>
 <p>Each guide now includes specific tool recommendations, detailed example prompts, safety considerations, and practical implementation strategies tailored to industry professionals.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-developer-resources--project-architecture">🔧 Developer Resources &amp; Project Architecture<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#-developer-resources--project-architecture" class="hash-link" aria-label="Direct link to 🔧 Developer Resources &amp; Project Architecture" title="Direct link to 🔧 Developer Resources &amp; Project Architecture">​</a></h2>
-<p>For contributors and developers, we've added comprehensive <a href="https://ai-maniacs.com/CLAUDE.md">project documentation</a> that covers:</p>
+<p>For contributors and developers, we've added comprehensive project documentation that covers:</p>
 <ul>
 <li>Complete Docusaurus architecture and configuration details</li>
 <li>Content standards and style guide requirements</li>
@@ -56,7 +56,7 @@
 </ul>
 <p>This documentation ensures consistent, high-quality contributions as our platform continues to expand.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-model-context-protocol-integration">🌐 Model Context Protocol Integration<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#-model-context-protocol-integration" class="hash-link" aria-label="Direct link to 🌐 Model Context Protocol Integration" title="Direct link to 🌐 Model Context Protocol Integration">​</a></h2>
-<p>We've enhanced our <a href="https://ai-maniacs.com/docs/model-context-protocol">Model Context Protocol</a> documentation with improved structure and clearer learning progression. This advanced topic covers structured AI system design and represents an important bridge between foundational AI knowledge and enterprise implementation.</p>
+<p>We've enhanced our <a href="https://ai-maniacs.com/docs/model-context-protocol/introduction">Model Context Protocol</a> documentation with improved structure and clearer learning progression. This advanced topic covers structured AI system design and represents an important bridge between foundational AI knowledge and enterprise implementation.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-this-means-for-you">What This Means for You<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#what-this-means-for-you" class="hash-link" aria-label="Direct link to What This Means for You" title="Direct link to What This Means for You">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="for-beginners">For Beginners<a href="https://ai-maniacs.com/blog/major-expansion-new-learning-tracks#for-beginners" class="hash-link" aria-label="Direct link to For Beginners" title="Direct link to For Beginners">​</a></h3>
 <p>The new automation track provides a natural progression from basic AI concepts to practical workflow implementation. Start with <a href="https://ai-maniacs.com/docs/ai-101/ai-101-intro">AI 101</a> and move to <a href="https://ai-maniacs.com/docs/automation">Automation Fundamentals</a> when ready.</p>
@@ -79,16 +79,16 @@
 <p><strong>New to Automation?</strong> Begin with <a href="https://ai-maniacs.com/docs/automation/foundations/what-is-automation">What is Automation</a> to understand the fundamentals.</p>
 <p><strong>Want to Build UIs with AI?</strong> Explore <a href="https://ai-maniacs.com/docs/ai-101/applications/generative-ui-tools">Generative UI Tools</a> for comprehensive tool guidance.</p>
 <p><strong>Looking for Career-Specific Guidance?</strong> Visit the enhanced <a href="https://ai-maniacs.com/docs/ai-and-careers">career guides</a> for your industry.</p>
-<p><strong>Ready for Advanced Topics?</strong> Check out the <a href="https://ai-maniacs.com/docs/model-context-protocol">Model Context Protocol</a> for structured AI system design.</p>
+<p><strong>Ready for Advanced Topics?</strong> Check out the <a href="https://ai-maniacs.com/docs/model-context-protocol/introduction">Model Context Protocol</a> for structured AI system design.</p>
 <p>This expansion nearly doubles our available content while maintaining the practical, safety-focused approach that defines AI Maniacs education. Every piece of new content is designed to provide immediate value while building skills for ongoing professional development.</p>
 <p>Thank you for being part of our growing community. The enhanced platform provides significantly more learning opportunities while preserving the beginner-friendly approach that makes AI accessible to everyone.</p>
 <hr>
 <p><strong>Ready to explore?</strong> Start with any of the new learning tracks and experience the expanded curriculum firsthand.</p>]]></content:encoded>
-            <category>updates</category>
-            <category>automation</category>
-            <category>generative-ui</category>
-            <category>career-guides</category>
-            <category>expansion</category>
+            <category>Updates</category>
+            <category>Automation</category>
+            <category>Generative UI</category>
+            <category>Career Guides</category>
+            <category>Expansion</category>
         </item>
         <item>
             <title><![CDATA[Platform Improvements - Enhanced Learning Experience]]></title>
@@ -116,9 +116,9 @@
 <p>We're expanding advanced content areas, developing industry-specific learning paths, and exploring interactive features that enhance hands-on learning. Community features that connect learners with similar interests and experience levels are also in development.</p>
 <p>Thank you for your patience during these improvements and for the feedback that guided these enhancements. The upgraded platform provides a significantly better learning experience while maintaining the practical, safety-focused approach that defines AI Maniacs education.</p>
 <p>Visit the updated curriculum to experience these improvements firsthand.</p>]]></content:encoded>
-            <category>updates</category>
-            <category>improvements</category>
-            <category>user-experience</category>
+            <category>Updates</category>
+            <category>Improvements</category>
+            <category>User Experience</category>
         </item>
         <item>
             <title><![CDATA[Welcome to AI Maniacs - Comprehensive AI Education Platform]]></title>
