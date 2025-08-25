@@ -18,21 +18,21 @@ The biggest addition to our platform is a complete [Automation Essentials](/docs
 
 ### What You'll Find
 
-**[Automation Fundamentals](/docs/automation/foundations/what-is-automation.md)** - Understand the different types of automation and when to use each approach, from workflow automation to AI-powered systems.
+**[Automation Fundamentals](/docs/automation/foundations/what-is-automation)** - Understand the different types of automation and when to use each approach, from workflow automation to AI-powered systems.
 
 **[Tool Evaluation & Selection](/docs/automation/tools/)** - Compare no-code platforms like Zapier with enterprise RPA solutions, plus discover AI-powered automation tools that add intelligence to routine processes.
 
-**[Strategic Implementation](/docs/automation/strategy/building-automation-strategy.md)** - Learn how to develop comprehensive automation strategies that deliver measurable ROI and scale across your organization.
+**[Strategic Implementation](/docs/automation/strategy/building-automation-strategy)** - Learn how to develop comprehensive automation strategies that deliver measurable ROI and scale across your organization.
 
 **[Industry Applications](/docs/automation/applications/)** - See real-world automation examples across different departments and industries, with specific use cases you can adapt immediately.
 
-**[Hands-On Tutorials](/docs/automation/tutorials/)** - Follow step-by-step guides to build practical automation solutions, including our popular [Customer Inquiry Router](/docs/automation/tutorials/customer-inquiry-router.md) and [Email to Spreadsheet](/docs/automation/tutorials/email-to-spreadsheet.md) tutorials.
+**[Hands-On Tutorials](/docs/automation/tutorials/)** - Follow step-by-step guides to build practical automation solutions, including our popular [Customer Inquiry Router](/docs/automation/tutorials/customer-inquiry-router) and [Email to Spreadsheet](/docs/automation/tutorials/email-to-spreadsheet) tutorials.
 
 This track addresses the growing demand for automation skills, with companies reporting 10-20 hours saved per employee weekly through strategic automation implementation.
 
 ## 🎨 Generative UI Tools & Applications
 
-We've added comprehensive coverage of the rapidly evolving [Generative UI Tools](/docs/ai-101/applications/generative-ui-tools.md) landscape. This detailed guide covers:
+We've added comprehensive coverage of the rapidly evolving [Generative UI Tools](/docs/ai-101/applications/generative-ui-tools) landscape. This detailed guide covers:
 
 ### Modern Development Tools
 
@@ -56,15 +56,15 @@ We've substantially expanded our [AI and Careers](/docs/ai-and-careers/) section
 
 ### Newly Enhanced Guides
 
-**[AI for Teachers & Educators](/docs/ai-and-careers/education.md)** - Transform your teaching with lesson planning automation, assessment generators, and personalized learning resources. Save 3-5 hours weekly on administrative tasks while enhancing student engagement.
+**[AI for Teachers & Educators](/docs/ai-and-careers/education)** - Transform your teaching with lesson planning automation, assessment generators, and personalized learning resources. Save 3-5 hours weekly on administrative tasks while enhancing student engagement.
 
-**[AI for Finance & Accounting](/docs/ai-and-careers/finance-accounting.md)** - Revolutionize financial analysis with automated data processing, anomaly detection, and comprehensive reporting tools. Includes specialized applications for corporate finance, tax preparation, and compliance monitoring.
+**[AI for Finance & Accounting](/docs/ai-and-careers/finance-accounting)** - Revolutionize financial analysis with automated data processing, anomaly detection, and comprehensive reporting tools. Includes specialized applications for corporate finance, tax preparation, and compliance monitoring.
 
-**[AI for Human Resources](/docs/ai-and-careers/human-resources.md)** - Streamline recruitment, enhance employee engagement, and automate administrative processes. Features tools for resume screening, interview preparation, and performance management.
+**[AI for Human Resources](/docs/ai-and-careers/human-resources)** - Streamline recruitment, enhance employee engagement, and automate administrative processes. Features tools for resume screening, interview preparation, and performance management.
 
-**[AI for Marketing & Sales](/docs/ai-and-careers/marketing-sales.md)** - Accelerate content creation, optimize campaigns, and personalize customer interactions. Comprehensive coverage of marketing automation and sales enablement tools.
+**[AI for Marketing & Sales](/docs/ai-and-careers/marketing-sales)** - Accelerate content creation, optimize campaigns, and personalize customer interactions. Comprehensive coverage of marketing automation and sales enablement tools.
 
-**[AI for Software Development](/docs/ai-and-careers/software-development.md)** - Enhance coding productivity with AI assistants, automated testing, and intelligent debugging. Includes best practices for AI-assisted development workflows.
+**[AI for Software Development](/docs/ai-and-careers/software-development)** - Enhance coding productivity with AI assistants, automated testing, and intelligent debugging. Includes best practices for AI-assisted development workflows.
 
 Each guide now includes specific tool recommendations, detailed example prompts, safety considerations, and practical implementation strategies tailored to industry professionals.
 
@@ -88,7 +88,7 @@ We've enhanced our [Model Context Protocol](/docs/model-context-protocol/) docum
 
 ### For Beginners
 
-The new automation track provides a natural progression from basic AI concepts to practical workflow implementation. Start with [AI 101](/docs/intro) and move to [Automation Fundamentals](/docs/automation/) when ready.
+The new automation track provides a natural progression from basic AI concepts to practical workflow implementation. Start with [AI 101](/docs/ai-101/ai-101-intro) and move to [Automation Fundamentals](/docs/automation/) when ready.
 
 ### For Professionals
 
@@ -115,9 +115,9 @@ This expansion represents our commitment to comprehensive AI education that serv
 
 Ready to dive into the new content? Here are recommended starting points:
 
-**New to Automation?** Begin with [What is Automation](/docs/automation/foundations/what-is-automation.md) to understand the fundamentals.
+**New to Automation?** Begin with [What is Automation](/docs/automation/foundations/what-is-automation) to understand the fundamentals.
 
-**Want to Build UIs with AI?** Explore [Generative UI Tools](/docs/ai-101/applications/generative-ui-tools.md) for comprehensive tool guidance.
+**Want to Build UIs with AI?** Explore [Generative UI Tools](/docs/ai-101/applications/generative-ui-tools) for comprehensive tool guidance.
 
 **Looking for Career-Specific Guidance?** Visit the enhanced [career guides](/docs/ai-and-careers/) for your industry.
 

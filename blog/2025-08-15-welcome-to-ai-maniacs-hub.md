@@ -141,7 +141,7 @@ The world of AI is vast and exciting, but it doesn't have to be overwhelming. We
 
 ### 🎯 **Your Next Steps:**
 
-1. **Start with the Basics**: Check out our [AI 101 Course](/docs/intro) - it's designed specifically for beginners
+1. **Start with the Basics**: Check out our [AI 101 Course](/docs/ai-101/ai-101-intro) - it's designed specifically for beginners
 2. **Join the Community**: Connect with other learners (links coming soon!)
 3. **Stay Updated**: Subscribe to our newsletter for the latest content and tips
 4. **Experiment**: Try the tools and techniques you learn about
@@ -159,7 +159,7 @@ Let's make AI accessible, useful, and fun for everyone! 🎉
 
 ---
 
-**Ready to dive in?** Start with our [Introduction to AI](/docs/intro) and take your first step into the AI-powered future.
+**Ready to dive in?** Start with our [Introduction to AI](/docs/ai-101/ai-101-intro) and take your first step into the AI-powered future.
 
 **Questions or feedback?** Drop us a line - we'd love to hear from you!
 
