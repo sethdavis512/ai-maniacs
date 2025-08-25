@@ -1,16 +1,24 @@
 ---
 sidebar_position: 4
+title: AI for Teachers & Educators
+description: Transform your teaching with AI. Get lesson planning tools, assessment generators, personalized learning resources, and administrative automation. Enhance student engagement while saving hours of preparation time.
+keywords: [AI education tools, teacher AI, lesson planning AI, educational AI, classroom AI, AI assessment, personalized learning AI, teaching automation]
+image: /img/ai-maniacs-social-card.jpg
 ---
 
-# Teachers & Educators
+# AI for Teachers & Educators
 
 :::warning
 Content created with AI assistance - may contain errors or become outdated.
 :::
 
-## Overview
+AI transforms education by automating lesson planning, creating personalized learning materials, and providing instant feedback while you focus on student relationships and complex pedagogical decisions. This guide shows you how to enhance your teaching effectiveness while maintaining educational quality.
 
-Educators at all levels can use AI to enhance lesson planning, create engaging content, provide personalized feedback, and streamline administrative tasks. This guide helps you integrate AI tools while maintaining educational quality and fostering critical thinking skills.
+**What you'll learn:**
+- AI-powered lesson planning and curriculum development tools
+- Automated assessment and feedback generation techniques  
+- Personalized learning material creation for diverse student needs
+- Administrative task automation to save 3-5 hours weekly
 
 ## Key Applications
 

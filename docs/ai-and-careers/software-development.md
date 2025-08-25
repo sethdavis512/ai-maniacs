@@ -1,16 +1,24 @@
 ---
 sidebar_position: 5
+title: AI for Software Development
+description: Accelerate your development workflow with AI. Get code generation, debugging assistance, automated testing, and documentation tools. Boost productivity while maintaining code quality and learning new technologies faster.
+keywords: [AI coding tools, GitHub Copilot, code generation AI, software development AI, programming AI assistant, automated testing AI, developer productivity, AI debugging]
+image: /img/ai-maniacs-social-card.jpg
 ---
 
-# Software Development
+# AI for Software Development
 
 :::warning
 Content created with AI assistance - may contain errors or become outdated.
 :::
 
-## Overview
+AI is revolutionizing software development by automating code generation, enhancing debugging, and accelerating learning. This guide shows you how to integrate AI tools into your development workflow to write better code faster while maintaining quality and expanding your skills.
 
-Software developers can leverage AI to accelerate coding, improve code quality, automate testing, and enhance problem-solving. This guide covers practical AI applications that boost productivity while maintaining code standards and fostering continuous learning.
+**What you'll learn:**
+- Code generation and completion tools that boost productivity by 30-50%
+- AI-powered debugging and optimization techniques
+- Automated testing and documentation generation
+- Advanced workflow integrations for development teams
 
 ## Key Applications
 
@@ -20,10 +28,12 @@ Software developers can leverage AI to accelerate coding, improve code quality, 
 
 **Recommended Tools**:
 
-- **GitHub Copilot**: AI pair programmer for multiple languages
-- **Tabnine**: Code completion and generation
-- **Codeium**: Free AI-powered coding assistant
-- **Amazon CodeWhisperer**: AWS-focused code generation
+- **GitHub Copilot**: AI pair programmer for multiple languages (now with chat features)
+- **Cursor**: AI-first code editor with advanced context awareness
+- **Codeium**: Free AI-powered coding assistant with enterprise features
+- **Windsurf**: Intelligent development environment with AI workflows
+- **v0.dev**: AI UI generation from Vercel
+- **Claude 3.5 Sonnet**: Excellent for code analysis and debugging
 
 **Example Prompts**:
 
@@ -43,10 +53,11 @@ Software developers can leverage AI to accelerate coding, improve code quality, 
 
 **Recommended Tools**:
 
-- **ChatGPT Plus**: Code analysis and optimization suggestions
-- **Claude**: Excellent for explaining complex code logic
-- **DeepCode**: AI-powered static code analysis
-- **Codacy**: Automated code quality assessment
+- **Claude 3.5 Sonnet**: Superior code explanation and refactoring suggestions
+- **ChatGPT o1**: Advanced reasoning for complex algorithmic problems
+- **Cursor Composer**: Multi-file code refactoring and optimization
+- **SonarQube**: AI-enhanced static analysis and security scanning
+- **DeepSource**: Automated code quality with AI insights
 
 **Example Prompts**:
 
@@ -427,15 +438,18 @@ Software developers can leverage AI to accelerate coding, improve code quality, 
 - Human-AI collaboration workflows
 - Ethical AI usage in software development
 
-## Next Steps
+## Key takeaways
 
-Ready to supercharge your development workflow with AI?
+- AI coding assistants can increase development speed by 30-50% while maintaining code quality
+- Start with code generation for common patterns, then expand to debugging and testing
+- AI excels at documentation, refactoring, and explaining complex code logic
+- Human oversight remains critical for architecture decisions and business logic
 
-1. **Choose your first AI tool** based on your primary development needs
-2. **Start with simple tasks** like code generation and documentation
-3. **Establish quality control processes** for AI-generated code
-4. **Share learnings** with your development team
+## Next steps
 
----
+1. **Install GitHub Copilot or Codeium** - Start with basic code completion and generation
+2. **Practice with simple functions** - Generate utilities, tests, and documentation
+3. **Establish code review processes** - Always review AI-generated code for security and logic
+4. **Integrate into team workflows** - Share successful patterns and establish best practices
 
-*Remember: AI is a powerful development accelerator, but critical thinking, problem-solving, and software engineering principles remain the foundation of great code.*
+Continue to: [AI for Consulting](./consulting.md) to learn how consultants use AI for research and client solutions.

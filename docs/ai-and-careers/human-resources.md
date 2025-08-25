@@ -1,16 +1,24 @@
 ---
 sidebar_position: 10
+title: AI for Human Resources
+description: Transform your HR operations with AI. Get recruitment automation, employee engagement tools, performance analysis, and policy development assistance. Enhance people management while reducing administrative burden.
+keywords: [AI HR tools, recruitment AI, employee engagement AI, HR automation, performance management AI, talent acquisition AI, HR analytics]
+image: /img/ai-maniacs-social-card.jpg
 ---
 
-# Human Resources
+# AI for Human Resources
 
 :::warning
 Content created with AI assistance - may contain errors or become outdated. Always follow employment law and company policies.
 :::
 
-## Overview
+AI enhances HR by automating recruitment processes, analyzing employee sentiment, and providing data-driven insights while you focus on strategic people development and maintaining company culture. This guide shows you how to integrate AI thoughtfully into HR operations.
 
-HR professionals can leverage AI to streamline recruitment, enhance employee engagement, automate administrative tasks, and provide data-driven insights while maintaining the human-centered approach essential to people management.
+**What you'll learn:**
+- AI-powered recruitment and candidate screening tools
+- Employee engagement analysis and sentiment monitoring
+- Automated performance review and feedback systems
+- Compliance monitoring and policy development assistance
 
 ## Key Applications
 
