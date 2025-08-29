@@ -6,6 +6,10 @@ sidebar_position: 1
 
 Learning about AI is more fun and effective when you're part of a community. This lesson covers the best places to connect with other AI enthusiasts, get help, and stay updated.
 
+:::info
+**Looking for comprehensive AI resources?** Check out our new [AI Resources Hub](../../ai-resources/) for curated tools, platforms, datasets, learning materials, and business resources across the entire AI ecosystem.
+:::
+
 ## Online Communities
 
 ### Reddit Communities

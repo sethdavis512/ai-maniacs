@@ -200,6 +200,12 @@ const config: Config = {
                     position: 'left',
                     label: 'MCP'
                 },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'resourcesSidebar',
+                    position: 'left',
+                    label: 'AI Resources'
+                },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     href: 'https://github.com/sethdavis512/ai-maniacs',
@@ -229,6 +235,10 @@ const config: Config = {
                         {
                             label: 'MCP',
                             to: '/docs/model-context-protocol/mcp-start'
+                        },
+                        {
+                            label: 'AI Resources',
+                            to: '/docs/ai-resources/'
                         },
                         {
                             label: 'Blog',
