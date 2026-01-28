@@ -1,0 +1,8 @@
+{
+  "label": "AI Agents",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about autonomous AI agents, their capabilities, and how to build systems that work for you."
+  }
+}

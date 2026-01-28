@@ -6,63 +6,110 @@ keywords: [AI course, artificial intelligence learning, AI for beginners, AI edu
 image: /img/ai-maniacs-social-card.jpg
 ---
 
-# Welcome to AI Maniacs
+# Welcome to AI Maniacs (2026 Edition)
 
-Welcome to **AI Maniacs** - your comprehensive guide to understanding and using artificial intelligence tools effectively and responsibly.
+Welcome to **AI Maniacs** - your practical guide to AI agents, autonomous systems, and the modern AI landscape. Updated for 2026.
 
-:::warning
-
-This content was created with AI assistance to provide you with the most current and comprehensive information available. While we strive for accuracy, AI-generated content may occasionally contain errors or become outdated as technology evolves. We welcome community contributions - if you spot something that needs updating or have suggestions for improvement, please feel free to submit a pull request or open an issue on our GitHub repository.
-
+:::info What's Changed Since You Were Last Here
+AI has evolved from chat interfaces to **autonomous agents** that complete tasks independently. If you learned AI in 2023-2024, much has changed. This course reflects the current reality: agents, skills, and delegation over prompting.
 :::
 
 ## What You'll Learn
 
-This course is designed for complete beginners who want to:
+**If you're new to AI:**
+- How AI agents work (they do tasks, not just answer questions)
+- Building your first autonomous workflows
+- Using tools like Claude Code, Cursor, and Perplexity
+- Creating custom AI skills for your needs
+- Safe, ethical AI use in professional settings
 
-- Understand what AI is and how it works
-- Learn about different types of AI models, especially Large Language Models (LLMs)
-- Discover the major AI companies and their tools
-- Use AI safely and ethically
-- Learn practical applications for work and creativity
-- Join the AI community and continue learning
+**If you used AI before 2026:**
+- The shift from chat → agents
+- New tools: Cursor, Claude Code, v0.dev, Bolt.new
+- Skills ecosystem and customization
+- MCP (Model Context Protocol) for tool integration
+- Multi-agent orchestration
 
 ## Course Structure
 
-The course is organized into 6 modules:
+**Updated for 2026:**
 
-1. **🧠 Foundations of AI** - Understanding the basics
-2. **🏢 Major AI Companies & Platforms** - Who's who in AI
-3. **⚡ Practical AI Applications** - Real-world uses
-4. **🛡️ AI Safety & Responsible Use** - Using AI ethically
-5. **🎯 Best Practices & Optimization** - Getting better results
-6. **🌍 Community & Continued Learning** - Staying connected and updated
+1. **🧠 AI 101: Foundations** - Core concepts (updated for 2026 capabilities)
+2. **🤖 AI Agents** ⭐ NEW - Autonomous AI systems and workflows
+3. **🏢 AI Tools & Platforms** - Current landscape (Claude Sonnet 4.5, GPT-4.5, Gemini 2.0)
+4. **⚡ Practical Applications** - Real-world agent implementations
+5. **🔧 Automation** - Agent-first workflow design
+6. **💼 AI and Careers** - Industry-specific AI stacks
+7. **🎓 AI Power User** (was AI 201) - Advanced techniques
+8. **🔌 Model Context Protocol (MCP)** - Connect AI to tools and data
 
-## Getting Started
+## Start Here (2026 Recommendations)
 
-**No technical background required!** This course assumes you're starting from zero. We'll build your understanding step by step with:
+### Path 1: "I'm Brand New to AI"
 
-- Clear explanations and real examples
-- Hands-on exercises you can try immediately
-- Safety guidelines to protect your data
-- Community resources for ongoing support
+1. Start with [What is AI?](./ai-101/foundations/what-is-ai.md) to build foundation
+2. Try [Claude](https://claude.ai) or [ChatGPT](https://chat.openai.com) (both free)
+3. Give it a real task: "Research X and create a summary document"
+4. Jump to [AI Agents Overview](./ai-agents/index.md) to see what's possible
+5. Browse [50+ Agent Use Cases](./ai-agents/use-cases.md) for ideas
 
-Ready to become an AI-powered individual? Let's start with [Understanding AI Basics](./ai-101/foundations/what-is-ai.md)!
+### Path 2: "I Used ChatGPT in 2023-2024"
 
-## How to Use This Course
+1. Read [AI Agents Overview](./ai-agents/index.md) to understand the shift
+2. Check [Tools & Platforms 2026](./ai-resources/tools-platforms.md) for what's new
+3. Try **Claude Sonnet 4.5** or **GPT-4.5** (both much better now)
+4. Learn about [Skills & Instructions](./ai-agents/skills-instructions.md)
+5. Build your first agent from [Use Cases](./ai-agents/use-cases.md)
 
-### Self-Paced Learning
+### Path 3: "I'm a Developer"
 
-Work through the modules at your own speed. Each lesson builds on previous concepts, so we recommend following the order.
+1. Install [Cursor](https://cursor.sh) immediately (most popular AI IDE)
+2. Try [Claude Code](https://github.com/anthropics/claude-code) in terminal
+3. Experiment with [v0.dev](https://v0.dev) or [Bolt.new](https://bolt.new)
+4. Learn [MCP](./model-context-protocol/introduction.md) for tool integration
+5. Build an agent with [LangGraph](https://langchain.com) or [Claude SDK](https://github.com/anthropics/anthropic-agent-sdk)
 
-### Hands-On Practice
+### Path 4: "I Want to Build Systems"
 
-Try the examples and exercises as you go. The best way to learn AI is by using it!
+1. Understand [Agent Patterns](./ai-agents/agent-patterns.md)
+2. Learn [MCP Integration](./ai-agents/mcp-integration.md)
+3. Explore [Multi-Agent Systems](./ai-agents/multi-agent-systems.md)
+4. Study [Agent Safety](./ai-agents/agent-safety.md)
+5. Choose no-code (Relevance AI, Lindy) or code (LangGraph, CrewAI)
 
-### Community Support
+## Key 2026 Concepts
 
-Join our community discussions and ask questions. Learning together makes the journey more enjoyable and effective.
+**Agents > Assistants**
+Stop thinking "What should I ask AI?" Start thinking "What should I delegate to an agent?"
 
-### Stay Updated
+**Skills Ecosystem**
+Extend AI with custom capabilities via [skills.sh](https://skills.sh) and custom instructions
 
-AI technology evolves rapidly. We regularly update this course with new tools, techniques, and best practices.
+**MCP Standard**
+Connect AI to tools, databases, and APIs using the industry-standard protocol
+
+**Context is Huge**
+200K-2M token windows mean you can give AI entire codebases, document sets, or conversation histories
+
+**Multi-Modal Default**
+Text, images, audio, video - all in one interface, no special modes needed
+
+## What's Different in 2026
+
+**Then (2023-2024):**
+- Chat interface only
+- Copy/paste outputs
+- Limited context (4K-32K tokens)
+- Hallucinations common
+- One-shot responses
+
+**Now (2026):**
+- Autonomous agents
+- End-to-end task completion
+- Massive context (200K-2M tokens)
+- Tool use and verification
+- Multi-turn reasoning
+
+**The shift:** From "AI helps me work" to "AI works for me"
+
+Ready to dive in? Choose your path above or start with [AI Agents](./ai-agents/index.md).

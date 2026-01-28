@@ -1,31 +1,246 @@
 ---
 sidebar_position: 2
+title: Introduction to MCP
+description: Model Context Protocol (MCP) is the industry standard for connecting AI agents to tools, databases, and external data. Learn why it matters in 2026.
+keywords: [MCP, Model Context Protocol, AI tools, AI integration, agent tools, MCP servers, Claude MCP, tool use]
 ---
 
-# Introduction to Model Context Protocol
+# Introduction to Model Context Protocol (MCP)
 
-## Learning Objectives
+:::info 2026 Status
+MCP is now the **industry standard** for connecting AI agents to tools and data sources. All major platforms (Claude, ChatGPT, Gemini) support it. If you're building agents that need to access external tools, MCP is how you do it.
+:::
 
-By the end of this lesson, you will be able to:
+## What is MCP? (2026 Definition)
 
-- Explain what Model Context Protocol (MCP) is and why it matters
-- Understand the core problems MCP solves in AI interactions
-- Recognize when to use structured context vs. simple prompts
-- Identify the key benefits of using MCP in AI applications
+**MCP is the universal protocol for giving AI agents access to tools, databases, and external data.**
 
-## Prerequisites
+Think of it like USB-C for AI:
+- **Before MCP:** Every AI platform had its own custom way to connect tools
+- **With MCP:** One standard protocol, works everywhere
 
-Before starting this module, you should have:
+## Why MCP Matters in 2026
 
-- Completed AI 101: Foundations module
-- Basic understanding of how AI chatbots work
-- Familiarity with the concept of "prompts" in AI
+### The Problem It Solved
 
-## What is Model Context Protocol?
+**2023-2024:** Want Claude to access your database? Build custom integration. Want ChatGPT to read Slack? Different custom integration. Want Gemini to browse files? Another custom integration.
 
-Imagine you're giving directions to a friend. You could say "Go to the store" (vague), or you could provide structured information: "Drive to Target on Main Street, park in the front lot, enter through the main entrance, and look for the electronics section on the right side of the store."
+**2026:** Build one MCP server. Works with all AI platforms.
 
-Model Context Protocol (MCP) does something similar for AI systems. Instead of throwing random information into a prompt and hoping for the best, MCP provides a **structured way to package context** that makes AI behavior predictable and reliable.
+### Real Example
+
+**Before MCP:**
+```
+Claude integration ──> Slack (custom code)
+ChatGPT integration ──> Slack (different custom code)
+Gemini integration ──> Slack (yet another custom code)
+```
+
+**With MCP:**
+```
+           ┌──> Claude
+Slack MCP──┼──> ChatGPT
+Server     └──> Gemini
+```
+
+One integration, works everywhere.
+
+## What MCP Actually Does
+
+MCP servers expose **capabilities** to AI agents:
+
+### 1. Tools (Functions the AI can call)
+```typescript
+// MCP Server exposes tools
+{
+  name: "search_slack",
+  description: "Search Slack messages",
+  parameters: {
+    query: "string",
+    channel: "optional string"
+  }
+}
+```
+
+**Agent uses it:**
+```
+Agent: "Find mentions of 'budget' in Slack"
+→ Calls: search_slack("budget")
+→ Gets: [list of messages]
+→ Responds to user with findings
+```
+
+### 2. Resources (Data the AI can read)
+```typescript
+// MCP Server exposes resources
+{
+  uri: "slack://channels/general/messages",
+  name: "General channel messages",
+  mimeType: "application/json"
+}
+```
+
+### 3. Prompts (Pre-packaged instructions)
+```typescript
+// MCP Server provides prompts
+{
+  name: "analyze_thread",
+  description: "Analyze a Slack thread for action items",
+  arguments: { thread_url: "string" }
+}
+```
+
+## Popular MCP Servers (2026)
+
+### Official Anthropic Servers
+- **filesystem** - Read/write files
+- **github** - Repos, issues, PRs
+- **postgres** - Database queries
+- **google-drive** - Docs, Sheets access
+- **slack** - Messages, channels
+- **memory** - Persistent memory for agents
+
+### Community Servers
+Find hundreds at [modelcontextprotocol.io](https://modelcontextprotocol.io)
+
+**Popular:**
+- Notion MCP
+- Salesforce MCP
+- Linear MCP
+- Figma MCP
+- AWS MCP
+- Browser automation MCP
+
+## How to Use MCP (User Perspective)
+
+### In Claude Desktop
+
+1. Install MCP server (via npm, pip, or binary)
+2. Configure in Claude settings
+3. Claude can now use those tools automatically
+
+**Example - Add GitHub access:**
+```json
+// In Claude config
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@anthropics/mcp-server-github"],
+      "env": {
+        "GITHUB_TOKEN": "your_token"
+      }
+    }
+  }
+}
+```
+
+Now Claude can:
+- Read your repos
+- Create issues
+- Comment on PRs
+- Search code
+- Check CI status
+
+### In ChatGPT (Custom GPTs)
+
+1. Create Custom GPT
+2. Add "Actions" (MCP endpoints)
+3. Configure authentication
+4. GPT can now call those functions
+
+### In Gemini
+
+1. Use Gemini API with function calling
+2. Point to MCP server endpoints
+3. Gemini calls functions as needed
+
+## Building Your First MCP Server
+
+**You should build an MCP server if:**
+- You have a tool/database AI agents need to access
+- You want to use it across multiple AI platforms
+- You need structured tool access (not just prompting)
+
+**Simple MCP server (Python):**
+```python
+from mcp import Server, Tool
+
+server = Server("my-tool-server")
+
+@server.tool()
+async def get_data(query: str) -> str:
+    """Fetch data from my system"""
+    # Your logic here
+    return f"Data for {query}"
+
+if __name__ == "__main__":
+    server.run()
+```
+
+**Then use it with Claude, ChatGPT, or Gemini.**
+
+## MCP vs Other Approaches
+
+| Approach | When to Use |
+|----------|-------------|
+| **MCP** | Production agents needing reliable tool access |
+| **Function calling** | Simple, single-platform integrations |
+| **Plugins (deprecated)** | Don't use - MCP replaced this |
+| **Prompting alone** | No tool access needed |
+
+## Real-World MCP Use Cases
+
+### 1. Engineering Agent
+**MCP Servers:** GitHub, Linear, Slack
+**Agent can:** Check issues, write code, create PRs, update tickets
+
+### 2. Sales Agent
+**MCP Servers:** Salesforce, HubSpot, email
+**Agent can:** Research leads, update CRM, send outreach
+
+### 3. Research Agent
+**MCP Servers:** Web scraper, PDF reader, database
+**Agent can:** Search web, extract data, query knowledge base
+
+### 4. Analytics Agent
+**MCP Servers:** Postgres, Google Analytics, Mixpanel
+**Agent can:** Query databases, generate reports, visualize data
+
+## Getting Started with MCP
+
+**For users:**
+1. Try Claude Desktop with built-in MCP servers
+2. Install community servers for your tools
+3. Configure and let agents use them
+
+**For developers:**
+1. Read [MCP documentation](https://modelcontextprotocol.io)
+2. Try example servers from Anthropic
+3. Build server for your tool/data
+4. Publish to MCP registry
+
+## Common Questions
+
+**Q: Do I need to learn MCP to use AI agents?**
+A: No - just install and configure servers. Building them requires coding.
+
+**Q: Is MCP only for Claude?**
+A: No - industry standard works with all major platforms.
+
+**Q: Can I connect to any API via MCP?**
+A: Yes, if there's an MCP server for it, or you build one.
+
+**Q: Are MCP servers secure?**
+A: They run locally or on your infrastructure, you control access.
+
+## What's Changed Since Launch
+
+**Early 2024:** Anthropic announces MCP
+**Mid 2024:** Community builds first servers
+**Late 2024:** OpenAI adds support
+**2025:** Google adds support, becomes standard
+**2026:** Default way to connect AI to tools
 
 ### The "Nutrition Label" Analogy
 
