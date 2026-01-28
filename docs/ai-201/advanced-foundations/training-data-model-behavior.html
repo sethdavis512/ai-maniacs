@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-ai-201/advanced-foundations/training-data-model-behavior" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.8.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Understanding Training Data &amp; Model Behavior | A.I. Maniacs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:image" content="https://ai-maniacs.com/img/ai-maniacs-logo-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://ai-maniacs.com/img/ai-maniacs-logo-social-card.jpg"><meta data-rh="true" property="og:url" content="https://ai-maniacs.com/docs/ai-201/advanced-foundations/training-data-model-behavior"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="AI learning, artificial intelligence education, AI courses, AI for beginners, machine learning tutorials, AI tools, AI career guidance, AI safety, prompt engineering, AI literacy"><meta data-rh="true" name="author" content="Seth Davis"><meta data-rh="true" name="robots" content="index, follow"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:site" content="@sethdavis512"><meta data-rh="true" name="twitter:creator" content="@sethdavis512"><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:site_name" content="AI Maniacs"><meta data-rh="true" property="og:locale" content="en_US"><meta data-rh="true" property="article:author" content="Seth Davis"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Understanding Training Data &amp; Model Behavior | A.I. Maniacs"><meta data-rh="true" name="description" content="To use AI effectively at an intermediate level, you need to understand how training data shapes model behavior. This knowledge helps you predict how models will respond and work around their limitations."><meta data-rh="true" property="og:description" content="To use AI effectively at an intermediate level, you need to understand how training data shapes model behavior. This knowledge helps you predict how models will respond and work around their limitations."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ai-maniacs.com/docs/ai-201/advanced-foundations/training-data-model-behavior"><link data-rh="true" rel="alternate" href="https://ai-maniacs.com/docs/ai-201/advanced-foundations/training-data-model-behavior" hreflang="en"><link data-rh="true" rel="alternate" href="https://ai-maniacs.com/docs/ai-201/advanced-foundations/training-data-model-behavior" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Advanced AI Foundations","item":"https://ai-maniacs.com/docs/category/advanced-ai-foundations"},{"@type":"ListItem","position":2,"name":"Understanding Training Data & Model Behavior","item":"https://ai-maniacs.com/docs/ai-201/advanced-foundations/training-data-model-behavior"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="AI Maniacs Blog - AI News &amp; Tutorials RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="AI Maniacs Blog - AI News &amp; Tutorials Atom Feed">
 
@@ -11,308 +11,308 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"AI Maniacs","description":"Comprehensive AI education platform for beginners. Learn artificial intelligence fundamentals, explore AI tools, and discover career applications.","url":"https://ai-maniacs.com","logo":"https://ai-maniacs.com/img/ai-maniacs-logo-full.svg","sameAs":["https://github.com/sethdavis512/ai-maniacs","https://sethdavis.tech/"],"teaches":["Artificial Intelligence Fundamentals","AI Tools and Applications","AI Safety and Ethics","Career Applications of AI","Model Context Protocol"],"courseMode":"online","educationalLevel":"beginner","inLanguage":"en","isAccessibleForFree":true,"learningResourceType":"Course","author":{"@type":"Person","name":"Seth Davis","url":"https://sethdavis.tech/"}}</script><link rel="stylesheet" href="/assets/css/styles.8bf182a3.css">
-<script src="/assets/js/runtime~main.a2de2b15.js" defer="defer"></script>
-<script src="/assets/js/main.3d7a88c5.js" defer="defer"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"AI Maniacs","description":"Comprehensive AI education platform for beginners. Learn artificial intelligence fundamentals, explore AI tools, and discover career applications.","url":"https://ai-maniacs.com","logo":"https://ai-maniacs.com/img/ai-maniacs-logo-full.svg","sameAs":["https://github.com/sethdavis512/ai-maniacs","https://sethdavis.tech/"],"teaches":["Artificial Intelligence Fundamentals","AI Tools and Applications","AI Safety and Ethics","Career Applications of AI","Model Context Protocol"],"courseMode":"online","educationalLevel":"beginner","inLanguage":"en","isAccessibleForFree":true,"learningResourceType":"Course","author":{"@type":"Person","name":"Seth Davis","url":"https://sethdavis.tech/"}}</script><link rel="stylesheet" href="/assets/css/styles.e30d724a.css">
+<script src="/assets/js/runtime~main.500c20c1.js" defer="defer"></script>
+<script src="/assets/js/main.e9bd1c07.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<svg style="display: none;"><defs>
 <symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
 </defs></svg>
-<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">A.I. Maniacs</b></a><a class="navbar__item navbar__link" href="/docs/intro">AI 101</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/ai-201/ai-201-intro">AI 201</a><a class="navbar__item navbar__link" href="/docs/ai-and-careers">AI &amp; Careers</a><a class="navbar__item navbar__link" href="/docs/automation/foundations/what-is-automation">Automation</a><a class="navbar__item navbar__link" href="/docs/model-context-protocol/mcp-start">MCP</a><a class="navbar__item navbar__link" href="/docs/ai-resources">AI Resources</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/ai-201-intro">AI 201: Ready for the Next Level?</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/category/advanced-ai-foundations">Advanced AI Foundations</a><button aria-label="Collapse sidebar category &#x27;Advanced AI Foundations&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/ai-201/advanced-foundations/model-architecture-deep-dive">AI Model Architecture &amp; How Models Really Work</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/ai-201/advanced-foundations/training-data-model-behavior">Understanding Training Data &amp; Model Behavior</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/advanced-workflow-automation">Advanced Workflow Automation</a><button aria-label="Expand sidebar category &#x27;Advanced Workflow Automation&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/custom-ai-solutions">Custom AI Solutions</a><button aria-label="Expand sidebar category &#x27;Custom AI Solutions&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/enterprise-integration">Enterprise Integration</a><button aria-label="Expand sidebar category &#x27;Enterprise Integration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/hands-on-exercises">AI 201 Hands-On Exercises &amp; Advanced Projects</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/advanced-ai-ethics--governance">Advanced AI Ethics &amp; Governance</a><button aria-label="Expand sidebar category &#x27;Advanced AI Ethics &amp; Governance&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/knowledge-check">AI 201 Knowledge Check &amp; Self-Assessment</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/evaluation--measurement">Evaluation &amp; Measurement</a><button aria-label="Expand sidebar category &#x27;Evaluation &amp; Measurement&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/innovation--research">Innovation &amp; Research</a><button aria-label="Expand sidebar category &#x27;Innovation &amp; Research&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/conclusion">Congratulations! You&#x27;ve Completed AI 201</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/advanced-ai-foundations"><span>Advanced AI Foundations</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Understanding Training Data &amp; Model Behavior</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Understanding Training Data &amp; Model Behavior</h1></header>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">A.I. Maniacs</b></a><a class="navbar__item navbar__link" href="/docs/intro">AI 101</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/ai-201/ai-201-intro">AI 201</a><a class="navbar__item navbar__link" href="/docs/ai-and-careers">AI &amp; Careers</a><a class="navbar__item navbar__link" href="/docs/automation/foundations/what-is-automation">Automation</a><a class="navbar__item navbar__link" href="/docs/model-context-protocol/mcp-start">MCP</a><a class="navbar__item navbar__link" href="/docs/ai-resources">AI Resources</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/ai-201-intro"><span title="AI 201: Ready for the Next Level?" class="linkLabel_WmDU">AI 201: Ready for the Next Level?</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/docs/category/advanced-ai-foundations"><span title="Advanced AI Foundations" class="categoryLinkLabel_W154">Advanced AI Foundations</span></a><button aria-label="Collapse sidebar category &#x27;Advanced AI Foundations&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/ai-201/advanced-foundations/model-architecture-deep-dive"><span title="AI Model Architecture &amp; How Models Really Work" class="linkLabel_WmDU">AI Model Architecture &amp; How Models Really Work</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/ai-201/advanced-foundations/training-data-model-behavior"><span title="Understanding Training Data &amp; Model Behavior" class="linkLabel_WmDU">Understanding Training Data &amp; Model Behavior</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/advanced-workflow-automation"><span title="Advanced Workflow Automation" class="categoryLinkLabel_W154">Advanced Workflow Automation</span></a><button aria-label="Expand sidebar category &#x27;Advanced Workflow Automation&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/custom-ai-solutions"><span title="Custom AI Solutions" class="categoryLinkLabel_W154">Custom AI Solutions</span></a><button aria-label="Expand sidebar category &#x27;Custom AI Solutions&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/enterprise-integration"><span title="Enterprise Integration" class="categoryLinkLabel_W154">Enterprise Integration</span></a><button aria-label="Expand sidebar category &#x27;Enterprise Integration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/hands-on-exercises"><span title="AI 201 Hands-On Exercises &amp; Advanced Projects" class="linkLabel_WmDU">AI 201 Hands-On Exercises &amp; Advanced Projects</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/advanced-ai-ethics--governance"><span title="Advanced AI Ethics &amp; Governance" class="categoryLinkLabel_W154">Advanced AI Ethics &amp; Governance</span></a><button aria-label="Expand sidebar category &#x27;Advanced AI Ethics &amp; Governance&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/knowledge-check"><span title="AI 201 Knowledge Check &amp; Self-Assessment" class="linkLabel_WmDU">AI 201 Knowledge Check &amp; Self-Assessment</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/evaluation--measurement"><span title="Evaluation &amp; Measurement" class="categoryLinkLabel_W154">Evaluation &amp; Measurement</span></a><button aria-label="Expand sidebar category &#x27;Evaluation &amp; Measurement&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/innovation--research"><span title="Innovation &amp; Research" class="categoryLinkLabel_W154">Innovation &amp; Research</span></a><button aria-label="Expand sidebar category &#x27;Innovation &amp; Research&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/ai-201/conclusion"><span title="Congratulations! You&#x27;ve Completed AI 201" class="linkLabel_WmDU">Congratulations! You&#x27;ve Completed AI 201</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/advanced-ai-foundations"><span>Advanced AI Foundations</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Understanding Training Data &amp; Model Behavior</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Understanding Training Data &amp; Model Behavior</h1></header>
 <p>To use AI effectively at an intermediate level, you need to understand how training data shapes model behavior. This knowledge helps you predict how models will respond and work around their limitations.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-training-data-foundation">The Training Data Foundation<a href="#the-training-data-foundation" class="hash-link" aria-label="Direct link to The Training Data Foundation" title="Direct link to The Training Data Foundation">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-goes-into-training">What Goes Into Training<a href="#what-goes-into-training" class="hash-link" aria-label="Direct link to What Goes Into Training" title="Direct link to What Goes Into Training">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-training-data-foundation">The Training Data Foundation<a href="#the-training-data-foundation" class="hash-link" aria-label="Direct link to The Training Data Foundation" title="Direct link to The Training Data Foundation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-goes-into-training">What Goes Into Training<a href="#what-goes-into-training" class="hash-link" aria-label="Direct link to What Goes Into Training" title="Direct link to What Goes Into Training" translate="no">​</a></h3>
 <p>Modern AI models are trained on diverse datasets including:</p>
 <p><strong>Text Sources:</strong></p>
 <ul>
-<li>Web pages and articles</li>
-<li>Books and academic papers</li>
-<li>Code repositories (GitHub, Stack Overflow)</li>
-<li>Reference materials (Wikipedia, encyclopedias)</li>
-<li>Social media and forum discussions</li>
-<li>News articles and journalism</li>
+<li class="">Web pages and articles</li>
+<li class="">Books and academic papers</li>
+<li class="">Code repositories (GitHub, Stack Overflow)</li>
+<li class="">Reference materials (Wikipedia, encyclopedias)</li>
+<li class="">Social media and forum discussions</li>
+<li class="">News articles and journalism</li>
 </ul>
 <p><strong>Quality vs Quantity:</strong></p>
 <ul>
-<li><strong>Quantity</strong>: More data generally improves knowledge breadth</li>
-<li><strong>Quality</strong>: High-quality data improves reasoning and accuracy</li>
-<li><strong>Diversity</strong>: Varied sources prevent overfitting to specific styles</li>
-<li><strong>Filtering</strong>: Removing low-quality or harmful content</li>
+<li class=""><strong>Quantity</strong>: More data generally improves knowledge breadth</li>
+<li class=""><strong>Quality</strong>: High-quality data improves reasoning and accuracy</li>
+<li class=""><strong>Diversity</strong>: Varied sources prevent overfitting to specific styles</li>
+<li class=""><strong>Filtering</strong>: Removing low-quality or harmful content</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-training-data-affects-output">How Training Data Affects Output<a href="#how-training-data-affects-output" class="hash-link" aria-label="Direct link to How Training Data Affects Output" title="Direct link to How Training Data Affects Output">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-training-data-affects-output">How Training Data Affects Output<a href="#how-training-data-affects-output" class="hash-link" aria-label="Direct link to How Training Data Affects Output" title="Direct link to How Training Data Affects Output" translate="no">​</a></h3>
 <p><strong>Knowledge Boundaries:</strong></p>
 <ul>
-<li>Models know what was in their training data</li>
-<li>Information cutoff dates limit current knowledge</li>
-<li>Popular topics get more representation than niche subjects</li>
-<li>Regional or cultural biases reflect data sources</li>
+<li class="">Models know what was in their training data</li>
+<li class="">Information cutoff dates limit current knowledge</li>
+<li class="">Popular topics get more representation than niche subjects</li>
+<li class="">Regional or cultural biases reflect data sources</li>
 </ul>
 <p><strong>Style and Tone:</strong></p>
 <ul>
-<li>Formal academic writing vs casual conversation</li>
-<li>Technical documentation vs creative content</li>
-<li>Professional communication vs social media style</li>
+<li class="">Formal academic writing vs casual conversation</li>
+<li class="">Technical documentation vs creative content</li>
+<li class="">Professional communication vs social media style</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bias-in-ai-systems">Bias in AI Systems<a href="#bias-in-ai-systems" class="hash-link" aria-label="Direct link to Bias in AI Systems" title="Direct link to Bias in AI Systems">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="types-of-bias">Types of Bias<a href="#types-of-bias" class="hash-link" aria-label="Direct link to Types of Bias" title="Direct link to Types of Bias">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bias-in-ai-systems">Bias in AI Systems<a href="#bias-in-ai-systems" class="hash-link" aria-label="Direct link to Bias in AI Systems" title="Direct link to Bias in AI Systems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="types-of-bias">Types of Bias<a href="#types-of-bias" class="hash-link" aria-label="Direct link to Types of Bias" title="Direct link to Types of Bias" translate="no">​</a></h3>
 <p><strong>Representation Bias:</strong></p>
 <ul>
-<li>Certain groups underrepresented in training data</li>
-<li>Geographic or cultural skewing</li>
-<li>Language and dialect preferences</li>
+<li class="">Certain groups underrepresented in training data</li>
+<li class="">Geographic or cultural skewing</li>
+<li class="">Language and dialect preferences</li>
 </ul>
 <p><strong>Confirmation Bias:</strong></p>
 <ul>
-<li>Reinforcing existing societal biases</li>
-<li>Perpetuating stereotypes present in data</li>
-<li>Historical inequities reflected in outputs</li>
+<li class="">Reinforcing existing societal biases</li>
+<li class="">Perpetuating stereotypes present in data</li>
+<li class="">Historical inequities reflected in outputs</li>
 </ul>
 <p><strong>Selection Bias:</strong></p>
 <ul>
-<li>What data was included vs excluded</li>
-<li>Demographic composition of data creators</li>
-<li>Platform-specific content characteristics</li>
+<li class="">What data was included vs excluded</li>
+<li class="">Demographic composition of data creators</li>
+<li class="">Platform-specific content characteristics</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="recognizing-bias-in-practice">Recognizing Bias in Practice<a href="#recognizing-bias-in-practice" class="hash-link" aria-label="Direct link to Recognizing Bias in Practice" title="Direct link to Recognizing Bias in Practice">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="recognizing-bias-in-practice">Recognizing Bias in Practice<a href="#recognizing-bias-in-practice" class="hash-link" aria-label="Direct link to Recognizing Bias in Practice" title="Direct link to Recognizing Bias in Practice" translate="no">​</a></h3>
 <p><strong>Watch for these patterns:</strong></p>
 <ul>
-<li>Assumptions about default demographics</li>
-<li>Cultural preferences in recommendations</li>
-<li>Professional or role stereotypes</li>
-<li>Geographic assumptions (US-centric responses)</li>
-<li>Language formality preferences</li>
+<li class="">Assumptions about default demographics</li>
+<li class="">Cultural preferences in recommendations</li>
+<li class="">Professional or role stereotypes</li>
+<li class="">Geographic assumptions (US-centric responses)</li>
+<li class="">Language formality preferences</li>
 </ul>
 <p><strong>Example:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Prompt: &quot;Write a job description for a nurse&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Biased response: Uses &quot;she/her&quot; pronouns exclusively</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Better response: Uses gender-neutral language or mixed pronouns</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="model-capabilities-by-training-focus">Model Capabilities by Training Focus<a href="#model-capabilities-by-training-focus" class="hash-link" aria-label="Direct link to Model Capabilities by Training Focus" title="Direct link to Model Capabilities by Training Focus">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="code-focused-models">Code-Focused Models<a href="#code-focused-models" class="hash-link" aria-label="Direct link to Code-Focused Models" title="Direct link to Code-Focused Models">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-capabilities-by-training-focus">Model Capabilities by Training Focus<a href="#model-capabilities-by-training-focus" class="hash-link" aria-label="Direct link to Model Capabilities by Training Focus" title="Direct link to Model Capabilities by Training Focus" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="code-focused-models">Code-Focused Models<a href="#code-focused-models" class="hash-link" aria-label="Direct link to Code-Focused Models" title="Direct link to Code-Focused Models" translate="no">​</a></h3>
 <p><strong>Training emphasis:</strong></p>
 <ul>
-<li>Programming languages and syntax</li>
-<li>Software development patterns</li>
-<li>Technical documentation</li>
-<li>Error handling and debugging</li>
+<li class="">Programming languages and syntax</li>
+<li class="">Software development patterns</li>
+<li class="">Technical documentation</li>
+<li class="">Error handling and debugging</li>
 </ul>
 <p><strong>Best at:</strong></p>
 <ul>
-<li>Writing functional code</li>
-<li>Explaining programming concepts</li>
-<li>Debugging and optimization</li>
-<li>Architecture recommendations</li>
+<li class="">Writing functional code</li>
+<li class="">Explaining programming concepts</li>
+<li class="">Debugging and optimization</li>
+<li class="">Architecture recommendations</li>
 </ul>
 <p><strong>Limitations:</strong></p>
 <ul>
-<li>May lack domain knowledge outside tech</li>
-<li>Can struggle with business context</li>
-<li>Sometimes over-engineers simple solutions</li>
+<li class="">May lack domain knowledge outside tech</li>
+<li class="">Can struggle with business context</li>
+<li class="">Sometimes over-engineers simple solutions</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="general-purpose-models">General Purpose Models<a href="#general-purpose-models" class="hash-link" aria-label="Direct link to General Purpose Models" title="Direct link to General Purpose Models">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-purpose-models">General Purpose Models<a href="#general-purpose-models" class="hash-link" aria-label="Direct link to General Purpose Models" title="Direct link to General Purpose Models" translate="no">​</a></h3>
 <p><strong>Training emphasis:</strong></p>
 <ul>
-<li>Broad knowledge across domains</li>
-<li>Conversational ability</li>
-<li>Multiple task types</li>
-<li>Balanced capabilities</li>
+<li class="">Broad knowledge across domains</li>
+<li class="">Conversational ability</li>
+<li class="">Multiple task types</li>
+<li class="">Balanced capabilities</li>
 </ul>
 <p><strong>Best at:</strong></p>
 <ul>
-<li>General knowledge questions</li>
-<li>Creative writing and ideation</li>
-<li>Multi-domain discussions</li>
-<li>Flexible task handling</li>
+<li class="">General knowledge questions</li>
+<li class="">Creative writing and ideation</li>
+<li class="">Multi-domain discussions</li>
+<li class="">Flexible task handling</li>
 </ul>
 <p><strong>Limitations:</strong></p>
 <ul>
-<li>May lack deep expertise in specific fields</li>
-<li>Can be less precise for technical tasks</li>
-<li>Sometimes too general for specialized needs</li>
+<li class="">May lack deep expertise in specific fields</li>
+<li class="">Can be less precise for technical tasks</li>
+<li class="">Sometimes too general for specialized needs</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="domain-specific-models">Domain-Specific Models<a href="#domain-specific-models" class="hash-link" aria-label="Direct link to Domain-Specific Models" title="Direct link to Domain-Specific Models">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="domain-specific-models">Domain-Specific Models<a href="#domain-specific-models" class="hash-link" aria-label="Direct link to Domain-Specific Models" title="Direct link to Domain-Specific Models" translate="no">​</a></h3>
 <p><strong>Training emphasis:</strong></p>
 <ul>
-<li>Specialized knowledge (medical, legal, scientific)</li>
-<li>Domain-specific terminology</li>
-<li>Professional standards and practices</li>
-<li>Industry-specific problems</li>
+<li class="">Specialized knowledge (medical, legal, scientific)</li>
+<li class="">Domain-specific terminology</li>
+<li class="">Professional standards and practices</li>
+<li class="">Industry-specific problems</li>
 </ul>
 <p><strong>Best at:</strong></p>
 <ul>
-<li>Expert-level domain knowledge</li>
-<li>Professional communication styles</li>
-<li>Specialized problem-solving</li>
-<li>Compliance with industry standards</li>
+<li class="">Expert-level domain knowledge</li>
+<li class="">Professional communication styles</li>
+<li class="">Specialized problem-solving</li>
+<li class="">Compliance with industry standards</li>
 </ul>
 <p><strong>Limitations:</strong></p>
 <ul>
-<li>Narrow scope outside their domain</li>
-<li>May struggle with general tasks</li>
-<li>Can be overly formal or technical</li>
+<li class="">Narrow scope outside their domain</li>
+<li class="">May struggle with general tasks</li>
+<li class="">Can be overly formal or technical</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-quality-issues">Data Quality Issues<a href="#data-quality-issues" class="hash-link" aria-label="Direct link to Data Quality Issues" title="Direct link to Data Quality Issues">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="common-problems">Common Problems<a href="#common-problems" class="hash-link" aria-label="Direct link to Common Problems" title="Direct link to Common Problems">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="data-quality-issues">Data Quality Issues<a href="#data-quality-issues" class="hash-link" aria-label="Direct link to Data Quality Issues" title="Direct link to Data Quality Issues" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-problems">Common Problems<a href="#common-problems" class="hash-link" aria-label="Direct link to Common Problems" title="Direct link to Common Problems" translate="no">​</a></h3>
 <p><strong>Hallucination Sources:</strong></p>
 <ul>
-<li>Conflicting information in training data</li>
-<li>Gaps filled with plausible-sounding but false information</li>
-<li>Pattern matching rather than true understanding</li>
-<li>Confidence in uncertain predictions</li>
+<li class="">Conflicting information in training data</li>
+<li class="">Gaps filled with plausible-sounding but false information</li>
+<li class="">Pattern matching rather than true understanding</li>
+<li class="">Confidence in uncertain predictions</li>
 </ul>
 <p><strong>Inconsistency Causes:</strong></p>
 <ul>
-<li>Multiple sources with different perspectives</li>
-<li>Evolving information over time</li>
-<li>Context-dependent truth</li>
-<li>Ambiguous or incomplete data</li>
+<li class="">Multiple sources with different perspectives</li>
+<li class="">Evolving information over time</li>
+<li class="">Context-dependent truth</li>
+<li class="">Ambiguous or incomplete data</li>
 </ul>
 <p><strong>Outdated Information:</strong></p>
 <ul>
-<li>Training data cutoff dates</li>
-<li>Rapidly changing fields (technology, current events)</li>
-<li>Historical bias in older sources</li>
-<li>Temporal context confusion</li>
+<li class="">Training data cutoff dates</li>
+<li class="">Rapidly changing fields (technology, current events)</li>
+<li class="">Historical bias in older sources</li>
+<li class="">Temporal context confusion</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mitigating-data-quality-issues">Mitigating Data Quality Issues<a href="#mitigating-data-quality-issues" class="hash-link" aria-label="Direct link to Mitigating Data Quality Issues" title="Direct link to Mitigating Data Quality Issues">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mitigating-data-quality-issues">Mitigating Data Quality Issues<a href="#mitigating-data-quality-issues" class="hash-link" aria-label="Direct link to Mitigating Data Quality Issues" title="Direct link to Mitigating Data Quality Issues" translate="no">​</a></h3>
 <p><strong>Verification Strategies:</strong></p>
 <ol>
-<li>
+<li class="">
 <p><strong>Cross-reference important facts</strong></p>
 <ul>
-<li>Check multiple sources</li>
-<li>Verify with authoritative references</li>
-<li>Look for consensus across sources</li>
+<li class="">Check multiple sources</li>
+<li class="">Verify with authoritative references</li>
+<li class="">Look for consensus across sources</li>
 </ul>
 </li>
-<li>
+<li class="">
 <p><strong>Understand model limitations</strong></p>
 <ul>
-<li>Know the training cutoff date</li>
-<li>Recognize knowledge gaps</li>
-<li>Expect uncertainty in edge cases</li>
+<li class="">Know the training cutoff date</li>
+<li class="">Recognize knowledge gaps</li>
+<li class="">Expect uncertainty in edge cases</li>
 </ul>
 </li>
-<li>
+<li class="">
 <p><strong>Provide additional context</strong></p>
 <ul>
-<li>Include relevant background information</li>
-<li>Specify current date and context</li>
-<li>Clarify ambiguous terms</li>
+<li class="">Include relevant background information</li>
+<li class="">Specify current date and context</li>
+<li class="">Clarify ambiguous terms</li>
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="working-with-model-knowledge">Working with Model Knowledge<a href="#working-with-model-knowledge" class="hash-link" aria-label="Direct link to Working with Model Knowledge" title="Direct link to Working with Model Knowledge">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="leveraging-strengths">Leveraging Strengths<a href="#leveraging-strengths" class="hash-link" aria-label="Direct link to Leveraging Strengths" title="Direct link to Leveraging Strengths">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="working-with-model-knowledge">Working with Model Knowledge<a href="#working-with-model-knowledge" class="hash-link" aria-label="Direct link to Working with Model Knowledge" title="Direct link to Working with Model Knowledge" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="leveraging-strengths">Leveraging Strengths<a href="#leveraging-strengths" class="hash-link" aria-label="Direct link to Leveraging Strengths" title="Direct link to Leveraging Strengths" translate="no">​</a></h3>
 <p><strong>Pattern Recognition:</strong></p>
 <ul>
-<li>Use models to identify trends in data</li>
-<li>Extract insights from large amounts of information</li>
-<li>Find connections across different domains</li>
+<li class="">Use models to identify trends in data</li>
+<li class="">Extract insights from large amounts of information</li>
+<li class="">Find connections across different domains</li>
 </ul>
 <p><strong>Synthesis and Analysis:</strong></p>
 <ul>
-<li>Combine information from multiple sources</li>
-<li>Break down complex problems</li>
-<li>Generate multiple perspectives on issues</li>
+<li class="">Combine information from multiple sources</li>
+<li class="">Break down complex problems</li>
+<li class="">Generate multiple perspectives on issues</li>
 </ul>
 <p><strong>Creative Applications:</strong></p>
 <ul>
-<li>Brainstorming and ideation</li>
-<li>Alternative approaches to problems</li>
-<li>Connecting disparate concepts</li>
+<li class="">Brainstorming and ideation</li>
+<li class="">Alternative approaches to problems</li>
+<li class="">Connecting disparate concepts</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="compensating-for-weaknesses">Compensating for Weaknesses<a href="#compensating-for-weaknesses" class="hash-link" aria-label="Direct link to Compensating for Weaknesses" title="Direct link to Compensating for Weaknesses">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="compensating-for-weaknesses">Compensating for Weaknesses<a href="#compensating-for-weaknesses" class="hash-link" aria-label="Direct link to Compensating for Weaknesses" title="Direct link to Compensating for Weaknesses" translate="no">​</a></h3>
 <p><strong>For Factual Accuracy:</strong></p>
 <ul>
-<li>Treat model output as drafts, not final answers</li>
-<li>Verify claims with authoritative sources</li>
-<li>Use models for structure and reasoning, not facts</li>
+<li class="">Treat model output as drafts, not final answers</li>
+<li class="">Verify claims with authoritative sources</li>
+<li class="">Use models for structure and reasoning, not facts</li>
 </ul>
 <p><strong>For Bias:</strong></p>
 <ul>
-<li>Explicitly request diverse perspectives</li>
-<li>Ask models to consider alternative viewpoints</li>
-<li>Review outputs for unconscious assumptions</li>
+<li class="">Explicitly request diverse perspectives</li>
+<li class="">Ask models to consider alternative viewpoints</li>
+<li class="">Review outputs for unconscious assumptions</li>
 </ul>
 <p><strong>For Currency:</strong></p>
 <ul>
-<li>Provide recent information in your prompts</li>
-<li>Use models for analysis, not current facts</li>
-<li>Combine AI with real-time data sources</li>
+<li class="">Provide recent information in your prompts</li>
+<li class="">Use models for analysis, not current facts</li>
+<li class="">Combine AI with real-time data sources</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-prompting-for-better-results">Advanced Prompting for Better Results<a href="#advanced-prompting-for-better-results" class="hash-link" aria-label="Direct link to Advanced Prompting for Better Results" title="Direct link to Advanced Prompting for Better Results">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="context-aware-prompting">Context-Aware Prompting<a href="#context-aware-prompting" class="hash-link" aria-label="Direct link to Context-Aware Prompting" title="Direct link to Context-Aware Prompting">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="advanced-prompting-for-better-results">Advanced Prompting for Better Results<a href="#advanced-prompting-for-better-results" class="hash-link" aria-label="Direct link to Advanced Prompting for Better Results" title="Direct link to Advanced Prompting for Better Results" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="context-aware-prompting">Context-Aware Prompting<a href="#context-aware-prompting" class="hash-link" aria-label="Direct link to Context-Aware Prompting" title="Direct link to Context-Aware Prompting" translate="no">​</a></h3>
 <p><strong>Provide domain context:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">You are a cybersecurity expert reviewing code for a financial services company. </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Analyze this authentication function for security vulnerabilities, considering:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- PCI DSS compliance requirements</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- OWASP security standards</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Financial industry regulations</span><br></span></code></pre></div></div>
 <p><strong>Specify perspective:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">From the perspective of a small business owner with limited technical expertise, </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">explain the trade-offs between cloud and on-premise solutions for customer data storage.</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bias-aware-prompting">Bias-Aware Prompting<a href="#bias-aware-prompting" class="hash-link" aria-label="Direct link to Bias-Aware Prompting" title="Direct link to Bias-Aware Prompting">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bias-aware-prompting">Bias-Aware Prompting<a href="#bias-aware-prompting" class="hash-link" aria-label="Direct link to Bias-Aware Prompting" title="Direct link to Bias-Aware Prompting" translate="no">​</a></h3>
 <p><strong>Request multiple perspectives:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Analyze the impact of remote work policies from three perspectives:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">1. Employee well-being and work-life balance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Organizational productivity and culture</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Economic implications for cities and local businesses</span><br></span></code></pre></div></div>
 <p><strong>Challenge assumptions:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">List assumptions commonly made about [topic] and provide evidence that challenges each assumption.</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-model-updates">Understanding Model Updates<a href="#understanding-model-updates" class="hash-link" aria-label="Direct link to Understanding Model Updates" title="Direct link to Understanding Model Updates">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-models-get-retrained">Why Models Get Retrained<a href="#why-models-get-retrained" class="hash-link" aria-label="Direct link to Why Models Get Retrained" title="Direct link to Why Models Get Retrained">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="understanding-model-updates">Understanding Model Updates<a href="#understanding-model-updates" class="hash-link" aria-label="Direct link to Understanding Model Updates" title="Direct link to Understanding Model Updates" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-models-get-retrained">Why Models Get Retrained<a href="#why-models-get-retrained" class="hash-link" aria-label="Direct link to Why Models Get Retrained" title="Direct link to Why Models Get Retrained" translate="no">​</a></h3>
 <p><strong>Data Updates:</strong></p>
 <ul>
-<li>New information and knowledge</li>
-<li>Bias reduction efforts</li>
-<li>Quality improvements</li>
-<li>Expanded language support</li>
+<li class="">New information and knowledge</li>
+<li class="">Bias reduction efforts</li>
+<li class="">Quality improvements</li>
+<li class="">Expanded language support</li>
 </ul>
 <p><strong>Capability Improvements:</strong></p>
 <ul>
-<li>Better reasoning abilities</li>
-<li>Enhanced safety measures</li>
-<li>Reduced hallucination rates</li>
-<li>Improved instruction following</li>
+<li class="">Better reasoning abilities</li>
+<li class="">Enhanced safety measures</li>
+<li class="">Reduced hallucination rates</li>
+<li class="">Improved instruction following</li>
 </ul>
 <p><strong>Safety Enhancements:</strong></p>
 <ul>
-<li>Harmful content filtering</li>
-<li>Bias mitigation</li>
-<li>Privacy protection</li>
-<li>Misinformation reduction</li>
+<li class="">Harmful content filtering</li>
+<li class="">Bias mitigation</li>
+<li class="">Privacy protection</li>
+<li class="">Misinformation reduction</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="adapting-to-model-changes">Adapting to Model Changes<a href="#adapting-to-model-changes" class="hash-link" aria-label="Direct link to Adapting to Model Changes" title="Direct link to Adapting to Model Changes">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="adapting-to-model-changes">Adapting to Model Changes<a href="#adapting-to-model-changes" class="hash-link" aria-label="Direct link to Adapting to Model Changes" title="Direct link to Adapting to Model Changes" translate="no">​</a></h3>
 <p><strong>Test your workflows:</strong></p>
 <ul>
-<li>Run existing prompts with new model versions</li>
-<li>Compare outputs for consistency</li>
-<li>Adjust prompting strategies as needed</li>
+<li class="">Run existing prompts with new model versions</li>
+<li class="">Compare outputs for consistency</li>
+<li class="">Adjust prompting strategies as needed</li>
 </ul>
 <p><strong>Stay informed:</strong></p>
 <ul>
-<li>Follow model release notes</li>
-<li>Join developer communities</li>
-<li>Monitor performance on your key use cases</li>
+<li class="">Follow model release notes</li>
+<li class="">Join developer communities</li>
+<li class="">Monitor performance on your key use cases</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="practical-exercise">Practical Exercise<a href="#practical-exercise" class="hash-link" aria-label="Direct link to Practical Exercise" title="Direct link to Practical Exercise">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="practical-exercise">Practical Exercise<a href="#practical-exercise" class="hash-link" aria-label="Direct link to Practical Exercise" title="Direct link to Practical Exercise" translate="no">​</a></h2>
 <p>Test model knowledge boundaries and biases:</p>
 <ol>
-<li>
+<li class="">
 <p><strong>Knowledge Boundary Test:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">What happened in [specific field] after [model&#x27;s cutoff date]?</span><br></span></code></pre></div></div>
 </li>
-<li>
+<li class="">
 <p><strong>Bias Recognition Test:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Describe a typical day for a CEO, nurse, and software engineer.</span><br></span></code></pre></div></div>
 <p>(Look for gender, cultural, or professional stereotypes)</p>
 </li>
-<li>
+<li class="">
 <p><strong>Source Recognition Test:</strong></p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">How confident are you about [obscure fact]? What sources would you recommend to verify this?</span><br></span></code></pre></div></div>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-takeaways">Key Takeaways<a href="#key-takeaways" class="hash-link" aria-label="Direct link to Key Takeaways" title="Direct link to Key Takeaways">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-takeaways">Key Takeaways<a href="#key-takeaways" class="hash-link" aria-label="Direct link to Key Takeaways" title="Direct link to Key Takeaways" translate="no">​</a></h2>
 <ul>
-<li><strong>Training data</strong> fundamentally shapes what models know and how they respond</li>
-<li><strong>Bias</strong> is present in all AI systems and should be actively considered</li>
-<li><strong>Model specialization</strong> affects performance on different types of tasks</li>
-<li><strong>Data quality issues</strong> require verification and critical evaluation</li>
-<li><strong>Understanding limitations</strong> helps you use AI more effectively</li>
-<li><strong>Context-aware prompting</strong> can improve output quality and reduce bias</li>
+<li class=""><strong>Training data</strong> fundamentally shapes what models know and how they respond</li>
+<li class=""><strong>Bias</strong> is present in all AI systems and should be actively considered</li>
+<li class=""><strong>Model specialization</strong> affects performance on different types of tasks</li>
+<li class=""><strong>Data quality issues</strong> require verification and critical evaluation</li>
+<li class=""><strong>Understanding limitations</strong> helps you use AI more effectively</li>
+<li class=""><strong>Context-aware prompting</strong> can improve output quality and reduce bias</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What&#x27;s Next?<a href="#whats-next" class="hash-link" aria-label="Direct link to What&#x27;s Next?" title="Direct link to What&#x27;s Next?">​</a></h2>
-<p>Understanding how training shapes model behavior prepares you for the next crucial skill: fine-tuning and customization. Let&#x27;s explore how to adapt models for specific use cases.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/sethdavis512/ai-maniacs/tree/main/docs/ai-201/advanced-foundations/training-data-model-behavior.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2025-08-17T19:19:35.000Z" itemprop="dateModified">Aug 17, 2025</time></b> by <b>Seth Davis</b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/ai-201/advanced-foundations/model-architecture-deep-dive"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">AI Model Architecture &amp; How Models Really Work</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/advanced-workflow-automation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Advanced Workflow Automation</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-training-data-foundation" class="table-of-contents__link toc-highlight">The Training Data Foundation</a><ul><li><a href="#what-goes-into-training" class="table-of-contents__link toc-highlight">What Goes Into Training</a></li><li><a href="#how-training-data-affects-output" class="table-of-contents__link toc-highlight">How Training Data Affects Output</a></li></ul></li><li><a href="#bias-in-ai-systems" class="table-of-contents__link toc-highlight">Bias in AI Systems</a><ul><li><a href="#types-of-bias" class="table-of-contents__link toc-highlight">Types of Bias</a></li><li><a href="#recognizing-bias-in-practice" class="table-of-contents__link toc-highlight">Recognizing Bias in Practice</a></li></ul></li><li><a href="#model-capabilities-by-training-focus" class="table-of-contents__link toc-highlight">Model Capabilities by Training Focus</a><ul><li><a href="#code-focused-models" class="table-of-contents__link toc-highlight">Code-Focused Models</a></li><li><a href="#general-purpose-models" class="table-of-contents__link toc-highlight">General Purpose Models</a></li><li><a href="#domain-specific-models" class="table-of-contents__link toc-highlight">Domain-Specific Models</a></li></ul></li><li><a href="#data-quality-issues" class="table-of-contents__link toc-highlight">Data Quality Issues</a><ul><li><a href="#common-problems" class="table-of-contents__link toc-highlight">Common Problems</a></li><li><a href="#mitigating-data-quality-issues" class="table-of-contents__link toc-highlight">Mitigating Data Quality Issues</a></li></ul></li><li><a href="#working-with-model-knowledge" class="table-of-contents__link toc-highlight">Working with Model Knowledge</a><ul><li><a href="#leveraging-strengths" class="table-of-contents__link toc-highlight">Leveraging Strengths</a></li><li><a href="#compensating-for-weaknesses" class="table-of-contents__link toc-highlight">Compensating for Weaknesses</a></li></ul></li><li><a href="#advanced-prompting-for-better-results" class="table-of-contents__link toc-highlight">Advanced Prompting for Better Results</a><ul><li><a href="#context-aware-prompting" class="table-of-contents__link toc-highlight">Context-Aware Prompting</a></li><li><a href="#bias-aware-prompting" class="table-of-contents__link toc-highlight">Bias-Aware Prompting</a></li></ul></li><li><a href="#understanding-model-updates" class="table-of-contents__link toc-highlight">Understanding Model Updates</a><ul><li><a href="#why-models-get-retrained" class="table-of-contents__link toc-highlight">Why Models Get Retrained</a></li><li><a href="#adapting-to-model-changes" class="table-of-contents__link toc-highlight">Adapting to Model Changes</a></li></ul></li><li><a href="#practical-exercise" class="table-of-contents__link toc-highlight">Practical Exercise</a></li><li><a href="#key-takeaways" class="table-of-contents__link toc-highlight">Key Takeaways</a></li><li><a href="#whats-next" class="table-of-contents__link toc-highlight">What&#39;s Next?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Learn</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">AI 101</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-201/ai-201-intro">AI 201</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-and-careers">AI &amp; Careers</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/model-context-protocol/mcp-start">MCP</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-resources">AI Resources</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://sethdavis.tech/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Created by Seth Davis<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 A.I. Maniacs. Empowering everyone with AI knowledge.</div></div></div></footer></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What&#x27;s Next?<a href="#whats-next" class="hash-link" aria-label="Direct link to What&#x27;s Next?" title="Direct link to What&#x27;s Next?" translate="no">​</a></h2>
+<p>Understanding how training shapes model behavior prepares you for the next crucial skill: fine-tuning and customization. Let&#x27;s explore how to adapt models for specific use cases.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/sethdavis512/ai-maniacs/tree/main/docs/ai-201/advanced-foundations/training-data-model-behavior.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2025-08-17T19:19:35.000Z" itemprop="dateModified">Aug 17, 2025</time></b> by <b>Seth Davis</b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/ai-201/advanced-foundations/model-architecture-deep-dive"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">AI Model Architecture &amp; How Models Really Work</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/advanced-workflow-automation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Advanced Workflow Automation</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-training-data-foundation" class="table-of-contents__link toc-highlight">The Training Data Foundation</a><ul><li><a href="#what-goes-into-training" class="table-of-contents__link toc-highlight">What Goes Into Training</a></li><li><a href="#how-training-data-affects-output" class="table-of-contents__link toc-highlight">How Training Data Affects Output</a></li></ul></li><li><a href="#bias-in-ai-systems" class="table-of-contents__link toc-highlight">Bias in AI Systems</a><ul><li><a href="#types-of-bias" class="table-of-contents__link toc-highlight">Types of Bias</a></li><li><a href="#recognizing-bias-in-practice" class="table-of-contents__link toc-highlight">Recognizing Bias in Practice</a></li></ul></li><li><a href="#model-capabilities-by-training-focus" class="table-of-contents__link toc-highlight">Model Capabilities by Training Focus</a><ul><li><a href="#code-focused-models" class="table-of-contents__link toc-highlight">Code-Focused Models</a></li><li><a href="#general-purpose-models" class="table-of-contents__link toc-highlight">General Purpose Models</a></li><li><a href="#domain-specific-models" class="table-of-contents__link toc-highlight">Domain-Specific Models</a></li></ul></li><li><a href="#data-quality-issues" class="table-of-contents__link toc-highlight">Data Quality Issues</a><ul><li><a href="#common-problems" class="table-of-contents__link toc-highlight">Common Problems</a></li><li><a href="#mitigating-data-quality-issues" class="table-of-contents__link toc-highlight">Mitigating Data Quality Issues</a></li></ul></li><li><a href="#working-with-model-knowledge" class="table-of-contents__link toc-highlight">Working with Model Knowledge</a><ul><li><a href="#leveraging-strengths" class="table-of-contents__link toc-highlight">Leveraging Strengths</a></li><li><a href="#compensating-for-weaknesses" class="table-of-contents__link toc-highlight">Compensating for Weaknesses</a></li></ul></li><li><a href="#advanced-prompting-for-better-results" class="table-of-contents__link toc-highlight">Advanced Prompting for Better Results</a><ul><li><a href="#context-aware-prompting" class="table-of-contents__link toc-highlight">Context-Aware Prompting</a></li><li><a href="#bias-aware-prompting" class="table-of-contents__link toc-highlight">Bias-Aware Prompting</a></li></ul></li><li><a href="#understanding-model-updates" class="table-of-contents__link toc-highlight">Understanding Model Updates</a><ul><li><a href="#why-models-get-retrained" class="table-of-contents__link toc-highlight">Why Models Get Retrained</a></li><li><a href="#adapting-to-model-changes" class="table-of-contents__link toc-highlight">Adapting to Model Changes</a></li></ul></li><li><a href="#practical-exercise" class="table-of-contents__link toc-highlight">Practical Exercise</a></li><li><a href="#key-takeaways" class="table-of-contents__link toc-highlight">Key Takeaways</a></li><li><a href="#whats-next" class="table-of-contents__link toc-highlight">What&#39;s Next?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Learn</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">AI 101</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-201/ai-201-intro">AI 201</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-and-careers">AI &amp; Careers</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/model-context-protocol/mcp-start">MCP</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/ai-resources">AI Resources</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://sethdavis.tech/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Created by Seth Davis<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/sethdavis512/ai-maniacs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 A.I. Maniacs. Empowering everyone with AI knowledge.</div></div></div></footer></div>
 </body>
 </html>
